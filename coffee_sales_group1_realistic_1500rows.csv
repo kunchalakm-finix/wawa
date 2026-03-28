@@ -1,0 +1,1501 @@
+﻿order_id,order_date,day_of_week,hour,time_slot,menu_item,category,hot_iced,size,qty,unit_price_thb,discount_thb,net_sales_thb,channel,payment_method,promo_flag,customer_type,add_on
+ORD2601131000000,2026-01-13,Tue,10,Morning Peak,Matcha Latte,Tea,Iced,M,1,95,0,95,Line Man/Delivery,QR/PromptPay,0,Returning,None
+ORD2601200900001,2025-01-20,Tue,9,Morning Peak,Iced Latte,Coffee,Iced,M,1,90,0,90,Walk-in,QR/PromptPay,0,New,None
+ORD2601101000002,2025-01-10,Sat,10,Morning Peak,Yuzu Soda,Soda,Iced,M,2,95,0,190,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601221600003,2025-01-22,Thu,16,Late,Matcha Latte,Tea,Iced,M,1,95,0,95,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601161000004,2025-01-16,Fri,10,Morning Peak,Americano,Coffee,Hot,M,2,70,0,140,Grab/Delivery,Cash,0,New,None
+ORD2601241500005,2026-01-24,Sat,15,Afternoon Peak,Cold Brew,Coffee,Iced,M,2,110,0,220,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601131500006,2026-01-13,Tue,15,Afternoon Peak,Matcha Latte,Tea,Iced,M,1,95,0,95,Line Man/Delivery,QR/PromptPay,0,New,None
+ORD2601231400007,2026-01-23,Fri,14,Afternoon Peak,Decaf Latte,Coffee,Hot,S,1,85,0,85,Walk-in,QR/PromptPay,0,New,Whipped Cream
+ORD2601110900008,2026-01-11,Sun,9,Morning Peak,Americano,Coffee,Hot,L,1,85,0,85,Walk-in,QR/PromptPay,0,New,None
+ORD2601111500009,2026-01-11,Sun,15,Afternoon Peak,Americano,Coffee,Hot,S,1,60,10,50,Walk-in,QR/PromptPay,1,New,Oat Milk
+ORD2601131600010,2026-01-13,Tue,16,Late,Mocha,Coffee,Hot,M,3,95,0,285,Walk-in,Card,0,Returning,None
+ORD2601111000011,2026-01-11,Sun,10,Morning Peak,Matcha Latte,Tea,Iced,S,2,85,0,170,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601140900012,2026-01-14,Wed,9,Morning Peak,Iced Latte,Coffee,Iced,L,1,105,0,105,Line Man/Delivery,QR/PromptPay,0,Returning,None
+ORD2601221100013,2026-01-22,Thu,11,Midday,Lemon Tea,Tea,Iced,M,1,75,0,75,Grab/Delivery,QR/PromptPay,0,Returning,None
+ORD2601171100014,2026-01-17,Sat,11,Midday,Brownie,Bakery,-,-,1,65,0,65,Walk-in,Cash,0,Returning,None
+ORD2601131600015,2026-01-13,Tue,16,Late,Iced Latte,Coffee,Iced,M,2,90,0,180,Grab/Delivery,QR/PromptPay,0,New,None
+ORD2601241500016,2026-01-24,Sat,15,Afternoon Peak,Americano,Coffee,Hot,S,1,60,10,50,Walk-in,Cash,1,Returning,None
+ORD2601131000017,2026-01-13,Tue,10,Morning Peak,Blueberry Muffin,Bakery,-,-,1,75,0,75,Walk-in,Cash,0,Returning,None
+ORD2601231200018,2026-01-23,Fri,12,Midday,Iced Latte,Coffee,Iced,L,2,105,0,210,Grab/Delivery,QR/PromptPay,0,New,None
+ORD2601111000019,2026-01-11,Sun,10,Morning Peak,Hot Latte,Coffee,Hot,M,3,85,0,255,Line Man/Delivery,QR/PromptPay,0,Returning,None
+ORD2601131000020,2026-01-13,Tue,10,Morning Peak,Brownie,Bakery,-,-,1,65,0,65,Walk-in,QR/PromptPay,0,New,None
+ORD2601201200021,2026-01-20,Tue,12,Midday,Cappuccino,Coffee,Hot,M,2,85,0,170,Walk-in,QR/PromptPay,0,New,None
+ORD2601161600022,2026-01-16,Fri,16,Late,Matcha Latte,Tea,Iced,L,1,110,0,110,Walk-in,Cash,0,New,Extra Shot
+ORD2601241600023,2026-01-24,Sat,16,Late,Thai Tea,Tea,Iced,M,3,80,0,240,Walk-in,QR/PromptPay,0,Returning,Oat Milk
+ORD2601110900024,2026-01-11,Sun,9,Morning Peak,Iced Latte,Coffee,Iced,M,1,90,0,90,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601141000025,2026-01-14,Wed,10,Morning Peak,Cappuccino,Coffee,Hot,L,1,100,0,100,Walk-in,Cash,0,New,None
+ORD2601211500026,2026-01-21,Wed,15,Afternoon Peak,Espresso,Coffee,Hot,M,2,60,0,120,Grab/Delivery,QR/PromptPay,0,Returning,None
+ORD2601181000027,2026-01-18,Sun,10,Morning Peak,Mocha,Coffee,Hot,L,2,110,0,220,Line Man/Delivery,Cash,0,New,None
+ORD2601171400028,2026-01-17,Sat,14,Afternoon Peak,Iced Latte,Coffee,Iced,M,1,90,0,90,Walk-in,QR/PromptPay,0,Returning,Whipped Cream
+ORD2601131300029,2026-01-13,Tue,13,Midday,Iced Americano,Coffee,Iced,M,1,75,0,75,Walk-in,Card,0,Returning,None
+ORD2601151600030,2026-01-15,Thu,16,Late,Affogato,Coffee,-,M,3,120,0,360,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601171100031,2026-01-17,Sat,11,Midday,Thai Tea,Tea,Iced,M,2,80,0,160,Walk-in,QR/PromptPay,0,New,None
+ORD2601140800032,2026-01-14,Wed,8,Morning Peak,Caramel Macchiato,Coffee,Iced,M,3,110,0,330,Walk-in,QR/PromptPay,0,New,None
+ORD2601231100033,2026-01-23,Fri,11,Midday,Ginger Tea,Tea,Hot,S,3,60,0,180,Line Man/Delivery,Cash,0,New,None
+ORD2601130800034,2026-01-13,Tue,8,Morning Peak,Espresso,Coffee,Hot,M,2,60,0,120,Walk-in,Cash,0,Returning,None
+ORD2601141200035,2026-01-14,Wed,12,Midday,Caramel Macchiato,Coffee,Iced,M,2,110,0,220,Grab/Delivery,QR/PromptPay,0,New,None
+ORD2601231600036,2026-01-23,Fri,16,Late,Chocolate,Non-Coffee,Hot,M,1,90,0,90,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601221000037,2026-01-22,Thu,10,Morning Peak,Iced Americano,Coffee,Iced,M,1,75,0,75,Walk-in,QR/PromptPay,0,New,None
+ORD2601200800038,2026-01-20,Tue,8,Morning Peak,Caramel Macchiato,Coffee,Iced,M,1,110,0,110,Walk-in,QR/PromptPay,0,New,Extra Shot
+ORD2601170900039,2026-01-17,Sat,9,Morning Peak,Americano,Coffee,Hot,M,3,70,0,210,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601111000040,2026-01-11,Sun,10,Morning Peak,Iced Americano,Coffee,Iced,M,2,75,0,150,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601161100041,2026-01-16,Fri,11,Midday,Americano,Coffee,Hot,M,3,70,0,210,Line Man/Delivery,QR/PromptPay,0,New,Extra Shot
+ORD2601211200042,2026-01-21,Wed,12,Midday,Brownie,Bakery,-,-,3,65,0,195,Line Man/Delivery,QR/PromptPay,0,Returning,None
+ORD2601160900043,2026-01-16,Fri,9,Morning Peak,Iced Americano,Coffee,Iced,M,1,75,0,75,Walk-in,Cash,0,Returning,None
+ORD2601170900044,2026-01-17,Sat,9,Morning Peak,Yuzu Soda,Soda,Iced,M,2,95,0,190,Walk-in,QR/PromptPay,0,New,None
+ORD2601171200045,2026-01-17,Sat,12,Midday,Matcha Latte,Tea,Iced,L,2,110,0,220,Walk-in,QR/PromptPay,0,Returning,Whipped Cream
+ORD2601240800046,2026-01-24,Sat,8,Morning Peak,Chocolate,Non-Coffee,Hot,S,1,80,0,80,Line Man/Delivery,QR/PromptPay,0,Returning,None
+ORD2601110900047,2026-01-11,Sun,9,Morning Peak,Chocolate,Non-Coffee,Hot,M,2,90,0,180,Walk-in,Cash,0,New,None
+ORD2601170900048,2026-01-17,Sat,9,Morning Peak,Thai Tea,Tea,Iced,L,1,95,0,95,Walk-in,QR/PromptPay,0,New,None
+ORD2601151400049,2026-01-15,Thu,14,Afternoon Peak,Lemon Tea,Tea,Iced,M,3,75,0,225,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601180900050,2026-01-18,Sun,9,Morning Peak,Iced Americano,Coffee,Iced,M,2,75,0,150,Walk-in,Cash,0,New,Oat Milk
+ORD2601181000051,2026-01-18,Sun,10,Morning Peak,Matcha Latte,Tea,Iced,M,2,95,0,190,Walk-in,Cash,0,New,None
+ORD2601220900052,2026-01-22,Thu,9,Morning Peak,Espresso,Coffee,Hot,L,2,75,0,150,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601150900053,2026-01-15,Thu,9,Morning Peak,Americano,Coffee,Hot,L,2,85,0,170,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601131100054,2026-01-13,Tue,11,Midday,Lemon Tea,Tea,Iced,M,1,75,0,75,Walk-in,QR/PromptPay,0,New,None
+ORD2601130900055,2026-01-13,Tue,9,Morning Peak,Iced Americano,Coffee,Iced,S,2,65,0,130,Grab/Delivery,QR/PromptPay,0,Returning,Whipped Cream
+ORD2601141200056,2026-01-14,Wed,12,Midday,Thai Tea,Tea,Iced,L,2,95,0,190,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601161000057,2026-01-16,Fri,10,Morning Peak,Thai Tea,Tea,Iced,M,2,80,0,160,Walk-in,QR/PromptPay,0,New,Oat Milk
+ORD2601181500058,2026-01-18,Sun,15,Afternoon Peak,Cold Brew,Coffee,Iced,M,3,110,0,330,Walk-in,Cash,0,New,None
+ORD2601150900059,2026-01-15,Thu,9,Morning Peak,Iced Latte,Coffee,Iced,S,1,80,0,80,Walk-in,QR/PromptPay,0,New,None
+ORD2601201300060,2026-01-20,Tue,13,Midday,Mocha,Coffee,Hot,S,1,85,0,85,Walk-in,Card,0,New,Extra Shot
+ORD2601141200061,2026-01-14,Wed,12,Midday,Americano,Coffee,Hot,M,1,70,0,70,Grab/Delivery,QR/PromptPay,0,Returning,None
+ORD2601151600062,2026-01-15,Thu,16,Late,Caramel Macchiato,Coffee,Iced,L,2,125,0,250,Walk-in,QR/PromptPay,0,New,None
+ORD2601241200063,2026-01-24,Sat,12,Midday,Americano,Coffee,Hot,S,3,60,0,180,Line Man/Delivery,QR/PromptPay,0,Returning,None
+ORD2601130900064,2026-01-13,Tue,9,Morning Peak,Matcha Latte,Tea,Iced,M,1,95,0,95,Line Man/Delivery,Card,0,New,None
+ORD2601181000065,2026-01-18,Sun,10,Morning Peak,Espresso,Coffee,Hot,S,2,60,0,120,Walk-in,Cash,0,Returning,None
+ORD2601140800066,2026-01-14,Wed,8,Morning Peak,Lemon Tea,Tea,Iced,M,2,75,0,150,Walk-in,QR/PromptPay,0,New,Oat Milk
+ORD2601230900067,2026-01-23,Fri,9,Morning Peak,Thai Tea,Tea,Iced,M,1,80,0,80,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601100900068,2026-01-10,Sat,9,Morning Peak,Americano,Coffee,Hot,S,3,60,0,180,Grab/Delivery,QR/PromptPay,0,Returning,None
+ORD2601161100069,2026-01-16,Fri,11,Midday,Matcha Latte,Tea,Iced,M,1,95,0,95,Grab/Delivery,QR/PromptPay,0,Returning,None
+ORD2601220800070,2026-01-22,Thu,8,Morning Peak,Chocolate,Non-Coffee,Hot,M,2,90,0,180,Line Man/Delivery,QR/PromptPay,0,New,Whipped Cream
+ORD2601161200071,2026-01-16,Fri,12,Midday,Caramel Macchiato,Coffee,Iced,M,2,110,0,220,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601211400072,2026-01-21,Wed,14,Afternoon Peak,Iced Americano,Coffee,Iced,S,1,65,10,55,Walk-in,Cash,1,Returning,None
+ORD2601141600073,2026-01-14,Wed,16,Late,Chocolate,Non-Coffee,Hot,M,1,90,0,90,Walk-in,Cash,0,New,None
+ORD2601101400074,2026-01-10,Sat,14,Afternoon Peak,Americano,Coffee,Hot,M,1,70,10,60,Walk-in,Cash,1,Returning,None
+ORD2601230900075,2026-01-23,Fri,9,Morning Peak,Cold Brew,Coffee,Iced,M,3,110,0,330,Walk-in,Cash,0,Returning,Extra Shot
+ORD2601151100076,2026-01-15,Thu,11,Midday,Brownie,Bakery,-,-,3,65,0,195,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601141300077,2026-01-14,Wed,13,Midday,Caramel Macchiato,Coffee,Iced,M,1,110,0,110,Walk-in,Card,0,New,None
+ORD2601141100078,2026-01-14,Wed,11,Midday,Iced Latte,Coffee,Iced,M,1,90,0,90,Walk-in,Card,0,New,None
+ORD2601230900079,2026-01-23,Fri,9,Morning Peak,Cold Brew,Coffee,Iced,L,1,125,0,125,Walk-in,Card,0,New,None
+ORD2601241400080,2026-01-24,Sat,14,Afternoon Peak,Cappuccino,Coffee,Hot,S,3,75,0,225,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601111300081,2026-01-11,Sun,13,Midday,Brownie,Bakery,-,-,1,65,0,65,Line Man/Delivery,Cash,0,Returning,None
+ORD2601101500082,2026-01-10,Sat,15,Afternoon Peak,Banana Cake,Bakery,-,-,1,70,0,70,Line Man/Delivery,Cash,0,Returning,None
+ORD2601240800083,2026-01-24,Sat,8,Morning Peak,Cold Brew,Coffee,Iced,M,3,110,0,330,Walk-in,Cash,0,Returning,Oat Milk
+ORD2601180800084,2026-01-18,Sun,8,Morning Peak,Matcha Latte,Tea,Iced,L,3,110,0,330,Grab/Delivery,QR/PromptPay,0,New,None
+ORD2601221400085,2026-01-22,Thu,14,Afternoon Peak,Iced Americano,Coffee,Iced,L,1,90,10,80,Walk-in,Card,1,New,None
+ORD2601201400086,2026-01-20,Tue,14,Afternoon Peak,Matcha Latte,Tea,Iced,L,2,110,0,220,Grab/Delivery,QR/PromptPay,0,Returning,None
+ORD2601141300087,2026-01-14,Wed,13,Midday,Thai Tea,Tea,Iced,M,2,80,0,160,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601240900088,2026-01-24,Sat,9,Morning Peak,Brownie,Bakery,-,-,3,65,0,195,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601230900089,2026-01-23,Fri,9,Morning Peak,Honey Lime Soda,Soda,Iced,M,1,85,0,85,Walk-in,QR/PromptPay,0,New,None
+ORD2601241300090,2026-01-24,Sat,13,Midday,Americano,Coffee,Hot,L,1,85,0,85,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601201100091,2026-01-20,Tue,11,Midday,Espresso,Coffee,Hot,M,2,60,0,120,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601211300092,2026-01-21,Wed,13,Midday,Thai Tea,Tea,Iced,M,1,80,0,80,Walk-in,Cash,0,Returning,Whipped Cream
+ORD2601231300093,2026-01-23,Fri,13,Midday,Butter Croissant,Bakery,-,-,1,55,0,55,Grab/Delivery,Cash,0,New,None
+ORD2601161200094,2026-01-16,Fri,12,Midday,Thai Tea,Tea,Iced,S,1,70,0,70,Grab/Delivery,QR/PromptPay,0,New,None
+ORD2601140900095,2026-01-14,Wed,9,Morning Peak,Mocha,Coffee,Hot,M,1,95,0,95,Line Man/Delivery,QR/PromptPay,0,New,None
+ORD2601221100096,2026-01-22,Thu,11,Midday,Butter Croissant,Bakery,-,-,2,55,0,110,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601130800097,2026-01-13,Tue,8,Morning Peak,Blueberry Muffin,Bakery,-,-,1,75,0,75,Walk-in,QR/PromptPay,0,New,None
+ORD2601220900098,2026-01-22,Thu,9,Morning Peak,Thai Tea,Tea,Iced,S,1,70,0,70,Walk-in,Cash,0,New,None
+ORD2601201000099,2026-01-20,Tue,10,Morning Peak,Lemon Tea,Tea,Iced,M,1,75,0,75,Line Man/Delivery,Cash,0,Returning,Oat Milk
+ORD2601210900100,2026-01-21,Wed,9,Morning Peak,Matcha Latte,Tea,Iced,M,1,95,0,95,Walk-in,QR/PromptPay,0,Returning,Extra Shot
+ORD2601240900101,2026-01-24,Sat,9,Morning Peak,Mocha,Coffee,Hot,M,1,95,0,95,Line Man/Delivery,QR/PromptPay,0,Returning,None
+ORD2601141100102,2026-01-14,Wed,11,Midday,Iced Americano,Coffee,Iced,M,2,75,0,150,Grab/Delivery,QR/PromptPay,0,Returning,None
+ORD2601161500103,2026-01-16,Fri,15,Afternoon Peak,Butter Croissant,Bakery,-,-,2,55,0,110,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601220800104,2026-01-22,Thu,8,Morning Peak,Iced Americano,Coffee,Iced,L,2,90,0,180,Line Man/Delivery,QR/PromptPay,0,Returning,Whipped Cream
+ORD2601161000105,2026-01-16,Fri,10,Morning Peak,Hot Latte,Coffee,Hot,M,1,85,0,85,Walk-in,QR/PromptPay,0,New,None
+ORD2601171200106,2026-01-17,Sat,12,Midday,Affogato,Coffee,-,M,2,120,0,240,Line Man/Delivery,QR/PromptPay,0,New,Extra Shot
+ORD2601171600107,2026-01-17,Sat,16,Late,Lemon Tea,Tea,Iced,S,3,65,0,195,Grab/Delivery,Card,0,Returning,None
+ORD2601221400108,2026-01-22,Thu,14,Afternoon Peak,Iced Latte,Coffee,Iced,M,2,90,0,180,Walk-in,QR/PromptPay,0,New,None
+ORD2601211500109,2026-01-21,Wed,15,Afternoon Peak,Butter Croissant,Bakery,-,-,2,55,0,110,Grab/Delivery,QR/PromptPay,0,Returning,None
+ORD2601101000110,2026-01-10,Sat,10,Morning Peak,Thai Tea,Tea,Iced,S,2,70,0,140,Walk-in,Cash,0,Returning,None
+ORD2601211000111,2026-01-21,Wed,10,Morning Peak,Blueberry Muffin,Bakery,-,-,1,75,0,75,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601151400112,2026-01-15,Thu,14,Afternoon Peak,Cappuccino,Coffee,Hot,S,2,75,0,150,Walk-in,Cash,0,New,Oat Milk
+ORD2601171200113,2026-01-17,Sat,12,Midday,Iced Americano,Coffee,Iced,S,1,65,0,65,Walk-in,QR/PromptPay,0,New,None
+ORD2601171100114,2026-01-17,Sat,11,Midday,Espresso,Coffee,Hot,M,1,60,0,60,Walk-in,QR/PromptPay,0,New,None
+ORD2601140800115,2026-01-14,Wed,8,Morning Peak,Espresso,Coffee,Hot,M,2,60,0,120,Walk-in,QR/PromptPay,0,New,None
+ORD2601151500116,2026-01-15,Thu,15,Afternoon Peak,Iced Latte,Coffee,Iced,M,1,90,10,80,Line Man/Delivery,QR/PromptPay,1,Returning,None
+ORD2601140900117,2026-01-14,Wed,9,Morning Peak,Matcha Latte,Tea,Iced,S,1,85,0,85,Walk-in,QR/PromptPay,0,New,None
+ORD2601151000118,2026-01-15,Thu,10,Morning Peak,Matcha Latte,Tea,Iced,M,1,95,0,95,Walk-in,QR/PromptPay,0,New,None
+ORD2601240900119,2026-01-24,Sat,9,Morning Peak,Hot Latte,Coffee,Hot,M,2,85,0,170,Walk-in,QR/PromptPay,0,New,None
+ORD2601101400120,2026-01-10,Sat,14,Afternoon Peak,Iced Latte,Coffee,Iced,M,1,90,0,90,Walk-in,QR/PromptPay,0,New,Whipped Cream
+ORD2601171000121,2026-01-17,Sat,10,Morning Peak,Chocolate,Non-Coffee,Hot,L,1,105,0,105,Walk-in,Cash,0,Returning,Whipped Cream
+ORD2601201000122,2026-01-20,Tue,10,Morning Peak,Iced Americano,Coffee,Iced,M,3,75,0,225,Walk-in,Card,0,Returning,None
+ORD2601111000123,2026-01-11,Sun,10,Morning Peak,Thai Tea,Tea,Iced,M,2,80,0,160,Line Man/Delivery,QR/PromptPay,0,New,Oat Milk
+ORD2601141400124,2026-01-14,Wed,14,Afternoon Peak,Thai Tea,Tea,Iced,M,3,80,0,240,Walk-in,QR/PromptPay,0,New,None
+ORD2601131400125,2026-01-13,Tue,14,Afternoon Peak,Cold Brew,Coffee,Iced,M,3,110,0,330,Walk-in,QR/PromptPay,0,New,None
+ORD2601211200126,2026-01-21,Wed,12,Midday,Iced Americano,Coffee,Iced,M,1,75,0,75,Walk-in,QR/PromptPay,0,New,None
+ORD2601131300127,2026-01-13,Tue,13,Midday,Iced Latte,Coffee,Iced,S,1,80,0,80,Grab/Delivery,Cash,0,Returning,None
+ORD2601140900128,2026-01-14,Wed,9,Morning Peak,Chocolate,Non-Coffee,Hot,L,1,105,0,105,Walk-in,Cash,0,New,None
+ORD2601210800129,2026-01-21,Wed,8,Morning Peak,Brownie,Bakery,-,-,1,65,0,65,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601241300130,2026-01-24,Sat,13,Midday,Iced Latte,Coffee,Iced,M,1,90,0,90,Walk-in,Cash,0,New,Extra Shot
+ORD2601221400131,2026-01-22,Thu,14,Afternoon Peak,Butter Croissant,Bakery,-,-,2,55,0,110,Walk-in,Cash,0,Returning,None
+ORD2601201100132,2026-01-20,Tue,11,Midday,Cappuccino,Coffee,Hot,M,2,85,0,170,Line Man/Delivery,Cash,0,Returning,None
+ORD2601181500133,2026-01-18,Sun,15,Afternoon Peak,Cappuccino,Coffee,Hot,M,2,85,0,170,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601141100134,2026-01-14,Wed,11,Midday,Cold Brew,Coffee,Iced,L,3,125,0,375,Walk-in,QR/PromptPay,0,New,None
+ORD2601170800135,2026-01-17,Sat,8,Morning Peak,Brownie,Bakery,-,-,2,65,0,130,Walk-in,Cash,0,New,None
+ORD2601100900136,2026-01-10,Sat,9,Morning Peak,Lemon Tea,Tea,Iced,L,1,90,0,90,Walk-in,QR/PromptPay,0,New,None
+ORD2601210900137,2026-01-21,Wed,9,Morning Peak,Iced Latte,Coffee,Iced,S,2,80,0,160,Walk-in,QR/PromptPay,0,Returning,Oat Milk
+ORD2601240800138,2026-01-24,Sat,8,Morning Peak,Matcha Latte,Tea,Iced,M,2,95,0,190,Walk-in,QR/PromptPay,0,New,None
+ORD2601171500139,2026-01-17,Sat,15,Afternoon Peak,Americano,Coffee,Hot,S,2,60,0,120,Grab/Delivery,Card,0,New,None
+ORD2601181300140,2026-01-18,Sun,13,Midday,Butter Croissant,Bakery,-,-,2,55,0,110,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601180800141,2026-01-18,Sun,8,Morning Peak,Hot Latte,Coffee,Hot,L,3,100,0,300,Walk-in,Card,0,New,None
+ORD2601110800142,2026-01-11,Sun,8,Morning Peak,Iced Latte,Coffee,Iced,M,3,90,0,270,Walk-in,QR/PromptPay,0,New,Extra Shot
+ORD2601201100143,2026-01-20,Tue,11,Midday,Thai Tea,Tea,Iced,M,3,80,0,240,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601231300144,2026-01-23,Fri,13,Midday,Blueberry Muffin,Bakery,-,-,3,75,0,225,Line Man/Delivery,Cash,0,New,None
+ORD2601141100145,2026-01-14,Wed,11,Midday,Butter Croissant,Bakery,-,-,2,55,0,110,Grab/Delivery,Card,0,Returning,None
+ORD2601140800146,2026-01-14,Wed,8,Morning Peak,Affogato,Coffee,-,M,1,120,0,120,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601200800147,2026-01-20,Tue,8,Morning Peak,Iced Americano,Coffee,Iced,S,2,65,0,130,Walk-in,Cash,0,Returning,Oat Milk
+ORD2601211600148,2026-01-21,Wed,16,Late,Mocha,Coffee,Hot,S,2,85,0,170,Walk-in,QR/PromptPay,0,New,None
+ORD2601130800149,2026-01-13,Tue,8,Morning Peak,Espresso,Coffee,Hot,M,1,60,0,60,Walk-in,QR/PromptPay,0,Returning,Oat Milk
+ORD2601230900150,2026-01-23,Fri,9,Morning Peak,Brownie,Bakery,-,-,1,65,0,65,Walk-in,Cash,0,New,None
+ORD2601231000151,2026-01-23,Fri,10,Morning Peak,Matcha Latte,Tea,Iced,M,2,95,0,190,Line Man/Delivery,Card,0,Returning,None
+ORD2601230900152,2026-01-23,Fri,9,Morning Peak,Iced Americano,Coffee,Iced,S,1,65,0,65,Walk-in,QR/PromptPay,0,New,Extra Shot
+ORD2601181300153,2026-01-18,Sun,13,Midday,Blueberry Muffin,Bakery,-,-,3,75,0,225,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601131500154,2026-01-13,Tue,15,Afternoon Peak,Mocha,Coffee,Hot,M,2,95,0,190,Walk-in,Card,0,New,None
+ORD2601110800155,2026-01-11,Sun,8,Morning Peak,Iced Latte,Coffee,Iced,M,1,90,0,90,Walk-in,QR/PromptPay,0,New,None
+ORD2601241400156,2026-01-24,Sat,14,Afternoon Peak,Americano,Coffee,Hot,M,2,70,0,140,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601181600157,2026-01-18,Sun,16,Late,Thai Tea,Tea,Iced,M,1,80,0,80,Line Man/Delivery,Cash,0,Returning,Extra Shot
+ORD2601110900158,2026-01-11,Sun,9,Morning Peak,Lemon Tea,Tea,Iced,M,3,75,0,225,Grab/Delivery,Card,0,Returning,None
+ORD2601141500159,2026-01-14,Wed,15,Afternoon Peak,Iced Latte,Coffee,Iced,M,2,90,0,180,Walk-in,QR/PromptPay,0,New,Oat Milk
+ORD2601211600160,2026-01-21,Wed,16,Late,Mocha,Coffee,Hot,L,3,110,0,330,Walk-in,Card,0,Returning,None
+ORD2601211200161,2026-01-21,Wed,12,Midday,Butter Croissant,Bakery,-,-,3,55,0,165,Walk-in,Card,0,New,None
+ORD2601131000162,2026-01-13,Tue,10,Morning Peak,Hot Latte,Coffee,Hot,S,2,75,0,150,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601181100163,2026-01-18,Sun,11,Midday,Mocha,Coffee,Hot,S,3,85,0,255,Walk-in,QR/PromptPay,0,New,Oat Milk
+ORD2601130800164,2026-01-13,Tue,8,Morning Peak,Mocha,Coffee,Hot,M,1,95,0,95,Walk-in,QR/PromptPay,0,New,None
+ORD2601110900165,2026-01-11,Sun,9,Morning Peak,Cappuccino,Coffee,Hot,L,3,100,0,300,Grab/Delivery,Card,0,New,None
+ORD2601240800166,2026-01-24,Sat,8,Morning Peak,Iced Americano,Coffee,Iced,M,1,75,0,75,Line Man/Delivery,Cash,0,New,None
+ORD2601231500167,2026-01-23,Fri,15,Afternoon Peak,Iced Latte,Coffee,Iced,L,1,105,0,105,Walk-in,Card,0,New,None
+ORD2601230800168,2026-01-23,Fri,8,Morning Peak,Chocolate,Non-Coffee,Hot,M,2,90,0,180,Walk-in,QR/PromptPay,0,New,None
+ORD2601101100169,2026-01-10,Sat,11,Midday,Iced Americano,Coffee,Iced,L,2,90,0,180,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601240900170,2026-01-24,Sat,9,Morning Peak,Hot Latte,Coffee,Hot,M,3,85,0,255,Line Man/Delivery,Cash,0,New,None
+ORD2601100800171,2026-01-10,Sat,8,Morning Peak,Thai Tea,Tea,Iced,L,1,95,0,95,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601131400172,2026-01-13,Tue,14,Afternoon Peak,Thai Tea,Tea,Iced,L,1,95,0,95,Line Man/Delivery,Card,0,Returning,None
+ORD2601221300173,2026-01-22,Thu,13,Midday,Thai Tea,Tea,Iced,M,2,80,0,160,Walk-in,Cash,0,New,None
+ORD2601231200174,2026-01-23,Fri,12,Midday,Americano,Coffee,Hot,M,1,70,0,70,Line Man/Delivery,Card,0,Returning,Whipped Cream
+ORD2601240800175,2026-01-24,Sat,8,Morning Peak,Americano,Coffee,Hot,L,3,85,0,255,Walk-in,Cash,0,Returning,None
+ORD2601111500176,2026-01-11,Sun,15,Afternoon Peak,Chocolate,Non-Coffee,Hot,S,2,80,0,160,Walk-in,QR/PromptPay,0,New,None
+ORD2601161300177,2026-01-16,Fri,13,Midday,Americano,Coffee,Hot,M,3,70,0,210,Walk-in,QR/PromptPay,0,New,None
+ORD2601101400178,2026-01-10,Sat,14,Afternoon Peak,Cold Brew,Coffee,Iced,M,3,110,30,300,Walk-in,Card,1,Returning,None
+ORD2601131000179,2026-01-13,Tue,10,Morning Peak,Iced Americano,Coffee,Iced,M,1,75,0,75,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601211600180,2026-01-21,Wed,16,Late,Matcha Latte,Tea,Iced,M,1,95,0,95,Line Man/Delivery,QR/PromptPay,0,Returning,None
+ORD2601130900181,2026-01-13,Tue,9,Morning Peak,Lemon Tea,Tea,Iced,S,2,65,0,130,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601141300182,2026-01-14,Wed,13,Midday,Banana Cake,Bakery,-,-,1,70,0,70,Walk-in,Cash,0,Returning,None
+ORD2601101600183,2026-01-10,Sat,16,Late,Butter Croissant,Bakery,-,-,1,55,0,55,Walk-in,QR/PromptPay,0,New,None
+ORD2601101500184,2026-01-10,Sat,15,Afternoon Peak,Caramel Macchiato,Coffee,Iced,S,2,100,0,200,Line Man/Delivery,Card,0,Returning,None
+ORD2601231500185,2026-01-23,Fri,15,Afternoon Peak,Cold Brew,Coffee,Iced,M,1,110,0,110,Walk-in,QR/PromptPay,0,Returning,Oat Milk
+ORD2601131100186,2026-01-13,Tue,11,Midday,Hot Latte,Coffee,Hot,M,2,85,0,170,Grab/Delivery,QR/PromptPay,0,New,Oat Milk
+ORD2601231400187,2026-01-23,Fri,14,Afternoon Peak,Thai Tea,Tea,Iced,L,3,95,0,285,Line Man/Delivery,QR/PromptPay,0,New,None
+ORD2601201500188,2026-01-20,Tue,15,Afternoon Peak,Mocha,Coffee,Hot,M,3,95,30,255,Walk-in,QR/PromptPay,1,Returning,Extra Shot
+ORD2601151400189,2026-01-15,Thu,14,Afternoon Peak,Thai Tea,Tea,Iced,S,1,70,10,60,Line Man/Delivery,QR/PromptPay,1,Returning,Extra Shot
+ORD2601181400190,2026-01-18,Sun,14,Afternoon Peak,Hot Latte,Coffee,Hot,M,1,85,0,85,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601111400191,2026-01-11,Sun,14,Afternoon Peak,Lemon Tea,Tea,Iced,M,2,75,0,150,Grab/Delivery,QR/PromptPay,0,Returning,None
+ORD2601110900192,2026-01-11,Sun,9,Morning Peak,Cappuccino,Coffee,Hot,M,1,85,0,85,Walk-in,Card,0,New,Extra Shot
+ORD2601231300193,2026-01-23,Fri,13,Midday,Americano,Coffee,Hot,M,2,70,0,140,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601231500194,2026-01-23,Fri,15,Afternoon Peak,Americano,Coffee,Hot,M,1,70,0,70,Walk-in,QR/PromptPay,0,New,None
+ORD2601101600195,2026-01-10,Sat,16,Late,Affogato,Coffee,-,M,1,120,0,120,Walk-in,Cash,0,Returning,None
+ORD2601180800196,2026-01-18,Sun,8,Morning Peak,Americano,Coffee,Hot,S,2,60,0,120,Walk-in,Cash,0,Returning,Extra Shot
+ORD2601210900197,2026-01-21,Wed,9,Morning Peak,Chocolate,Non-Coffee,Hot,M,3,90,0,270,Line Man/Delivery,QR/PromptPay,0,Returning,None
+ORD2601241100198,2026-01-24,Sat,11,Midday,Americano,Coffee,Hot,S,2,60,0,120,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601231200199,2026-01-23,Fri,12,Midday,Thai Tea,Tea,Iced,M,2,80,0,160,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601160800200,2026-01-16,Fri,8,Morning Peak,Mocha,Coffee,Hot,M,2,95,0,190,Grab/Delivery,Card,0,New,None
+ORD2601101300201,2026-01-10,Sat,13,Midday,Cappuccino,Coffee,Hot,L,1,100,0,100,Walk-in,QR/PromptPay,0,New,None
+ORD2601160900202,2026-01-16,Fri,9,Morning Peak,Cappuccino,Coffee,Hot,S,1,75,0,75,Line Man/Delivery,Cash,0,Returning,None
+ORD2601231500203,2026-01-23,Fri,15,Afternoon Peak,Matcha Latte,Tea,Iced,M,2,95,0,190,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601211100204,2026-01-21,Wed,11,Midday,Chocolate,Non-Coffee,Hot,M,1,90,0,90,Walk-in,QR/PromptPay,0,New,None
+ORD2601100800205,2026-01-10,Sat,8,Morning Peak,Iced Americano,Coffee,Iced,M,1,75,0,75,Walk-in,QR/PromptPay,0,Returning,Oat Milk
+ORD2601220800206,2026-01-22,Thu,8,Morning Peak,Caramel Macchiato,Coffee,Iced,M,2,110,0,220,Grab/Delivery,QR/PromptPay,0,New,None
+ORD2601181000207,2026-01-18,Sun,10,Morning Peak,Iced Americano,Coffee,Iced,L,1,90,0,90,Grab/Delivery,Cash,0,Returning,None
+ORD2601151300208,2026-01-15,Thu,13,Midday,Honey Lime Soda,Soda,Iced,M,2,85,0,170,Walk-in,QR/PromptPay,0,New,None
+ORD2601131500209,2026-01-13,Tue,15,Afternoon Peak,Matcha Latte,Tea,Iced,M,2,95,0,190,Line Man/Delivery,Cash,0,Returning,None
+ORD2601231500210,2026-01-23,Fri,15,Afternoon Peak,Espresso,Coffee,Hot,M,1,60,0,60,Grab/Delivery,QR/PromptPay,0,Returning,None
+ORD2601220900211,2026-01-22,Thu,9,Morning Peak,Americano,Coffee,Hot,M,1,70,0,70,Walk-in,QR/PromptPay,0,Returning,Extra Shot
+ORD2601150900212,2026-01-15,Thu,9,Morning Peak,Matcha Latte,Tea,Iced,M,1,95,0,95,Grab/Delivery,QR/PromptPay,0,New,None
+ORD2601210900213,2026-01-21,Wed,9,Morning Peak,Mocha,Coffee,Hot,M,1,95,0,95,Walk-in,Card,0,Returning,None
+ORD2601170900214,2026-01-17,Sat,9,Morning Peak,Iced Latte,Coffee,Iced,M,2,90,0,180,Grab/Delivery,QR/PromptPay,0,New,None
+ORD2601131300215,2026-01-13,Tue,13,Midday,Iced Americano,Coffee,Iced,M,1,75,0,75,Line Man/Delivery,QR/PromptPay,0,Returning,Whipped Cream
+ORD2601130900216,2026-01-13,Tue,9,Morning Peak,Americano,Coffee,Hot,M,1,70,0,70,Grab/Delivery,QR/PromptPay,0,Returning,None
+ORD2601101400217,2026-01-10,Sat,14,Afternoon Peak,Iced Latte,Coffee,Iced,S,1,80,0,80,Walk-in,QR/PromptPay,0,Returning,Oat Milk
+ORD2601170900218,2026-01-17,Sat,9,Morning Peak,Matcha Latte,Tea,Iced,S,3,85,0,255,Grab/Delivery,QR/PromptPay,0,New,None
+ORD2601201000219,2026-01-20,Tue,10,Morning Peak,Thai Tea,Tea,Iced,S,2,70,0,140,Walk-in,QR/PromptPay,0,New,None
+ORD2601150900220,2026-01-15,Thu,9,Morning Peak,Thai Tea,Tea,Iced,M,1,80,0,80,Line Man/Delivery,Cash,0,Returning,Oat Milk
+ORD2601131000221,2026-01-13,Tue,10,Morning Peak,Hot Latte,Coffee,Hot,M,2,85,0,170,Grab/Delivery,QR/PromptPay,0,New,None
+ORD2601221200222,2026-01-22,Thu,12,Midday,Thai Tea,Tea,Iced,M,3,80,0,240,Walk-in,QR/PromptPay,0,Returning,Extra Shot
+ORD2601231000223,2026-01-23,Fri,10,Morning Peak,Thai Tea,Tea,Iced,M,1,80,0,80,Walk-in,QR/PromptPay,0,New,None
+ORD2601201000224,2026-01-20,Tue,10,Morning Peak,Caramel Macchiato,Coffee,Iced,M,3,110,0,330,Walk-in,Card,0,New,None
+ORD2601180800225,2026-01-18,Sun,8,Morning Peak,Cold Brew,Coffee,Iced,M,1,110,0,110,Grab/Delivery,QR/PromptPay,0,New,Whipped Cream
+ORD2601170900226,2026-01-17,Sat,9,Morning Peak,Lemon Tea,Tea,Iced,M,1,75,0,75,Grab/Delivery,QR/PromptPay,0,New,Oat Milk
+ORD2601130900227,2026-01-13,Tue,9,Morning Peak,Iced Americano,Coffee,Iced,S,1,65,0,65,Grab/Delivery,QR/PromptPay,0,Returning,None
+ORD2601211200228,2026-01-21,Wed,12,Midday,Hot Latte,Coffee,Hot,M,1,85,0,85,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601161400229,2026-01-16,Fri,14,Afternoon Peak,Honey Lime Soda,Soda,Iced,L,2,100,0,200,Line Man/Delivery,QR/PromptPay,0,New,None
+ORD2601131000230,2026-01-13,Tue,10,Morning Peak,Lemon Tea,Tea,Iced,M,2,75,0,150,Grab/Delivery,QR/PromptPay,0,New,None
+ORD2601151000231,2026-01-15,Thu,10,Morning Peak,Matcha Latte,Tea,Iced,M,2,95,0,190,Walk-in,Card,0,Returning,Extra Shot
+ORD2601241500232,2026-01-24,Sat,15,Afternoon Peak,Orange Cold Brew,Coffee,Iced,L,1,145,0,145,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601161500233,2026-01-16,Fri,15,Afternoon Peak,Americano,Coffee,Hot,S,1,60,0,60,Walk-in,Card,0,New,None
+ORD2601151600234,2026-01-15,Thu,16,Late,Americano,Coffee,Hot,S,1,60,0,60,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601171000235,2026-01-17,Sat,10,Morning Peak,Mocha,Coffee,Hot,M,3,95,0,285,Grab/Delivery,QR/PromptPay,0,Returning,None
+ORD2601111100236,2026-01-11,Sun,11,Midday,Iced Latte,Coffee,Iced,L,2,105,0,210,Grab/Delivery,QR/PromptPay,0,Returning,None
+ORD2601111000237,2026-01-11,Sun,10,Morning Peak,Thai Tea,Tea,Iced,M,3,80,0,240,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601131300238,2026-01-13,Tue,13,Midday,Banana Cake,Bakery,-,-,1,70,0,70,Walk-in,Card,0,New,None
+ORD2601241200239,2026-01-24,Sat,12,Midday,Hot Latte,Coffee,Hot,S,2,75,0,150,Walk-in,QR/PromptPay,0,New,None
+ORD2601150900240,2026-01-15,Thu,9,Morning Peak,Lemon Tea,Tea,Iced,S,2,65,0,130,Line Man/Delivery,QR/PromptPay,0,Returning,Oat Milk
+ORD2601150800241,2026-01-15,Thu,8,Morning Peak,Iced Americano,Coffee,Iced,S,3,65,0,195,Walk-in,QR/PromptPay,0,Returning,Extra Shot
+ORD2601130800242,2026-01-13,Tue,8,Morning Peak,Lemon Tea,Tea,Iced,M,3,75,0,225,Line Man/Delivery,Cash,0,Returning,Whipped Cream
+ORD2601151600243,2026-01-15,Thu,16,Late,Iced Latte,Coffee,Iced,M,3,90,0,270,Walk-in,Card,0,Returning,None
+ORD2601101000244,2026-01-10,Sat,10,Morning Peak,Iced Americano,Coffee,Iced,M,3,75,0,225,Grab/Delivery,QR/PromptPay,0,Returning,None
+ORD2601101100245,2026-01-10,Sat,11,Midday,Affogato,Coffee,-,M,1,120,0,120,Line Man/Delivery,QR/PromptPay,0,New,None
+ORD2601170900246,2026-01-17,Sat,9,Morning Peak,Cappuccino,Coffee,Hot,M,2,85,0,170,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601111000247,2026-01-11,Sun,10,Morning Peak,Banana Cake,Bakery,-,-,3,70,0,210,Walk-in,Cash,0,Returning,None
+ORD2601131500248,2026-01-13,Tue,15,Afternoon Peak,Honey Lime Soda,Soda,Iced,M,1,85,0,85,Line Man/Delivery,Cash,0,Returning,Extra Shot
+ORD2601111200249,2026-01-11,Sun,12,Midday,Thai Tea,Tea,Iced,M,2,80,0,160,Walk-in,QR/PromptPay,0,New,None
+ORD2601111100250,2026-01-11,Sun,11,Midday,Cappuccino,Coffee,Hot,M,3,85,0,255,Walk-in,QR/PromptPay,0,Returning,Oat Milk
+ORD2601171500251,2026-01-17,Sat,15,Afternoon Peak,Honey Lime Soda,Soda,Iced,M,2,85,0,170,Walk-in,Card,0,Returning,None
+ORD2601101400252,2026-01-10,Sat,14,Afternoon Peak,Brownie,Bakery,-,-,2,65,0,130,Line Man/Delivery,QR/PromptPay,0,New,None
+ORD2601230900253,2026-01-23,Fri,9,Morning Peak,Mocha,Coffee,Hot,M,2,95,0,190,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601101300254,2026-01-10,Sat,13,Midday,Iced Americano,Coffee,Iced,M,1,75,0,75,Walk-in,Cash,0,Returning,None
+ORD2601111400255,2026-01-11,Sun,14,Afternoon Peak,Chocolate,Non-Coffee,Hot,M,2,90,0,180,Walk-in,Cash,0,New,None
+ORD2601140900256,2026-01-14,Wed,9,Morning Peak,Iced Latte,Coffee,Iced,M,2,90,0,180,Line Man/Delivery,QR/PromptPay,0,New,None
+ORD2601221200257,2026-01-22,Thu,12,Midday,Lemon Tea,Tea,Iced,S,1,65,0,65,Walk-in,Cash,0,Returning,Whipped Cream
+ORD2601211100258,2026-01-21,Wed,11,Midday,Americano,Coffee,Hot,M,1,70,0,70,Walk-in,QR/PromptPay,0,Returning,Whipped Cream
+ORD2601151400259,2026-01-15,Thu,14,Afternoon Peak,Cappuccino,Coffee,Hot,L,1,100,10,90,Walk-in,QR/PromptPay,1,Returning,None
+ORD2601131000260,2026-01-13,Tue,10,Morning Peak,Iced Americano,Coffee,Iced,M,2,75,0,150,Walk-in,Cash,0,Returning,None
+ORD2601101200261,2026-01-10,Sat,12,Midday,Iced Latte,Coffee,Iced,M,1,90,0,90,Walk-in,Card,0,Returning,None
+ORD2601211500262,2026-01-21,Wed,15,Afternoon Peak,Iced Latte,Coffee,Iced,M,2,90,0,180,Walk-in,QR/PromptPay,0,Returning,Extra Shot
+ORD2601181400263,2026-01-18,Sun,14,Afternoon Peak,Matcha Latte,Tea,Iced,L,2,110,0,220,Line Man/Delivery,QR/PromptPay,0,Returning,None
+ORD2601171100264,2026-01-17,Sat,11,Midday,Chocolate,Non-Coffee,Hot,M,2,90,0,180,Walk-in,Card,0,Returning,None
+ORD2601230800265,2026-01-23,Fri,8,Morning Peak,Affogato,Coffee,-,S,1,110,0,110,Grab/Delivery,QR/PromptPay,0,Returning,Extra Shot
+ORD2601160900266,2026-01-16,Fri,9,Morning Peak,Iced Americano,Coffee,Iced,M,3,75,0,225,Walk-in,Cash,0,New,None
+ORD2601171200267,2026-01-17,Sat,12,Midday,Chocolate,Non-Coffee,Hot,M,1,90,0,90,Walk-in,QR/PromptPay,0,Returning,Extra Shot
+ORD2601130800268,2026-01-13,Tue,8,Morning Peak,Matcha Latte,Tea,Iced,M,2,95,0,190,Walk-in,QR/PromptPay,0,Returning,Oat Milk
+ORD2601150800269,2026-01-15,Thu,8,Morning Peak,Chocolate,Non-Coffee,Hot,S,3,80,0,240,Walk-in,Cash,0,New,None
+ORD2601181100270,2026-01-18,Sun,11,Midday,Iced Americano,Coffee,Iced,M,2,75,0,150,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601210900271,2026-01-21,Wed,9,Morning Peak,Matcha Latte,Tea,Iced,L,2,110,0,220,Walk-in,QR/PromptPay,0,New,None
+ORD2601161500272,2026-01-16,Fri,15,Afternoon Peak,Cold Brew,Coffee,Iced,M,3,110,0,330,Walk-in,Card,0,Returning,None
+ORD2601221000273,2026-01-22,Thu,10,Morning Peak,Brownie,Bakery,-,-,1,65,0,65,Grab/Delivery,QR/PromptPay,0,New,None
+ORD2601171200274,2026-01-17,Sat,12,Midday,Espresso,Coffee,Hot,L,3,75,0,225,Walk-in,Cash,0,Returning,None
+ORD2601111000275,2026-01-11,Sun,10,Morning Peak,Iced Latte,Coffee,Iced,M,2,90,0,180,Grab/Delivery,QR/PromptPay,0,Returning,None
+ORD2601231000276,2026-01-23,Fri,10,Morning Peak,Matcha Latte,Tea,Iced,S,2,85,0,170,Walk-in,Cash,0,Returning,Extra Shot
+ORD2601100800277,2026-01-10,Sat,8,Morning Peak,Cappuccino,Coffee,Hot,M,1,85,0,85,Grab/Delivery,QR/PromptPay,0,New,None
+ORD2601141400278,2026-01-14,Wed,14,Afternoon Peak,Iced Americano,Coffee,Iced,M,1,75,0,75,Walk-in,Cash,0,New,None
+ORD2601241200279,2026-01-24,Sat,12,Midday,Iced Latte,Coffee,Iced,M,1,90,0,90,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601170900280,2026-01-17,Sat,9,Morning Peak,Butter Croissant,Bakery,-,-,1,55,0,55,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601141500281,2026-01-14,Wed,15,Afternoon Peak,Lemon Tea,Tea,Iced,M,1,75,0,75,Walk-in,Cash,0,New,Extra Shot
+ORD2601201400282,2026-01-20,Tue,14,Afternoon Peak,Brownie,Bakery,-,-,1,65,0,65,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601171000283,2026-01-17,Sat,10,Morning Peak,Cappuccino,Coffee,Hot,M,1,85,0,85,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601150800284,2026-01-15,Thu,8,Morning Peak,Brownie,Bakery,-,-,3,65,0,195,Grab/Delivery,Cash,0,New,None
+ORD2601181300285,2026-01-18,Sun,13,Midday,Iced Americano,Coffee,Iced,L,1,90,0,90,Walk-in,QR/PromptPay,0,Returning,Oat Milk
+ORD2601241500286,2026-01-24,Sat,15,Afternoon Peak,Matcha Latte,Tea,Iced,M,1,95,0,95,Walk-in,QR/PromptPay,0,New,Extra Shot
+ORD2601221400287,2026-01-22,Thu,14,Afternoon Peak,Brownie,Bakery,-,-,2,65,0,130,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601111600288,2026-01-11,Sun,16,Late,Thai Tea,Tea,Iced,S,1,70,0,70,Walk-in,Cash,0,Returning,Oat Milk
+ORD2601211200289,2026-01-21,Wed,12,Midday,Matcha Latte,Tea,Iced,S,2,85,0,170,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601171200290,2026-01-17,Sat,12,Midday,Thai Tea,Tea,Iced,S,2,70,0,140,Walk-in,Card,0,Returning,None
+ORD2601240900291,2026-01-24,Sat,9,Morning Peak,Americano,Coffee,Hot,S,3,60,0,180,Walk-in,Card,0,Returning,Oat Milk
+ORD2601221500292,2026-01-22,Thu,15,Afternoon Peak,Chocolate,Non-Coffee,Hot,M,1,90,0,90,Grab/Delivery,QR/PromptPay,0,Returning,None
+ORD2601111600293,2026-01-11,Sun,16,Late,Iced Americano,Coffee,Iced,L,1,90,0,90,Walk-in,Cash,0,Returning,None
+ORD2601211500294,2026-01-21,Wed,15,Afternoon Peak,Mocha,Coffee,Hot,M,1,95,0,95,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601180800295,2026-01-18,Sun,8,Morning Peak,Lemon Tea,Tea,Iced,S,1,65,0,65,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601241000296,2026-01-24,Sat,10,Morning Peak,Espresso,Coffee,Hot,S,2,60,0,120,Grab/Delivery,QR/PromptPay,0,New,None
+ORD2601171500297,2026-01-17,Sat,15,Afternoon Peak,Thai Tea,Tea,Iced,M,1,80,0,80,Walk-in,Cash,0,Returning,Oat Milk
+ORD2601180800298,2026-01-18,Sun,8,Morning Peak,Chocolate,Non-Coffee,Hot,M,3,90,0,270,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601170800299,2026-01-17,Sat,8,Morning Peak,Iced Latte,Coffee,Iced,M,2,90,0,180,Line Man/Delivery,Cash,0,New,Oat Milk
+ORD2601201100300,2026-01-20,Tue,11,Midday,Cappuccino,Coffee,Hot,M,3,85,0,255,Grab/Delivery,QR/PromptPay,0,New,None
+ORD2601110900301,2026-01-11,Sun,9,Morning Peak,Iced Latte,Coffee,Iced,S,1,80,0,80,Walk-in,Cash,0,Returning,None
+ORD2601231000302,2026-01-23,Fri,10,Morning Peak,Matcha Latte,Tea,Iced,S,1,85,0,85,Walk-in,Cash,0,New,None
+ORD2601171200303,2026-01-17,Sat,12,Midday,Honey Lime Soda,Soda,Iced,M,3,85,0,255,Walk-in,QR/PromptPay,0,Returning,Oat Milk
+ORD2601131500304,2026-01-13,Tue,15,Afternoon Peak,Cappuccino,Coffee,Hot,L,3,100,0,300,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601151100305,2026-01-15,Thu,11,Midday,Vegan Muffin,Bakery,-,-,2,85,0,170,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601171400306,2026-01-17,Sat,14,Afternoon Peak,Iced Americano,Coffee,Iced,M,2,75,0,150,Walk-in,QR/PromptPay,0,Returning,Extra Shot
+ORD2601171300307,2026-01-17,Sat,13,Midday,Espresso,Coffee,Hot,M,2,60,0,120,Walk-in,QR/PromptPay,0,New,None
+ORD2601240900308,2026-01-24,Sat,9,Morning Peak,Americano,Coffee,Hot,M,1,70,0,70,Walk-in,QR/PromptPay,0,New,Oat Milk
+ORD2601171500309,2026-01-17,Sat,15,Afternoon Peak,Honey Lime Soda,Soda,Iced,M,2,85,0,170,Grab/Delivery,Card,0,New,None
+ORD2601181000310,2026-01-18,Sun,10,Morning Peak,Iced Americano,Coffee,Iced,M,1,75,0,75,Walk-in,QR/PromptPay,0,New,None
+ORD2601220800311,2026-01-22,Thu,8,Morning Peak,Chocolate,Non-Coffee,Hot,M,1,90,0,90,Grab/Delivery,QR/PromptPay,0,New,None
+ORD2601171400312,2026-01-17,Sat,14,Afternoon Peak,Iced Latte,Coffee,Iced,L,2,105,0,210,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601240900313,2026-01-24,Sat,9,Morning Peak,Hot Latte,Coffee,Hot,M,3,85,0,255,Walk-in,QR/PromptPay,0,Returning,Oat Milk
+ORD2601201300314,2026-01-20,Tue,13,Midday,Cold Brew,Coffee,Iced,M,1,110,0,110,Grab/Delivery,QR/PromptPay,0,Returning,Extra Shot
+ORD2601241200315,2026-01-24,Sat,12,Midday,Iced Latte,Coffee,Iced,L,3,105,0,315,Walk-in,QR/PromptPay,0,New,Oat Milk
+ORD2601130800316,2026-01-13,Tue,8,Morning Peak,Butter Croissant,Bakery,-,-,1,55,0,55,Grab/Delivery,QR/PromptPay,0,Returning,None
+ORD2601110800317,2026-01-11,Sun,8,Morning Peak,Iced Americano,Coffee,Iced,M,1,75,0,75,Walk-in,Card,0,Returning,Extra Shot
+ORD2601150800318,2026-01-15,Thu,8,Morning Peak,Thai Tea,Tea,Iced,M,1,80,0,80,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601160800319,2026-01-16,Fri,8,Morning Peak,Americano,Coffee,Hot,M,1,70,0,70,Grab/Delivery,QR/PromptPay,0,New,Extra Shot
+ORD2601171000320,2026-01-17,Sat,10,Morning Peak,Lemon Tea,Tea,Iced,L,1,90,0,90,Grab/Delivery,Cash,0,Returning,Extra Shot
+ORD2601171100321,2026-01-17,Sat,11,Midday,Iced Americano,Coffee,Iced,M,1,75,0,75,Line Man/Delivery,QR/PromptPay,0,New,Extra Shot
+ORD2601180800322,2026-01-18,Sun,8,Morning Peak,Iced Americano,Coffee,Iced,M,1,75,0,75,Walk-in,QR/PromptPay,0,Returning,Oat Milk
+ORD2601130800323,2026-01-13,Tue,8,Morning Peak,Iced Americano,Coffee,Iced,M,1,75,0,75,Walk-in,Cash,0,Returning,None
+ORD2601211500324,2026-01-21,Wed,15,Afternoon Peak,Hot Latte,Coffee,Hot,S,2,75,0,150,Walk-in,Cash,0,New,None
+ORD2601220900325,2026-01-22,Thu,9,Morning Peak,Lemon Tea,Tea,Iced,L,1,90,0,90,Walk-in,QR/PromptPay,0,New,None
+ORD2601161000326,2026-01-16,Fri,10,Morning Peak,Espresso,Coffee,Hot,S,1,60,0,60,Walk-in,QR/PromptPay,0,Returning,Oat Milk
+ORD2601171200327,2026-01-17,Sat,12,Midday,Iced Americano,Coffee,Iced,S,1,65,0,65,Line Man/Delivery,Card,0,Returning,Oat Milk
+ORD2601171500328,2026-01-17,Sat,15,Afternoon Peak,Hot Latte,Coffee,Hot,M,2,85,0,170,Grab/Delivery,QR/PromptPay,0,Returning,None
+ORD2601171300329,2026-01-17,Sat,13,Midday,Iced Latte,Coffee,Iced,M,1,90,0,90,Walk-in,Card,0,New,Oat Milk
+ORD2601201000330,2026-01-20,Tue,10,Morning Peak,Cold Brew,Coffee,Iced,M,3,110,0,330,Walk-in,QR/PromptPay,0,Returning,Oat Milk
+ORD2601230800331,2026-01-23,Fri,8,Morning Peak,Matcha Latte,Tea,Iced,S,1,85,0,85,Walk-in,QR/PromptPay,0,New,None
+ORD2601181400332,2026-01-18,Sun,14,Afternoon Peak,Matcha Latte,Tea,Iced,M,1,95,0,95,Line Man/Delivery,Cash,0,Returning,Oat Milk
+ORD2601101500333,2026-01-10,Sat,15,Afternoon Peak,Americano,Coffee,Hot,M,1,70,0,70,Walk-in,QR/PromptPay,0,New,Extra Shot
+ORD2601200900334,2026-01-20,Tue,9,Morning Peak,Americano,Coffee,Hot,L,1,85,0,85,Grab/Delivery,QR/PromptPay,0,Returning,None
+ORD2601111600335,2026-01-11,Sun,16,Late,Brownie,Bakery,-,-,1,65,0,65,Line Man/Delivery,Cash,0,New,None
+ORD2601171000336,2026-01-17,Sat,10,Morning Peak,Lemon Tea,Tea,Iced,S,2,65,0,130,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601241600337,2026-01-24,Sat,16,Late,Butter Croissant,Bakery,-,-,2,55,0,110,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601201200338,2026-01-20,Tue,12,Midday,Blueberry Muffin,Bakery,-,-,1,75,0,75,Grab/Delivery,Card,0,Returning,None
+ORD2601101300339,2026-01-10,Sat,13,Midday,Caramel Macchiato,Coffee,Iced,M,1,110,0,110,Walk-in,Cash,0,New,Whipped Cream
+ORD2601150800340,2026-01-15,Thu,8,Morning Peak,Matcha Latte,Tea,Iced,S,1,85,0,85,Walk-in,QR/PromptPay,0,Returning,Oat Milk
+ORD2601171500341,2026-01-17,Sat,15,Afternoon Peak,Decaf Latte,Coffee,Hot,M,1,95,0,95,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601221200342,2026-01-22,Thu,12,Midday,Lemon Tea,Tea,Iced,M,2,75,0,150,Grab/Delivery,QR/PromptPay,0,New,None
+ORD2601151400343,2026-01-15,Thu,14,Afternoon Peak,Lemon Tea,Tea,Iced,M,2,75,0,150,Walk-in,QR/PromptPay,0,New,None
+ORD2601211200344,2026-01-21,Wed,12,Midday,Espresso,Coffee,Hot,M,2,60,0,120,Walk-in,QR/PromptPay,0,New,None
+ORD2601241600345,2026-01-24,Sat,16,Late,Iced Americano,Coffee,Iced,M,1,75,0,75,Walk-in,Cash,0,New,Oat Milk
+ORD2601181100346,2026-01-18,Sun,11,Midday,Matcha Latte,Tea,Iced,M,2,95,0,190,Grab/Delivery,Card,0,Returning,None
+ORD2601181000347,2026-01-18,Sun,10,Morning Peak,Espresso,Coffee,Hot,L,2,75,0,150,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601130900348,2026-01-13,Tue,9,Morning Peak,Blueberry Muffin,Bakery,-,-,1,75,0,75,Walk-in,Cash,0,Returning,None
+ORD2601111000349,2026-01-11,Sun,10,Morning Peak,Iced Americano,Coffee,Iced,M,3,75,0,225,Grab/Delivery,QR/PromptPay,0,Returning,None
+ORD2601171400350,2026-01-17,Sat,14,Afternoon Peak,Banana Cake,Bakery,-,-,2,70,0,140,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601181300351,2026-01-18,Sun,13,Midday,Lemon Tea,Tea,Iced,M,1,75,0,75,Walk-in,QR/PromptPay,0,New,None
+ORD2601100800352,2026-01-10,Sat,8,Morning Peak,Lemon Tea,Tea,Iced,M,1,75,0,75,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601161600353,2026-01-16,Fri,16,Late,Hot Latte,Coffee,Hot,M,1,85,0,85,Walk-in,QR/PromptPay,0,Returning,Whipped Cream
+ORD2601181400354,2026-01-18,Sun,14,Afternoon Peak,Brownie,Bakery,-,-,2,65,0,130,Walk-in,Card,0,New,None
+ORD2601221400355,2026-01-22,Thu,14,Afternoon Peak,Cappuccino,Coffee,Hot,S,2,75,0,150,Walk-in,QR/PromptPay,0,New,Extra Shot
+ORD2601131500356,2026-01-13,Tue,15,Afternoon Peak,Thai Tea,Tea,Iced,M,2,80,0,160,Walk-in,QR/PromptPay,0,New,Whipped Cream
+ORD2601101000357,2026-01-10,Sat,10,Morning Peak,Mocha,Coffee,Hot,M,3,95,0,285,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601211100358,2026-01-21,Wed,11,Midday,Lemon Tea,Tea,Iced,S,1,65,0,65,Walk-in,Cash,0,Returning,None
+ORD2601140800359,2026-01-14,Wed,8,Morning Peak,Caramel Macchiato,Coffee,Iced,M,1,110,0,110,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601181000360,2026-01-18,Sun,10,Morning Peak,Matcha Latte,Tea,Iced,M,2,95,0,190,Walk-in,Cash,0,New,None
+ORD2601181600361,2026-01-18,Sun,16,Late,Blueberry Muffin,Bakery,-,-,1,75,0,75,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601161400362,2026-01-16,Fri,14,Afternoon Peak,Cappuccino,Coffee,Hot,M,2,85,20,150,Line Man/Delivery,QR/PromptPay,1,Returning,Oat Milk
+ORD2601200900363,2026-01-20,Tue,9,Morning Peak,Matcha Latte,Tea,Iced,L,3,110,0,330,Walk-in,QR/PromptPay,0,Returning,Oat Milk
+ORD2601181300364,2026-01-18,Sun,13,Midday,Iced Americano,Coffee,Iced,M,2,75,0,150,Grab/Delivery,QR/PromptPay,0,Returning,None
+ORD2601141400365,2026-01-14,Wed,14,Afternoon Peak,Iced Latte,Coffee,Iced,S,1,80,0,80,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601101100366,2026-01-10,Sat,11,Midday,Matcha Latte,Tea,Iced,M,1,95,0,95,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601201200367,2026-01-20,Tue,12,Midday,Honey Lime Soda,Soda,Iced,M,1,85,0,85,Grab/Delivery,QR/PromptPay,0,New,None
+ORD2601221200368,2026-01-22,Thu,12,Midday,Decaf Latte,Coffee,Hot,M,1,95,0,95,Grab/Delivery,QR/PromptPay,0,Returning,None
+ORD2601151000369,2026-01-15,Thu,10,Morning Peak,Hot Latte,Coffee,Hot,M,1,85,0,85,Walk-in,Card,0,Returning,None
+ORD2601220800370,2026-01-22,Thu,8,Morning Peak,Brownie,Bakery,-,-,2,65,0,130,Walk-in,Card,0,Returning,None
+ORD2601220800371,2026-01-22,Thu,8,Morning Peak,Decaf Latte,Coffee,Hot,M,3,95,0,285,Walk-in,QR/PromptPay,0,Returning,Extra Shot
+ORD2601161500372,2026-01-16,Fri,15,Afternoon Peak,Americano,Coffee,Hot,M,1,70,0,70,Walk-in,QR/PromptPay,0,New,None
+ORD2601200800373,2026-01-20,Tue,8,Morning Peak,Honey Lime Soda,Soda,Iced,M,2,85,0,170,Walk-in,QR/PromptPay,0,New,None
+ORD2601201400374,2026-01-20,Tue,14,Afternoon Peak,Hot Latte,Coffee,Hot,M,2,85,0,170,Walk-in,Cash,0,Returning,None
+ORD2601140800375,2026-01-14,Wed,8,Morning Peak,Espresso,Coffee,Hot,L,3,75,0,225,Walk-in,Cash,0,Returning,None
+ORD2601111000376,2026-01-11,Sun,10,Morning Peak,Iced Latte,Coffee,Iced,M,1,90,0,90,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601230800377,2026-01-23,Fri,8,Morning Peak,Mocha,Coffee,Hot,L,2,110,0,220,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601180800378,2026-01-18,Sun,8,Morning Peak,Blueberry Muffin,Bakery,-,-,2,75,0,150,Walk-in,QR/PromptPay,0,New,None
+ORD2601160800379,2026-01-16,Fri,8,Morning Peak,Hot Latte,Coffee,Hot,L,2,100,0,200,Walk-in,Cash,0,Returning,None
+ORD2601101000380,2026-01-10,Sat,10,Morning Peak,Blueberry Muffin,Bakery,-,-,2,75,0,150,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601101100381,2026-01-10,Sat,11,Midday,Cappuccino,Coffee,Hot,M,2,85,0,170,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601241400382,2026-01-24,Sat,14,Afternoon Peak,Blueberry Muffin,Bakery,-,-,1,75,0,75,Walk-in,QR/PromptPay,0,New,None
+ORD2601201400383,2026-01-20,Tue,14,Afternoon Peak,Cappuccino,Coffee,Hot,M,3,85,0,255,Walk-in,QR/PromptPay,0,New,None
+ORD2601151600384,2026-01-15,Thu,16,Late,Americano,Coffee,Hot,M,1,70,0,70,Grab/Delivery,QR/PromptPay,0,Returning,Extra Shot
+ORD2601131400385,2026-01-13,Tue,14,Afternoon Peak,Thai Tea,Tea,Iced,L,2,95,0,190,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601170800386,2026-01-17,Sat,8,Morning Peak,Yuzu Soda,Soda,Iced,L,1,110,0,110,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601221600387,2026-01-22,Thu,16,Late,Chocolate,Non-Coffee,Hot,M,2,90,0,180,Walk-in,Card,0,New,Whipped Cream
+ORD2601211200388,2026-01-21,Wed,12,Midday,Brownie,Bakery,-,-,1,65,0,65,Walk-in,Card,0,Returning,None
+ORD2601171400389,2026-01-17,Sat,14,Afternoon Peak,Iced Latte,Coffee,Iced,L,2,105,0,210,Walk-in,QR/PromptPay,0,New,None
+ORD2601100900390,2026-01-10,Sat,9,Morning Peak,Chocolate,Non-Coffee,Hot,M,2,90,0,180,Walk-in,Card,0,New,Whipped Cream
+ORD2601130800391,2026-01-13,Tue,8,Morning Peak,Butter Croissant,Bakery,-,-,3,55,0,165,Walk-in,Card,0,Returning,None
+ORD2601131400392,2026-01-13,Tue,14,Afternoon Peak,Thai Tea,Tea,Iced,M,3,80,0,240,Walk-in,QR/PromptPay,0,New,None
+ORD2601140900393,2026-01-14,Wed,9,Morning Peak,Matcha Latte,Tea,Iced,M,1,95,0,95,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601211300394,2026-01-21,Wed,13,Midday,Brownie,Bakery,-,-,1,65,0,65,Walk-in,Cash,0,New,None
+ORD2601141300395,2026-01-14,Wed,13,Midday,Lemon Tea,Tea,Iced,M,1,75,0,75,Grab/Delivery,Card,0,Returning,None
+ORD2601230900396,2026-01-23,Fri,9,Morning Peak,Lemon Tea,Tea,Iced,S,2,65,0,130,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601140800397,2026-01-14,Wed,8,Morning Peak,Yuzu Soda,Soda,Iced,S,1,85,0,85,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601221300398,2026-01-22,Thu,13,Midday,Banana Cake,Bakery,-,-,1,70,0,70,Walk-in,QR/PromptPay,0,New,None
+ORD2601171200399,2026-01-17,Sat,12,Midday,Chocolate,Non-Coffee,Hot,M,1,90,0,90,Walk-in,Cash,0,New,None
+ORD2601211000400,2026-01-21,Wed,10,Morning Peak,Thai Tea,Tea,Iced,M,1,80,0,80,Walk-in,QR/PromptPay,0,New,Extra Shot
+ORD2601171000401,2026-01-17,Sat,10,Morning Peak,Orange Cold Brew,Coffee,Iced,M,1,130,0,130,Walk-in,Card,0,Returning,None
+ORD2601101100402,2026-01-10,Sat,11,Midday,Thai Tea,Tea,Iced,M,2,80,0,160,Walk-in,QR/PromptPay,0,New,Oat Milk
+ORD2601221300403,2026-01-22,Thu,13,Midday,Americano,Coffee,Hot,M,1,70,0,70,Grab/Delivery,QR/PromptPay,0,Returning,Extra Shot
+ORD2601111100404,2026-01-11,Sun,11,Midday,Cappuccino,Coffee,Hot,S,1,75,0,75,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601160900405,2026-01-16,Fri,9,Morning Peak,Chocolate,Non-Coffee,Hot,M,2,90,0,180,Walk-in,Card,0,Returning,None
+ORD2601241000406,2026-01-24,Sat,10,Morning Peak,Lemon Tea,Tea,Iced,L,1,90,0,90,Walk-in,QR/PromptPay,0,New,Whipped Cream
+ORD2601181100407,2026-01-18,Sun,11,Midday,Cold Brew,Coffee,Iced,M,1,110,0,110,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601231000408,2026-01-23,Fri,10,Morning Peak,Iced Americano,Coffee,Iced,M,2,75,0,150,Walk-in,Cash,0,New,None
+ORD2601231600409,2026-01-23,Fri,16,Late,Iced Americano,Coffee,Iced,M,1,75,0,75,Walk-in,QR/PromptPay,0,New,Extra Shot
+ORD2601181600410,2026-01-18,Sun,16,Late,Mocha,Coffee,Hot,L,2,110,0,220,Walk-in,Cash,0,Returning,None
+ORD2601230900411,2026-01-23,Fri,9,Morning Peak,Americano,Coffee,Hot,S,2,60,0,120,Walk-in,Card,0,New,None
+ORD2601181000412,2026-01-18,Sun,10,Morning Peak,Blueberry Muffin,Bakery,-,-,1,75,0,75,Walk-in,Cash,0,New,None
+ORD2601201000413,2026-01-20,Tue,10,Morning Peak,Honey Lime Soda,Soda,Iced,M,3,85,0,255,Walk-in,QR/PromptPay,0,New,None
+ORD2601151000414,2026-01-15,Thu,10,Morning Peak,Lemon Tea,Tea,Iced,M,3,75,0,225,Walk-in,Cash,0,Returning,None
+ORD2601171500415,2026-01-17,Sat,15,Afternoon Peak,Matcha Latte,Tea,Iced,L,3,110,30,300,Walk-in,QR/PromptPay,1,Returning,None
+ORD2601161400416,2026-01-16,Fri,14,Afternoon Peak,Chocolate,Non-Coffee,Hot,M,1,90,0,90,Walk-in,QR/PromptPay,0,New,None
+ORD2601201100417,2026-01-20,Tue,11,Midday,Cold Brew,Coffee,Iced,M,2,110,0,220,Grab/Delivery,Cash,0,Returning,Extra Shot
+ORD2601241000418,2026-01-24,Sat,10,Morning Peak,Iced Latte,Coffee,Iced,S,1,80,0,80,Walk-in,Card,0,Returning,None
+ORD2601141100419,2026-01-14,Wed,11,Midday,Lemon Tea,Tea,Iced,L,1,90,0,90,Walk-in,QR/PromptPay,0,New,None
+ORD2601131200420,2026-01-13,Tue,12,Midday,Espresso,Coffee,Hot,M,3,60,0,180,Walk-in,QR/PromptPay,0,New,Oat Milk
+ORD2601170900421,2026-01-17,Sat,9,Morning Peak,Iced Latte,Coffee,Iced,M,3,90,0,270,Walk-in,QR/PromptPay,0,New,None
+ORD2601160900422,2026-01-16,Fri,9,Morning Peak,Americano,Coffee,Hot,M,3,70,0,210,Walk-in,QR/PromptPay,0,New,None
+ORD2601171200423,2026-01-17,Sat,12,Midday,Espresso,Coffee,Hot,M,1,60,0,60,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601161500424,2026-01-16,Fri,15,Afternoon Peak,Cappuccino,Coffee,Hot,S,1,75,10,65,Walk-in,QR/PromptPay,1,New,None
+ORD2601101500425,2026-01-10,Sat,15,Afternoon Peak,Thai Tea,Tea,Iced,L,1,95,0,95,Walk-in,QR/PromptPay,0,New,Whipped Cream
+ORD2601131300426,2026-01-13,Tue,13,Midday,Matcha Latte,Tea,Iced,M,2,95,0,190,Walk-in,Cash,0,Returning,None
+ORD2601171000427,2026-01-17,Sat,10,Morning Peak,Iced Latte,Coffee,Iced,M,1,90,0,90,Grab/Delivery,QR/PromptPay,0,New,None
+ORD2601141400428,2026-01-14,Wed,14,Afternoon Peak,Cappuccino,Coffee,Hot,S,2,75,0,150,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601161400429,2026-01-16,Fri,14,Afternoon Peak,Americano,Coffee,Hot,L,2,85,0,170,Line Man/Delivery,QR/PromptPay,0,Returning,None
+ORD2601100900430,2026-01-10,Sat,9,Morning Peak,Americano,Coffee,Hot,M,2,70,0,140,Walk-in,QR/PromptPay,0,Returning,Oat Milk
+ORD2601221100431,2026-01-22,Thu,11,Midday,Cold Brew,Coffee,Iced,S,1,100,0,100,Walk-in,QR/PromptPay,0,New,None
+ORD2601160900432,2026-01-16,Fri,9,Morning Peak,Iced Latte,Coffee,Iced,S,1,80,0,80,Line Man/Delivery,QR/PromptPay,0,Returning,None
+ORD2601141000433,2026-01-14,Wed,10,Morning Peak,Cappuccino,Coffee,Hot,M,3,85,0,255,Line Man/Delivery,QR/PromptPay,0,Returning,None
+ORD2601151300434,2026-01-15,Thu,13,Midday,Mocha,Coffee,Hot,S,2,85,0,170,Line Man/Delivery,QR/PromptPay,0,New,Extra Shot
+ORD2601221100435,2026-01-22,Thu,11,Midday,Mocha,Coffee,Hot,M,2,95,0,190,Grab/Delivery,QR/PromptPay,0,Returning,None
+ORD2601211500436,2026-01-21,Wed,15,Afternoon Peak,Caramel Macchiato,Coffee,Iced,M,2,110,0,220,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601101500437,2026-01-10,Sat,15,Afternoon Peak,Chocolate,Non-Coffee,Hot,M,3,90,0,270,Walk-in,Cash,0,New,Oat Milk
+ORD2601141500438,2026-01-14,Wed,15,Afternoon Peak,Cappuccino,Coffee,Hot,M,2,85,0,170,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601111200439,2026-01-11,Sun,12,Midday,Iced Americano,Coffee,Iced,S,3,65,0,195,Walk-in,Cash,0,New,None
+ORD2601141000440,2026-01-14,Wed,10,Morning Peak,Brownie,Bakery,-,-,1,65,0,65,Walk-in,Cash,0,Returning,None
+ORD2601151100441,2026-01-15,Thu,11,Midday,Honey Lime Soda,Soda,Iced,S,2,75,0,150,Walk-in,Card,0,Returning,None
+ORD2601211000442,2026-01-21,Wed,10,Morning Peak,Hot Latte,Coffee,Hot,M,1,85,0,85,Walk-in,QR/PromptPay,0,New,None
+ORD2601130900443,2026-01-13,Tue,9,Morning Peak,Americano,Coffee,Hot,S,2,60,0,120,Walk-in,QR/PromptPay,0,New,None
+ORD2601101400444,2026-01-10,Sat,14,Afternoon Peak,Thai Tea,Tea,Iced,M,1,80,0,80,Walk-in,Cash,0,Returning,None
+ORD2601130800445,2026-01-13,Tue,8,Morning Peak,Americano,Coffee,Hot,L,1,85,0,85,Line Man/Delivery,QR/PromptPay,0,Returning,None
+ORD2601240900446,2026-01-24,Sat,9,Morning Peak,Matcha Latte,Tea,Iced,S,2,85,0,170,Grab/Delivery,QR/PromptPay,0,Returning,None
+ORD2601110900447,2026-01-11,Sun,9,Morning Peak,Iced Americano,Coffee,Iced,M,2,75,0,150,Line Man/Delivery,QR/PromptPay,0,Returning,None
+ORD2601220900448,2026-01-22,Thu,9,Morning Peak,Chocolate,Non-Coffee,Hot,M,2,90,0,180,Grab/Delivery,QR/PromptPay,0,Returning,None
+ORD2601151100449,2026-01-15,Thu,11,Midday,Cold Brew,Coffee,Iced,M,1,110,0,110,Line Man/Delivery,Cash,0,Returning,Oat Milk
+ORD2601220800450,2026-01-22,Thu,8,Morning Peak,Lemon Tea,Tea,Iced,M,1,75,0,75,Walk-in,QR/PromptPay,0,New,Extra Shot
+ORD2601171300451,2026-01-17,Sat,13,Midday,Banana Cake,Bakery,-,-,1,70,0,70,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601150800452,2026-01-15,Thu,8,Morning Peak,Thai Tea,Tea,Iced,L,1,95,0,95,Walk-in,Card,0,New,None
+ORD2601201000453,2026-01-20,Tue,10,Morning Peak,Chocolate,Non-Coffee,Hot,L,3,105,0,315,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601211100454,2026-01-21,Wed,11,Midday,Caramel Macchiato,Coffee,Iced,L,1,125,0,125,Walk-in,QR/PromptPay,0,New,None
+ORD2601230900455,2026-01-23,Fri,9,Morning Peak,Caramel Macchiato,Coffee,Iced,M,1,110,0,110,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601240900456,2026-01-24,Sat,9,Morning Peak,Cappuccino,Coffee,Hot,M,1,85,0,85,Line Man/Delivery,Cash,0,Returning,None
+ORD2601181500457,2026-01-18,Sun,15,Afternoon Peak,Honey Lime Soda,Soda,Iced,M,2,85,0,170,Walk-in,QR/PromptPay,0,New,Oat Milk
+ORD2601211400458,2026-01-21,Wed,14,Afternoon Peak,Thai Tea,Tea,Iced,L,3,95,0,285,Walk-in,QR/PromptPay,0,New,None
+ORD2601201100459,2026-01-20,Tue,11,Midday,Thai Tea,Tea,Iced,M,1,80,0,80,Walk-in,Cash,0,New,None
+ORD2601130800460,2026-01-13,Tue,8,Morning Peak,Lemon Tea,Tea,Iced,S,3,65,0,195,Walk-in,QR/PromptPay,0,New,None
+ORD2601221400461,2026-01-22,Thu,14,Afternoon Peak,Iced Americano,Coffee,Iced,L,3,90,30,240,Walk-in,QR/PromptPay,1,New,None
+ORD2601230800462,2026-01-23,Fri,8,Morning Peak,Affogato,Coffee,-,M,1,120,0,120,Grab/Delivery,QR/PromptPay,0,Returning,Oat Milk
+ORD2601240800463,2026-01-24,Sat,8,Morning Peak,Iced Americano,Coffee,Iced,M,2,75,0,150,Walk-in,Cash,0,Returning,None
+ORD2601231500464,2026-01-23,Fri,15,Afternoon Peak,Matcha Latte,Tea,Iced,M,2,95,0,190,Walk-in,QR/PromptPay,0,Returning,Extra Shot
+ORD2601171100465,2026-01-17,Sat,11,Midday,Iced Americano,Coffee,Iced,M,3,75,0,225,Walk-in,Cash,0,Returning,Whipped Cream
+ORD2601110900466,2026-01-11,Sun,9,Morning Peak,Blueberry Muffin,Bakery,-,-,1,75,0,75,Walk-in,QR/PromptPay,0,New,None
+ORD2601140800467,2026-01-14,Wed,8,Morning Peak,Hot Latte,Coffee,Hot,M,1,85,0,85,Walk-in,Cash,0,New,Extra Shot
+ORD2601161200468,2026-01-16,Fri,12,Midday,Honey Lime Soda,Soda,Iced,M,2,85,0,170,Line Man/Delivery,QR/PromptPay,0,New,Extra Shot
+ORD2601240800469,2026-01-24,Sat,8,Morning Peak,Banana Cake,Bakery,-,-,2,70,0,140,Grab/Delivery,QR/PromptPay,0,New,None
+ORD2601221300470,2026-01-22,Thu,13,Midday,Matcha Latte,Tea,Iced,L,1,110,0,110,Grab/Delivery,QR/PromptPay,0,Returning,None
+ORD2601170800471,2026-01-17,Sat,8,Morning Peak,Blueberry Muffin,Bakery,-,-,2,75,0,150,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601141100472,2026-01-14,Wed,11,Midday,Honey Lime Soda,Soda,Iced,M,3,85,0,255,Line Man/Delivery,QR/PromptPay,0,Returning,None
+ORD2601201500473,2026-01-20,Tue,15,Afternoon Peak,Iced Latte,Coffee,Iced,L,2,105,0,210,Walk-in,Card,0,New,None
+ORD2601141100474,2026-01-14,Wed,11,Midday,Brownie,Bakery,-,-,2,65,0,130,Grab/Delivery,Card,0,Returning,None
+ORD2601241000475,2026-01-24,Sat,10,Morning Peak,Americano,Coffee,Hot,S,1,60,0,60,Walk-in,Cash,0,Returning,Oat Milk
+ORD2601231000476,2026-01-23,Fri,10,Morning Peak,Cappuccino,Coffee,Hot,L,2,100,0,200,Walk-in,QR/PromptPay,0,New,None
+ORD2601210800477,2026-01-21,Wed,8,Morning Peak,Lemon Tea,Tea,Iced,M,2,75,0,150,Walk-in,QR/PromptPay,0,New,Whipped Cream
+ORD2601210900478,2026-01-21,Wed,9,Morning Peak,Hot Latte,Coffee,Hot,M,2,85,0,170,Walk-in,QR/PromptPay,0,Returning,Oat Milk
+ORD2601181000479,2026-01-18,Sun,10,Morning Peak,Cappuccino,Coffee,Hot,M,2,85,0,170,Walk-in,QR/PromptPay,0,Returning,Extra Shot
+ORD2601211500480,2026-01-21,Wed,15,Afternoon Peak,Mocha,Coffee,Hot,M,2,95,20,170,Walk-in,QR/PromptPay,1,Returning,None
+ORD2601160800481,2026-01-16,Fri,8,Morning Peak,Cappuccino,Coffee,Hot,M,2,85,0,170,Line Man/Delivery,QR/PromptPay,0,New,None
+ORD2601151000482,2026-01-15,Thu,10,Morning Peak,Matcha Latte,Tea,Iced,M,1,95,0,95,Line Man/Delivery,Cash,0,Returning,None
+ORD2601221400483,2026-01-22,Thu,14,Afternoon Peak,Butter Croissant,Bakery,-,-,1,55,0,55,Grab/Delivery,QR/PromptPay,0,New,None
+ORD2601181100484,2026-01-18,Sun,11,Midday,Cappuccino,Coffee,Hot,M,2,85,0,170,Line Man/Delivery,QR/PromptPay,0,New,None
+ORD2601171600485,2026-01-17,Sat,16,Late,Banana Cake,Bakery,-,-,1,70,0,70,Walk-in,QR/PromptPay,0,New,None
+ORD2601161300486,2026-01-16,Fri,13,Midday,Americano,Coffee,Hot,M,1,70,0,70,Walk-in,QR/PromptPay,0,Returning,Extra Shot
+ORD2601101600487,2026-01-10,Sat,16,Late,Butter Croissant,Bakery,-,-,1,55,0,55,Walk-in,Cash,0,Returning,None
+ORD2601150800488,2026-01-15,Thu,8,Morning Peak,Espresso,Coffee,Hot,M,2,60,0,120,Walk-in,QR/PromptPay,0,Returning,Extra Shot
+ORD2601241300489,2026-01-24,Sat,13,Midday,Chocolate,Non-Coffee,Hot,S,1,80,0,80,Line Man/Delivery,QR/PromptPay,0,Returning,None
+ORD2601241300490,2026-01-24,Sat,13,Midday,Chocolate,Non-Coffee,Hot,M,1,90,0,90,Walk-in,QR/PromptPay,0,New,Whipped Cream
+ORD2601150900491,2026-01-15,Thu,9,Morning Peak,Lemon Tea,Tea,Iced,S,1,65,0,65,Walk-in,QR/PromptPay,0,New,None
+ORD2601230900492,2026-01-23,Fri,9,Morning Peak,Hot Latte,Coffee,Hot,L,3,100,0,300,Grab/Delivery,QR/PromptPay,0,Returning,None
+ORD2601151200493,2026-01-15,Thu,12,Midday,Thai Tea,Tea,Iced,S,2,70,0,140,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601231100494,2026-01-23,Fri,11,Midday,Iced Americano,Coffee,Iced,S,1,65,0,65,Walk-in,QR/PromptPay,0,New,None
+ORD2601171100495,2026-01-17,Sat,11,Midday,Thai Tea,Tea,Iced,S,2,70,0,140,Line Man/Delivery,QR/PromptPay,0,Returning,None
+ORD2601230800496,2026-01-23,Fri,8,Morning Peak,Cappuccino,Coffee,Hot,M,2,85,0,170,Walk-in,QR/PromptPay,0,Returning,Whipped Cream
+ORD2601181500497,2026-01-18,Sun,15,Afternoon Peak,Americano,Coffee,Hot,L,1,85,0,85,Walk-in,QR/PromptPay,0,New,None
+ORD2601231500498,2026-01-23,Fri,15,Afternoon Peak,Mocha,Coffee,Hot,S,1,85,0,85,Walk-in,Cash,0,Returning,None
+ORD2601150900499,2026-01-15,Thu,9,Morning Peak,Matcha Latte,Tea,Iced,S,1,85,0,85,Walk-in,Cash,0,Returning,None
+ORD2601171000500,2026-01-17,Sat,10,Morning Peak,Hot Latte,Coffee,Hot,L,2,100,0,200,Walk-in,Cash,0,Returning,Oat Milk
+ORD2601130800501,2026-01-13,Tue,8,Morning Peak,Thai Tea,Tea,Iced,S,1,70,0,70,Walk-in,QR/PromptPay,0,New,None
+ORD2601200800502,2026-01-20,Tue,8,Morning Peak,Americano,Coffee,Hot,M,2,70,0,140,Walk-in,Cash,0,Returning,Extra Shot
+ORD2601161500503,2026-01-16,Fri,15,Afternoon Peak,Thai Tea,Tea,Iced,M,1,80,0,80,Walk-in,Card,0,Returning,None
+ORD2601131400504,2026-01-13,Tue,14,Afternoon Peak,Hot Latte,Coffee,Hot,S,1,75,0,75,Walk-in,QR/PromptPay,0,Returning,Oat Milk
+ORD2601161600505,2026-01-16,Fri,16,Late,Iced Latte,Coffee,Iced,M,3,90,0,270,Line Man/Delivery,QR/PromptPay,0,Returning,None
+ORD2601180900506,2026-01-18,Sun,9,Morning Peak,Iced Americano,Coffee,Iced,M,3,75,0,225,Line Man/Delivery,QR/PromptPay,0,Returning,None
+ORD2601161000507,2026-01-16,Fri,10,Morning Peak,Iced Latte,Coffee,Iced,S,3,80,0,240,Walk-in,Cash,0,Returning,None
+ORD2601141400508,2026-01-14,Wed,14,Afternoon Peak,Americano,Coffee,Hot,M,1,70,0,70,Grab/Delivery,Cash,0,New,Oat Milk
+ORD2601171100509,2026-01-17,Sat,11,Midday,Iced Latte,Coffee,Iced,S,1,80,0,80,Walk-in,Cash,0,Returning,None
+ORD2601181200510,2026-01-18,Sun,12,Midday,Cold Brew,Coffee,Iced,S,1,100,0,100,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601111400511,2026-01-11,Sun,14,Afternoon Peak,Lemon Tea,Tea,Iced,M,3,75,30,195,Walk-in,QR/PromptPay,1,Returning,None
+ORD2601241100512,2026-01-24,Sat,11,Midday,Hot Latte,Coffee,Hot,M,1,85,0,85,Grab/Delivery,QR/PromptPay,0,Returning,None
+ORD2601221500513,2026-01-22,Thu,15,Afternoon Peak,Chocolate,Non-Coffee,Hot,M,1,90,0,90,Walk-in,QR/PromptPay,0,Returning,Extra Shot
+ORD2601181200514,2026-01-18,Sun,12,Midday,Americano,Coffee,Hot,M,1,70,0,70,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601161400515,2026-01-16,Fri,14,Afternoon Peak,Americano,Coffee,Hot,M,3,70,30,180,Grab/Delivery,QR/PromptPay,1,Returning,None
+ORD2601151000516,2026-01-15,Thu,10,Morning Peak,Cappuccino,Coffee,Hot,S,1,75,0,75,Walk-in,QR/PromptPay,0,New,None
+ORD2601230800517,2026-01-23,Fri,8,Morning Peak,Mocha,Coffee,Hot,M,1,95,0,95,Walk-in,QR/PromptPay,0,Returning,Extra Shot
+ORD2601101400518,2026-01-10,Sat,14,Afternoon Peak,Caramel Macchiato,Coffee,Iced,M,1,110,0,110,Walk-in,Cash,0,New,Extra Shot
+ORD2601161500519,2026-01-16,Fri,15,Afternoon Peak,Mocha,Coffee,Hot,M,3,95,0,285,Walk-in,QR/PromptPay,0,Returning,Whipped Cream
+ORD2601210900520,2026-01-21,Wed,9,Morning Peak,Mocha,Coffee,Hot,L,3,110,0,330,Line Man/Delivery,Card,0,Returning,None
+ORD2601160800521,2026-01-16,Fri,8,Morning Peak,Americano,Coffee,Hot,M,2,70,0,140,Grab/Delivery,QR/PromptPay,0,New,None
+ORD2601181400522,2026-01-18,Sun,14,Afternoon Peak,Chocolate,Non-Coffee,Hot,M,2,90,20,160,Walk-in,QR/PromptPay,1,New,None
+ORD2601161400523,2026-01-16,Fri,14,Afternoon Peak,Honey Lime Soda,Soda,Iced,S,2,75,20,130,Walk-in,QR/PromptPay,1,Returning,Whipped Cream
+ORD2601100800524,2026-01-10,Sat,8,Morning Peak,Hot Latte,Coffee,Hot,M,1,85,0,85,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601150900525,2026-01-15,Thu,9,Morning Peak,Espresso,Coffee,Hot,L,1,75,0,75,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601170900526,2026-01-17,Sat,9,Morning Peak,Banana Cake,Bakery,-,-,1,70,0,70,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601231200527,2026-01-23,Fri,12,Midday,Mocha,Coffee,Hot,M,1,95,0,95,Walk-in,Cash,0,New,None
+ORD2601161300528,2026-01-16,Fri,13,Midday,Thai Tea,Tea,Iced,M,1,80,0,80,Walk-in,Cash,0,Returning,None
+ORD2601151000529,2026-01-15,Thu,10,Morning Peak,Mocha,Coffee,Hot,M,3,95,0,285,Walk-in,Cash,0,Returning,None
+ORD2601211000530,2026-01-21,Wed,10,Morning Peak,Thai Tea,Tea,Iced,S,1,70,0,70,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601221300531,2026-01-22,Thu,13,Midday,Thai Tea,Tea,Iced,M,1,80,0,80,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601211600532,2026-01-21,Wed,16,Late,Chocolate,Non-Coffee,Hot,M,1,90,0,90,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601180900533,2026-01-18,Sun,9,Morning Peak,Thai Tea,Tea,Iced,S,1,70,0,70,Walk-in,Cash,0,New,None
+ORD2601151100534,2026-01-15,Thu,11,Midday,Iced Americano,Coffee,Iced,M,3,75,0,225,Grab/Delivery,QR/PromptPay,0,New,None
+ORD2601111500535,2026-01-11,Sun,15,Afternoon Peak,Honey Lime Soda,Soda,Iced,L,2,100,0,200,Grab/Delivery,Cash,0,New,None
+ORD2601230900536,2026-01-23,Fri,9,Morning Peak,Thai Tea,Tea,Iced,M,1,80,0,80,Line Man/Delivery,QR/PromptPay,0,Returning,None
+ORD2601141400537,2026-01-14,Wed,14,Afternoon Peak,Iced Americano,Coffee,Iced,M,2,75,0,150,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601150800538,2026-01-15,Thu,8,Morning Peak,Lemon Tea,Tea,Iced,S,2,65,0,130,Line Man/Delivery,QR/PromptPay,0,Returning,None
+ORD2601180800539,2026-01-18,Sun,8,Morning Peak,Hot Latte,Coffee,Hot,L,1,100,0,100,Walk-in,QR/PromptPay,0,New,None
+ORD2601151400540,2026-01-15,Thu,14,Afternoon Peak,Americano,Coffee,Hot,M,2,70,0,140,Walk-in,Cash,0,New,None
+ORD2601111100541,2026-01-11,Sun,11,Midday,Hot Latte,Coffee,Hot,S,1,75,0,75,Grab/Delivery,Card,0,New,None
+ORD2601161200542,2026-01-16,Fri,12,Midday,Chocolate,Non-Coffee,Hot,S,3,80,0,240,Walk-in,Cash,0,Returning,None
+ORD2601210800543,2026-01-21,Wed,8,Morning Peak,Matcha Latte,Tea,Iced,L,2,110,0,220,Walk-in,QR/PromptPay,0,New,Extra Shot
+ORD2601151000544,2026-01-15,Thu,10,Morning Peak,Matcha Latte,Tea,Iced,M,1,95,0,95,Grab/Delivery,Cash,0,Returning,Oat Milk
+ORD2601131100545,2026-01-13,Tue,11,Midday,Americano,Coffee,Hot,L,1,85,0,85,Walk-in,Card,0,Returning,None
+ORD2601181500546,2026-01-18,Sun,15,Afternoon Peak,Iced Americano,Coffee,Iced,S,1,65,0,65,Grab/Delivery,QR/PromptPay,0,Returning,Oat Milk
+ORD2601241300547,2026-01-24,Sat,13,Midday,Iced Americano,Coffee,Iced,L,3,90,0,270,Grab/Delivery,QR/PromptPay,0,Returning,None
+ORD2601130800548,2026-01-13,Tue,8,Morning Peak,Lemon Tea,Tea,Iced,M,3,75,0,225,Walk-in,QR/PromptPay,0,Returning,Extra Shot
+ORD2601171000549,2026-01-17,Sat,10,Morning Peak,Affogato,Coffee,-,M,1,120,0,120,Walk-in,QR/PromptPay,0,Returning,Extra Shot
+ORD2601111600550,2026-01-11,Sun,16,Late,Blueberry Muffin,Bakery,-,-,2,75,0,150,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601170800551,2026-01-17,Sat,8,Morning Peak,Espresso,Coffee,Hot,S,2,60,0,120,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601131400552,2026-01-13,Tue,14,Afternoon Peak,Matcha Latte,Tea,Iced,M,1,95,10,85,Grab/Delivery,QR/PromptPay,1,Returning,Whipped Cream
+ORD2601210900553,2026-01-21,Wed,9,Morning Peak,Butter Croissant,Bakery,-,-,2,55,0,110,Walk-in,Card,0,New,None
+ORD2601161500554,2026-01-16,Fri,15,Afternoon Peak,Banana Cake,Bakery,-,-,1,70,0,70,Grab/Delivery,Card,0,Returning,None
+ORD2601210900555,2026-01-21,Wed,9,Morning Peak,Thai Tea,Tea,Iced,M,2,80,0,160,Grab/Delivery,QR/PromptPay,0,New,None
+ORD2601171600556,2026-01-17,Sat,16,Late,Cappuccino,Coffee,Hot,M,3,85,0,255,Grab/Delivery,Cash,0,Returning,None
+ORD2601100800557,2026-01-10,Sat,8,Morning Peak,Cappuccino,Coffee,Hot,M,1,85,0,85,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601131300558,2026-01-13,Tue,13,Midday,Cold Brew,Coffee,Iced,M,2,110,0,220,Walk-in,QR/PromptPay,0,New,None
+ORD2601130800559,2026-01-13,Tue,8,Morning Peak,Affogato,Coffee,-,L,1,135,0,135,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601171200560,2026-01-17,Sat,12,Midday,Lemon Tea,Tea,Iced,S,2,65,0,130,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601141000561,2026-01-14,Wed,10,Morning Peak,Thai Tea,Tea,Iced,M,1,80,0,80,Walk-in,Cash,0,Returning,None
+ORD2601131500562,2026-01-13,Tue,15,Afternoon Peak,Matcha Latte,Tea,Iced,S,1,85,0,85,Walk-in,QR/PromptPay,0,New,None
+ORD2601181600563,2026-01-18,Sun,16,Late,Brownie,Bakery,-,-,1,65,0,65,Grab/Delivery,Card,0,Returning,None
+ORD2601111200564,2026-01-11,Sun,12,Midday,Americano,Coffee,Hot,M,1,70,0,70,Line Man/Delivery,QR/PromptPay,0,Returning,None
+ORD2601161300565,2026-01-16,Fri,13,Midday,Americano,Coffee,Hot,S,1,60,0,60,Walk-in,Card,0,Returning,None
+ORD2601211400566,2026-01-21,Wed,14,Afternoon Peak,Matcha Latte,Tea,Iced,M,3,95,30,255,Line Man/Delivery,Cash,1,New,Oat Milk
+ORD2601171300567,2026-01-17,Sat,13,Midday,Lemon Tea,Tea,Iced,M,1,75,0,75,Grab/Delivery,QR/PromptPay,0,Returning,Oat Milk
+ORD2601240800568,2026-01-24,Sat,8,Morning Peak,Iced Latte,Coffee,Iced,M,1,90,0,90,Walk-in,Cash,0,Returning,Oat Milk
+ORD2601151200569,2026-01-15,Thu,12,Midday,Hot Latte,Coffee,Hot,S,1,75,0,75,Walk-in,QR/PromptPay,0,New,Extra Shot
+ORD2601151500570,2026-01-15,Thu,15,Afternoon Peak,Iced Americano,Coffee,Iced,S,1,65,0,65,Walk-in,Cash,0,Returning,None
+ORD2601201000571,2026-01-20,Tue,10,Morning Peak,Iced Latte,Coffee,Iced,M,1,90,0,90,Walk-in,Cash,0,Returning,None
+ORD2601161600572,2026-01-16,Fri,16,Late,Americano,Coffee,Hot,M,1,70,0,70,Walk-in,QR/PromptPay,0,New,Whipped Cream
+ORD2601161400573,2026-01-16,Fri,14,Afternoon Peak,Lemon Tea,Tea,Iced,M,1,75,0,75,Walk-in,QR/PromptPay,0,Returning,Oat Milk
+ORD2601231000574,2026-01-23,Fri,10,Morning Peak,Iced Latte,Coffee,Iced,L,1,105,0,105,Walk-in,Cash,0,Returning,None
+ORD2601241000575,2026-01-24,Sat,10,Morning Peak,Hot Latte,Coffee,Hot,M,1,85,0,85,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601231400576,2026-01-23,Fri,14,Afternoon Peak,Chocolate,Non-Coffee,Hot,M,3,90,0,270,Line Man/Delivery,Card,0,New,None
+ORD2601181000577,2026-01-18,Sun,10,Morning Peak,Orange Cold Brew,Coffee,Iced,M,2,130,0,260,Walk-in,Cash,0,Returning,None
+ORD2601150900578,2026-01-15,Thu,9,Morning Peak,Lemon Tea,Tea,Iced,M,1,75,0,75,Grab/Delivery,Cash,0,New,Extra Shot
+ORD2601171000579,2026-01-17,Sat,10,Morning Peak,Banana Cake,Bakery,-,-,1,70,0,70,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601170800580,2026-01-17,Sat,8,Morning Peak,Thai Tea,Tea,Iced,M,1,80,0,80,Walk-in,QR/PromptPay,0,Returning,Extra Shot
+ORD2601150800581,2026-01-15,Thu,8,Morning Peak,Espresso,Coffee,Hot,M,2,60,0,120,Grab/Delivery,QR/PromptPay,0,Returning,None
+ORD2601161400582,2026-01-16,Fri,14,Afternoon Peak,Iced Americano,Coffee,Iced,M,2,75,0,150,Walk-in,QR/PromptPay,0,Returning,Extra Shot
+ORD2601110900583,2026-01-11,Sun,9,Morning Peak,Matcha Latte,Tea,Iced,M,1,95,0,95,Walk-in,Card,0,Returning,None
+ORD2601130800584,2026-01-13,Tue,8,Morning Peak,Caramel Macchiato,Coffee,Iced,M,3,110,0,330,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601131300585,2026-01-13,Tue,13,Midday,Thai Tea,Tea,Iced,M,2,80,0,160,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601170900586,2026-01-17,Sat,9,Morning Peak,Cold Brew,Coffee,Iced,M,1,110,0,110,Walk-in,QR/PromptPay,0,New,Oat Milk
+ORD2601141600587,2026-01-14,Wed,16,Late,Mocha,Coffee,Hot,M,3,95,0,285,Walk-in,Cash,0,Returning,None
+ORD2601161300588,2026-01-16,Fri,13,Midday,Thai Tea,Tea,Iced,S,3,70,0,210,Walk-in,Card,0,Returning,None
+ORD2601141500589,2026-01-14,Wed,15,Afternoon Peak,Mocha,Coffee,Hot,M,2,95,0,190,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601160800590,2026-01-16,Fri,8,Morning Peak,Caramel Macchiato,Coffee,Iced,M,2,110,0,220,Walk-in,QR/PromptPay,0,New,None
+ORD2601211000591,2026-01-21,Wed,10,Morning Peak,Banana Cake,Bakery,-,-,2,70,0,140,Walk-in,Card,0,Returning,None
+ORD2601141100592,2026-01-14,Wed,11,Midday,Decaf Latte,Coffee,Hot,L,3,110,0,330,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601160800593,2026-01-16,Fri,8,Morning Peak,Chocolate,Non-Coffee,Hot,L,3,105,0,315,Line Man/Delivery,QR/PromptPay,0,New,None
+ORD2601101200594,2026-01-10,Sat,12,Midday,Thai Tea,Tea,Iced,M,1,80,0,80,Walk-in,Card,0,Returning,None
+ORD2601111200595,2026-01-11,Sun,12,Midday,Thai Tea,Tea,Iced,S,1,70,0,70,Walk-in,QR/PromptPay,0,New,None
+ORD2601161200596,2026-01-16,Fri,12,Midday,Hot Latte,Coffee,Hot,M,2,85,0,170,Walk-in,QR/PromptPay,0,Returning,Oat Milk
+ORD2601231000597,2026-01-23,Fri,10,Morning Peak,Iced Latte,Coffee,Iced,L,1,105,0,105,Walk-in,Card,0,New,None
+ORD2601171500598,2026-01-17,Sat,15,Afternoon Peak,Brownie,Bakery,-,-,3,65,0,195,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601110900599,2026-01-11,Sun,9,Morning Peak,Chocolate,Non-Coffee,Hot,M,1,90,0,90,Walk-in,QR/PromptPay,0,New,None
+ORD2601131100600,2026-01-13,Tue,11,Midday,Thai Tea,Tea,Iced,M,3,80,0,240,Line Man/Delivery,QR/PromptPay,0,Returning,None
+ORD2601131500601,2026-01-13,Tue,15,Afternoon Peak,Iced Americano,Coffee,Iced,M,1,75,0,75,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601131500602,2026-01-13,Tue,15,Afternoon Peak,Blueberry Muffin,Bakery,-,-,1,75,0,75,Walk-in,QR/PromptPay,0,New,None
+ORD2601181300603,2026-01-18,Sun,13,Midday,Espresso,Coffee,Hot,M,1,60,0,60,Walk-in,Card,0,Returning,None
+ORD2601101000604,2026-01-10,Sat,10,Morning Peak,Honey Lime Soda,Soda,Iced,M,3,85,0,255,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601211200605,2026-01-21,Wed,12,Midday,Lemon Tea,Tea,Iced,M,2,75,0,150,Walk-in,QR/PromptPay,0,Returning,Oat Milk
+ORD2601181100606,2026-01-18,Sun,11,Midday,Iced Latte,Coffee,Iced,S,2,80,0,160,Walk-in,QR/PromptPay,0,New,Oat Milk
+ORD2601230900607,2026-01-23,Fri,9,Morning Peak,Matcha Latte,Tea,Iced,M,1,95,0,95,Walk-in,QR/PromptPay,0,New,None
+ORD2601221400608,2026-01-22,Thu,14,Afternoon Peak,Banana Cake,Bakery,-,-,1,70,5,65,Line Man/Delivery,QR/PromptPay,1,Returning,None
+ORD2601171000609,2026-01-17,Sat,10,Morning Peak,Caramel Macchiato,Coffee,Iced,M,1,110,0,110,Walk-in,Cash,0,Returning,None
+ORD2601211000610,2026-01-21,Wed,10,Morning Peak,Cappuccino,Coffee,Hot,M,2,85,0,170,Line Man/Delivery,Cash,0,Returning,None
+ORD2601241200611,2026-01-24,Sat,12,Midday,Decaf Latte,Coffee,Hot,S,3,85,0,255,Walk-in,Card,0,Returning,None
+ORD2601141600612,2026-01-14,Wed,16,Late,Cappuccino,Coffee,Hot,L,1,100,0,100,Walk-in,Cash,0,Returning,None
+ORD2601110800613,2026-01-11,Sun,8,Morning Peak,Lemon Tea,Tea,Iced,S,1,65,0,65,Walk-in,Cash,0,New,None
+ORD2601101600614,2026-01-10,Sat,16,Late,Iced Americano,Coffee,Iced,S,1,65,0,65,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601181500615,2026-01-18,Sun,15,Afternoon Peak,Lemon Tea,Tea,Iced,M,1,75,10,65,Line Man/Delivery,Card,1,Returning,None
+ORD2601140800616,2026-01-14,Wed,8,Morning Peak,Iced Americano,Coffee,Iced,M,1,75,0,75,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601151400617,2026-01-15,Thu,14,Afternoon Peak,Americano,Coffee,Hot,L,3,85,30,225,Walk-in,Card,1,New,None
+ORD2601221300618,2026-01-22,Thu,13,Midday,Hot Latte,Coffee,Hot,M,1,85,0,85,Walk-in,QR/PromptPay,0,New,None
+ORD2601180800619,2026-01-18,Sun,8,Morning Peak,Blueberry Muffin,Bakery,-,-,1,75,0,75,Walk-in,Cash,0,New,None
+ORD2601221100620,2026-01-22,Thu,11,Midday,Cold Brew,Coffee,Iced,M,2,110,0,220,Walk-in,Cash,0,Returning,Extra Shot
+ORD2601101600621,2026-01-10,Sat,16,Late,Hot Latte,Coffee,Hot,S,3,75,0,225,Walk-in,QR/PromptPay,0,Returning,Extra Shot
+ORD2601101500622,2026-01-10,Sat,15,Afternoon Peak,Hot Latte,Coffee,Hot,M,2,85,0,170,Line Man/Delivery,Card,0,Returning,None
+ORD2601101500623,2026-01-10,Sat,15,Afternoon Peak,Iced Latte,Coffee,Iced,L,1,105,0,105,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601140800624,2026-01-14,Wed,8,Morning Peak,Cappuccino,Coffee,Hot,S,1,75,0,75,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601221100625,2026-01-22,Thu,11,Midday,Lemon Tea,Tea,Iced,L,1,90,0,90,Walk-in,Cash,0,Returning,None
+ORD2601221200626,2026-01-22,Thu,12,Midday,Blueberry Muffin,Bakery,-,-,1,75,0,75,Grab/Delivery,Card,0,New,None
+ORD2601151600627,2026-01-15,Thu,16,Late,Lemon Tea,Tea,Iced,M,2,75,0,150,Walk-in,Card,0,New,Oat Milk
+ORD2601141300628,2026-01-14,Wed,13,Midday,Thai Tea,Tea,Iced,S,3,70,0,210,Walk-in,QR/PromptPay,0,New,None
+ORD2601241100629,2026-01-24,Sat,11,Midday,Matcha Latte,Tea,Iced,L,2,110,0,220,Grab/Delivery,QR/PromptPay,0,Returning,None
+ORD2601141300630,2026-01-14,Wed,13,Midday,Brownie,Bakery,-,-,1,65,0,65,Grab/Delivery,QR/PromptPay,0,New,None
+ORD2601161400631,2026-01-16,Fri,14,Afternoon Peak,Americano,Coffee,Hot,M,1,70,0,70,Grab/Delivery,QR/PromptPay,0,New,None
+ORD2601211300632,2026-01-21,Wed,13,Midday,Thai Tea,Tea,Iced,L,1,95,0,95,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601151500633,2026-01-15,Thu,15,Afternoon Peak,Matcha Latte,Tea,Iced,M,2,95,20,170,Walk-in,QR/PromptPay,1,New,Oat Milk
+ORD2601111500634,2026-01-11,Sun,15,Afternoon Peak,Cappuccino,Coffee,Hot,M,1,85,0,85,Walk-in,Card,0,New,Extra Shot
+ORD2601231100635,2026-01-23,Fri,11,Midday,Blueberry Muffin,Bakery,-,-,2,75,0,150,Walk-in,QR/PromptPay,0,New,None
+ORD2601111500636,2026-01-11,Sun,15,Afternoon Peak,Matcha Latte,Tea,Iced,L,2,110,0,220,Walk-in,Card,0,Returning,None
+ORD2601231000637,2026-01-23,Fri,10,Morning Peak,Lemon Tea,Tea,Iced,M,2,75,0,150,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601220900638,2026-01-22,Thu,9,Morning Peak,Hot Latte,Coffee,Hot,S,2,75,0,150,Walk-in,Cash,0,Returning,None
+ORD2601141000639,2026-01-14,Wed,10,Morning Peak,Iced Latte,Coffee,Iced,M,1,90,0,90,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601171500640,2026-01-17,Sat,15,Afternoon Peak,Blueberry Muffin,Bakery,-,-,1,75,0,75,Line Man/Delivery,Card,0,New,None
+ORD2601101500641,2026-01-10,Sat,15,Afternoon Peak,Mocha,Coffee,Hot,S,1,85,0,85,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601171300642,2026-01-17,Sat,13,Midday,Lemon Tea,Tea,Iced,M,1,75,0,75,Line Man/Delivery,Cash,0,Returning,None
+ORD2601131600643,2026-01-13,Tue,16,Late,Thai Tea,Tea,Iced,M,1,80,0,80,Line Man/Delivery,QR/PromptPay,0,Returning,None
+ORD2601140800644,2026-01-14,Wed,8,Morning Peak,Mocha,Coffee,Hot,M,1,95,0,95,Grab/Delivery,Cash,0,Returning,None
+ORD2601211100645,2026-01-21,Wed,11,Midday,Iced Latte,Coffee,Iced,M,1,90,0,90,Walk-in,Card,0,Returning,None
+ORD2601160900646,2026-01-16,Fri,9,Morning Peak,Decaf Latte,Coffee,Hot,M,1,95,0,95,Line Man/Delivery,QR/PromptPay,0,Returning,None
+ORD2601141600647,2026-01-14,Wed,16,Late,Americano,Coffee,Hot,S,3,60,0,180,Walk-in,Cash,0,Returning,Oat Milk
+ORD2601171400648,2026-01-17,Sat,14,Afternoon Peak,Thai Tea,Tea,Iced,M,1,80,0,80,Grab/Delivery,Card,0,New,None
+ORD2601171000649,2026-01-17,Sat,10,Morning Peak,Matcha Latte,Tea,Iced,M,1,95,0,95,Walk-in,QR/PromptPay,0,Returning,Extra Shot
+ORD2601171000650,2026-01-17,Sat,10,Morning Peak,Iced Latte,Coffee,Iced,L,2,105,0,210,Grab/Delivery,QR/PromptPay,0,Returning,None
+ORD2601130900651,2026-01-13,Tue,9,Morning Peak,Vegan Muffin,Bakery,-,-,1,85,0,85,Walk-in,QR/PromptPay,0,New,None
+ORD2601231400652,2026-01-23,Fri,14,Afternoon Peak,Thai Tea,Tea,Iced,L,2,95,0,190,Walk-in,QR/PromptPay,0,New,None
+ORD2601130900653,2026-01-13,Tue,9,Morning Peak,Cappuccino,Coffee,Hot,M,2,85,0,170,Walk-in,Card,0,New,None
+ORD2601131300654,2026-01-13,Tue,13,Midday,Iced Latte,Coffee,Iced,M,1,90,0,90,Walk-in,Cash,0,New,None
+ORD2601151500655,2026-01-15,Thu,15,Afternoon Peak,Honey Lime Soda,Soda,Iced,M,2,85,0,170,Walk-in,Card,0,Returning,Oat Milk
+ORD2601130800656,2026-01-13,Tue,8,Morning Peak,Blueberry Muffin,Bakery,-,-,1,75,0,75,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601211200657,2026-01-21,Wed,12,Midday,Iced Americano,Coffee,Iced,M,3,75,0,225,Walk-in,QR/PromptPay,0,New,None
+ORD2601181500658,2026-01-18,Sun,15,Afternoon Peak,Cold Brew,Coffee,Iced,M,2,110,20,200,Line Man/Delivery,QR/PromptPay,1,New,None
+ORD2601231600659,2026-01-23,Fri,16,Late,Matcha Latte,Tea,Iced,M,1,95,0,95,Walk-in,Cash,0,New,None
+ORD2601161300660,2026-01-16,Fri,13,Midday,Matcha Latte,Tea,Iced,M,2,95,0,190,Walk-in,Cash,0,New,None
+ORD2601210800661,2026-01-21,Wed,8,Morning Peak,Butter Croissant,Bakery,-,-,2,55,0,110,Walk-in,Cash,0,Returning,None
+ORD2601241100662,2026-01-24,Sat,11,Midday,Americano,Coffee,Hot,M,2,70,0,140,Walk-in,QR/PromptPay,0,New,None
+ORD2601231400663,2026-01-23,Fri,14,Afternoon Peak,Orange Cold Brew,Coffee,Iced,M,1,130,0,130,Walk-in,QR/PromptPay,0,New,Whipped Cream
+ORD2601131600664,2026-01-13,Tue,16,Late,Iced Latte,Coffee,Iced,S,1,80,0,80,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601161500665,2026-01-16,Fri,15,Afternoon Peak,Iced Latte,Coffee,Iced,M,1,90,0,90,Grab/Delivery,QR/PromptPay,0,New,None
+ORD2601111000666,2026-01-11,Sun,10,Morning Peak,Cold Brew,Coffee,Iced,L,1,125,0,125,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601181300667,2026-01-18,Sun,13,Midday,Iced Latte,Coffee,Iced,S,1,80,0,80,Walk-in,QR/PromptPay,0,New,Extra Shot
+ORD2601231100668,2026-01-23,Fri,11,Midday,Lemon Tea,Tea,Iced,M,1,75,0,75,Walk-in,Card,0,Returning,None
+ORD2601130900669,2026-01-13,Tue,9,Morning Peak,Butter Croissant,Bakery,-,-,3,55,0,165,Walk-in,Cash,0,Returning,None
+ORD2601111300670,2026-01-11,Sun,13,Midday,Honey Lime Soda,Soda,Iced,S,3,75,0,225,Grab/Delivery,QR/PromptPay,0,New,None
+ORD2601171500671,2026-01-17,Sat,15,Afternoon Peak,Hot Latte,Coffee,Hot,M,2,85,0,170,Walk-in,Cash,0,New,None
+ORD2601221300672,2026-01-22,Thu,13,Midday,Thai Tea,Tea,Iced,M,2,80,0,160,Walk-in,Card,0,Returning,Extra Shot
+ORD2601110800673,2026-01-11,Sun,8,Morning Peak,Matcha Latte,Tea,Iced,M,1,95,0,95,Walk-in,Card,0,New,None
+ORD2601240900674,2026-01-24,Sat,9,Morning Peak,Iced Americano,Coffee,Iced,S,1,65,0,65,Walk-in,QR/PromptPay,0,New,None
+ORD2601140800675,2026-01-14,Wed,8,Morning Peak,Mocha,Coffee,Hot,M,1,95,0,95,Grab/Delivery,QR/PromptPay,0,New,Whipped Cream
+ORD2601161000676,2026-01-16,Fri,10,Morning Peak,Lemon Tea,Tea,Iced,M,1,75,0,75,Grab/Delivery,QR/PromptPay,0,Returning,None
+ORD2601201500677,2026-01-20,Tue,15,Afternoon Peak,Iced Americano,Coffee,Iced,M,2,75,0,150,Line Man/Delivery,Card,0,Returning,None
+ORD2601151500678,2026-01-15,Thu,15,Afternoon Peak,Americano,Coffee,Hot,L,2,85,0,170,Grab/Delivery,QR/PromptPay,0,Returning,Whipped Cream
+ORD2601131100679,2026-01-13,Tue,11,Midday,Iced Americano,Coffee,Iced,M,3,75,0,225,Grab/Delivery,QR/PromptPay,0,New,Oat Milk
+ORD2601171000680,2026-01-17,Sat,10,Morning Peak,Lemon Tea,Tea,Iced,S,2,65,0,130,Grab/Delivery,QR/PromptPay,0,New,None
+ORD2601230800681,2026-01-23,Fri,8,Morning Peak,Matcha Latte,Tea,Iced,M,2,95,0,190,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601141300682,2026-01-14,Wed,13,Midday,Matcha Latte,Tea,Iced,M,1,95,0,95,Walk-in,QR/PromptPay,0,Returning,Extra Shot
+ORD2601201200683,2026-01-20,Tue,12,Midday,Americano,Coffee,Hot,M,1,70,0,70,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601221000684,2026-01-22,Thu,10,Morning Peak,Chocolate,Non-Coffee,Hot,L,2,105,0,210,Walk-in,QR/PromptPay,0,New,None
+ORD2601131500685,2026-01-13,Tue,15,Afternoon Peak,Honey Lime Soda,Soda,Iced,M,3,85,0,255,Grab/Delivery,Cash,0,New,None
+ORD2601231600686,2026-01-23,Fri,16,Late,Hot Latte,Coffee,Hot,M,1,85,0,85,Walk-in,Card,0,Returning,None
+ORD2601111200687,2026-01-11,Sun,12,Midday,Iced Latte,Coffee,Iced,M,1,90,0,90,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601211100688,2026-01-21,Wed,11,Midday,Yuzu Soda,Soda,Iced,S,1,85,0,85,Walk-in,QR/PromptPay,0,Returning,Oat Milk
+ORD2601141300689,2026-01-14,Wed,13,Midday,Americano,Coffee,Hot,M,2,70,0,140,Line Man/Delivery,QR/PromptPay,0,Returning,None
+ORD2601131100690,2026-01-13,Tue,11,Midday,Butter Croissant,Bakery,-,-,3,55,0,165,Walk-in,QR/PromptPay,0,New,None
+ORD2601141400691,2026-01-14,Wed,14,Afternoon Peak,Iced Latte,Coffee,Iced,S,1,80,0,80,Walk-in,QR/PromptPay,0,Returning,Oat Milk
+ORD2601231000692,2026-01-23,Fri,10,Morning Peak,Iced Americano,Coffee,Iced,M,1,75,0,75,Line Man/Delivery,QR/PromptPay,0,Returning,None
+ORD2601220800693,2026-01-22,Thu,8,Morning Peak,Espresso,Coffee,Hot,M,1,60,0,60,Grab/Delivery,Cash,0,Returning,Extra Shot
+ORD2601221400694,2026-01-22,Thu,14,Afternoon Peak,Honey Lime Soda,Soda,Iced,M,1,85,0,85,Line Man/Delivery,QR/PromptPay,0,Returning,None
+ORD2601131500695,2026-01-13,Tue,15,Afternoon Peak,Americano,Coffee,Hot,M,2,70,20,120,Line Man/Delivery,QR/PromptPay,1,Returning,None
+ORD2601241000696,2026-01-24,Sat,10,Morning Peak,Iced Americano,Coffee,Iced,M,2,75,0,150,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601111100697,2026-01-11,Sun,11,Midday,Brownie,Bakery,-,-,1,65,0,65,Walk-in,Cash,0,New,None
+ORD2601151000698,2026-01-15,Thu,10,Morning Peak,Thai Tea,Tea,Iced,M,2,80,0,160,Grab/Delivery,QR/PromptPay,0,New,None
+ORD2601211400699,2026-01-21,Wed,14,Afternoon Peak,Iced Latte,Coffee,Iced,S,1,80,0,80,Line Man/Delivery,Card,0,Returning,None
+ORD2601161100700,2026-01-16,Fri,11,Midday,Iced Americano,Coffee,Iced,M,2,75,0,150,Line Man/Delivery,Cash,0,Returning,None
+ORD2601181000701,2026-01-18,Sun,10,Morning Peak,Matcha Latte,Tea,Iced,M,2,95,0,190,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601181400702,2026-01-18,Sun,14,Afternoon Peak,Cappuccino,Coffee,Hot,M,1,85,0,85,Walk-in,Card,0,New,None
+ORD2601141100703,2026-01-14,Wed,11,Midday,Iced Latte,Coffee,Iced,M,2,90,0,180,Walk-in,Card,0,Returning,None
+ORD2601141300704,2026-01-14,Wed,13,Midday,Matcha Latte,Tea,Iced,M,1,95,0,95,Grab/Delivery,QR/PromptPay,0,New,None
+ORD2601130800705,2026-01-13,Tue,8,Morning Peak,Hot Latte,Coffee,Hot,S,2,75,0,150,Grab/Delivery,QR/PromptPay,0,New,None
+ORD2601101200706,2026-01-10,Sat,12,Midday,Iced Americano,Coffee,Iced,M,1,75,0,75,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601201200707,2026-01-20,Tue,12,Midday,Hot Latte,Coffee,Hot,M,2,85,0,170,Line Man/Delivery,QR/PromptPay,0,Returning,None
+ORD2601140900708,2026-01-14,Wed,9,Morning Peak,Cold Brew,Coffee,Iced,L,1,125,0,125,Walk-in,Cash,0,Returning,Extra Shot
+ORD2601171000709,2026-01-17,Sat,10,Morning Peak,Americano,Coffee,Hot,S,2,60,0,120,Line Man/Delivery,QR/PromptPay,0,Returning,None
+ORD2601130800710,2026-01-13,Tue,8,Morning Peak,Hot Latte,Coffee,Hot,M,2,85,0,170,Line Man/Delivery,QR/PromptPay,0,Returning,None
+ORD2601211100711,2026-01-21,Wed,11,Midday,Iced Latte,Coffee,Iced,M,2,90,0,180,Walk-in,Card,0,New,None
+ORD2601171200712,2026-01-17,Sat,12,Midday,Mocha,Coffee,Hot,S,2,85,0,170,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601150800713,2026-01-15,Thu,8,Morning Peak,Banana Cake,Bakery,-,-,2,70,0,140,Walk-in,QR/PromptPay,0,New,None
+ORD2601101000714,2026-01-10,Sat,10,Morning Peak,Iced Americano,Coffee,Iced,M,3,75,0,225,Grab/Delivery,QR/PromptPay,0,Returning,None
+ORD2601230900715,2026-01-23,Fri,9,Morning Peak,Butter Croissant,Bakery,-,-,1,55,0,55,Walk-in,Cash,0,New,None
+ORD2601141400716,2026-01-14,Wed,14,Afternoon Peak,Cold Brew,Coffee,Iced,S,2,100,20,180,Walk-in,QR/PromptPay,1,New,None
+ORD2601231000717,2026-01-23,Fri,10,Morning Peak,Americano,Coffee,Hot,M,1,70,0,70,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601221000718,2026-01-22,Thu,10,Morning Peak,Matcha Latte,Tea,Iced,M,2,95,0,190,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601151600719,2026-01-15,Thu,16,Late,Americano,Coffee,Hot,M,2,70,0,140,Walk-in,QR/PromptPay,0,New,Oat Milk
+ORD2601231000720,2026-01-23,Fri,10,Morning Peak,Cold Brew,Coffee,Iced,M,3,110,0,330,Walk-in,QR/PromptPay,0,New,None
+ORD2601241000721,2026-01-24,Sat,10,Morning Peak,Chocolate,Non-Coffee,Hot,M,1,90,0,90,Walk-in,QR/PromptPay,0,Returning,Oat Milk
+ORD2601171600722,2026-01-17,Sat,16,Late,Mocha,Coffee,Hot,M,1,95,0,95,Walk-in,QR/PromptPay,0,New,Extra Shot
+ORD2601240800723,2026-01-24,Sat,8,Morning Peak,Banana Cake,Bakery,-,-,1,70,0,70,Walk-in,Cash,0,Returning,None
+ORD2601161600724,2026-01-16,Fri,16,Late,Caramel Macchiato,Coffee,Iced,M,2,110,0,220,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601241400725,2026-01-24,Sat,14,Afternoon Peak,Americano,Coffee,Hot,M,2,70,0,140,Line Man/Delivery,Card,0,New,None
+ORD2601141400726,2026-01-14,Wed,14,Afternoon Peak,Americano,Coffee,Hot,M,2,70,0,140,Walk-in,Card,0,New,Extra Shot
+ORD2601231100727,2026-01-23,Fri,11,Midday,Hot Latte,Coffee,Hot,S,3,75,0,225,Walk-in,QR/PromptPay,0,New,None
+ORD2601241000728,2026-01-24,Sat,10,Morning Peak,Banana Cake,Bakery,-,-,2,70,0,140,Line Man/Delivery,QR/PromptPay,0,Returning,None
+ORD2601101500729,2026-01-10,Sat,15,Afternoon Peak,Americano,Coffee,Hot,M,1,70,0,70,Grab/Delivery,Card,0,Returning,None
+ORD2601201400730,2026-01-20,Tue,14,Afternoon Peak,Espresso,Coffee,Hot,M,1,60,10,50,Walk-in,QR/PromptPay,1,New,None
+ORD2601131400731,2026-01-13,Tue,14,Afternoon Peak,Iced Americano,Coffee,Iced,M,2,75,0,150,Walk-in,QR/PromptPay,0,New,None
+ORD2601231000732,2026-01-23,Fri,10,Morning Peak,Mocha,Coffee,Hot,M,2,95,0,190,Walk-in,Cash,0,Returning,None
+ORD2601130800733,2026-01-13,Tue,8,Morning Peak,Thai Tea,Tea,Iced,M,3,80,0,240,Grab/Delivery,Card,0,Returning,None
+ORD2601231400734,2026-01-23,Fri,14,Afternoon Peak,Thai Tea,Tea,Iced,L,2,95,20,170,Walk-in,QR/PromptPay,1,New,Oat Milk
+ORD2601171500735,2026-01-17,Sat,15,Afternoon Peak,Iced Latte,Coffee,Iced,M,2,90,20,160,Line Man/Delivery,Card,1,New,None
+ORD2601101000736,2026-01-10,Sat,10,Morning Peak,Butter Croissant,Bakery,-,-,3,55,0,165,Walk-in,Cash,0,Returning,None
+ORD2601101300737,2026-01-10,Sat,13,Midday,Cappuccino,Coffee,Hot,M,2,85,0,170,Walk-in,Card,0,New,Extra Shot
+ORD2601111100738,2026-01-11,Sun,11,Midday,Cappuccino,Coffee,Hot,M,1,85,0,85,Walk-in,QR/PromptPay,0,New,None
+ORD2601230800739,2026-01-23,Fri,8,Morning Peak,Americano,Coffee,Hot,M,1,70,0,70,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601150800740,2026-01-15,Thu,8,Morning Peak,Hot Latte,Coffee,Hot,M,1,85,0,85,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601110900741,2026-01-11,Sun,9,Morning Peak,Blueberry Muffin,Bakery,-,-,1,75,0,75,Walk-in,QR/PromptPay,0,New,None
+ORD2601230800742,2026-01-23,Fri,8,Morning Peak,Matcha Latte,Tea,Iced,M,3,95,0,285,Walk-in,QR/PromptPay,0,New,None
+ORD2601130800743,2026-01-13,Tue,8,Morning Peak,Thai Tea,Tea,Iced,M,1,80,0,80,Walk-in,Card,0,Returning,None
+ORD2601231200744,2026-01-23,Fri,12,Midday,Cappuccino,Coffee,Hot,L,1,100,0,100,Walk-in,QR/PromptPay,0,New,Extra Shot
+ORD2601100900745,2026-01-10,Sat,9,Morning Peak,Iced Americano,Coffee,Iced,M,2,75,0,150,Walk-in,Cash,0,Returning,None
+ORD2601220900746,2026-01-22,Thu,9,Morning Peak,Lemon Tea,Tea,Iced,M,1,75,0,75,Walk-in,Cash,0,New,None
+ORD2601210900747,2026-01-21,Wed,9,Morning Peak,Decaf Latte,Coffee,Hot,L,1,110,0,110,Walk-in,QR/PromptPay,0,New,Oat Milk
+ORD2601101000748,2026-01-10,Sat,10,Morning Peak,Cappuccino,Coffee,Hot,S,1,75,0,75,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601231500749,2026-01-23,Fri,15,Afternoon Peak,Iced Americano,Coffee,Iced,M,2,75,0,150,Walk-in,Cash,0,Returning,None
+ORD2601111500750,2026-01-11,Sun,15,Afternoon Peak,Cappuccino,Coffee,Hot,M,2,85,0,170,Walk-in,Card,0,New,None
+ORD2601111600751,2026-01-11,Sun,16,Late,Iced Latte,Coffee,Iced,M,1,90,0,90,Walk-in,Cash,0,Returning,None
+ORD2601160900752,2026-01-16,Fri,9,Morning Peak,Iced Latte,Coffee,Iced,S,2,80,0,160,Walk-in,Cash,0,New,None
+ORD2601100800753,2026-01-10,Sat,8,Morning Peak,Espresso,Coffee,Hot,S,1,60,0,60,Grab/Delivery,QR/PromptPay,0,New,None
+ORD2601131200754,2026-01-13,Tue,12,Midday,Lemon Tea,Tea,Iced,L,3,90,0,270,Line Man/Delivery,QR/PromptPay,0,New,Oat Milk
+ORD2601241600755,2026-01-24,Sat,16,Late,Cappuccino,Coffee,Hot,S,2,75,0,150,Grab/Delivery,Cash,0,New,None
+ORD2601241500756,2026-01-24,Sat,15,Afternoon Peak,Thai Tea,Tea,Iced,M,2,80,0,160,Grab/Delivery,QR/PromptPay,0,New,None
+ORD2601161500757,2026-01-16,Fri,15,Afternoon Peak,Blueberry Muffin,Bakery,-,-,1,75,5,70,Grab/Delivery,Card,1,New,None
+ORD2601111200758,2026-01-11,Sun,12,Midday,Lemon Tea,Tea,Iced,M,3,75,0,225,Walk-in,Cash,0,Returning,Extra Shot
+ORD2601141100759,2026-01-14,Wed,11,Midday,Cold Brew,Coffee,Iced,M,2,110,0,220,Walk-in,QR/PromptPay,0,New,None
+ORD2601101000760,2026-01-10,Sat,10,Morning Peak,Caramel Macchiato,Coffee,Iced,M,2,110,0,220,Grab/Delivery,QR/PromptPay,0,New,Oat Milk
+ORD2601241300761,2026-01-24,Sat,13,Midday,Cappuccino,Coffee,Hot,M,2,85,0,170,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601231100762,2026-01-23,Fri,11,Midday,Thai Tea,Tea,Iced,S,1,70,0,70,Grab/Delivery,QR/PromptPay,0,Returning,Oat Milk
+ORD2601161200763,2026-01-16,Fri,12,Midday,Cold Brew,Coffee,Iced,S,1,100,0,100,Walk-in,QR/PromptPay,0,New,None
+ORD2601101600764,2026-01-10,Sat,16,Late,Cold Brew,Coffee,Iced,M,2,110,0,220,Grab/Delivery,QR/PromptPay,0,Returning,None
+ORD2601171000765,2026-01-17,Sat,10,Morning Peak,Thai Tea,Tea,Iced,M,2,80,0,160,Grab/Delivery,Card,0,Returning,None
+ORD2601220900766,2026-01-22,Thu,9,Morning Peak,Chocolate,Non-Coffee,Hot,L,1,105,0,105,Walk-in,QR/PromptPay,0,New,Oat Milk
+ORD2601181100767,2026-01-18,Sun,11,Midday,Cold Brew,Coffee,Iced,L,1,125,0,125,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601221400768,2026-01-22,Thu,14,Afternoon Peak,Decaf Latte,Coffee,Hot,M,2,95,20,170,Walk-in,Cash,1,New,None
+ORD2601181500769,2026-01-18,Sun,15,Afternoon Peak,Iced Latte,Coffee,Iced,M,1,90,0,90,Walk-in,QR/PromptPay,0,New,None
+ORD2601161000770,2026-01-16,Fri,10,Morning Peak,Iced Latte,Coffee,Iced,S,3,80,0,240,Grab/Delivery,Card,0,New,Extra Shot
+ORD2601131100771,2026-01-13,Tue,11,Midday,Caramel Macchiato,Coffee,Iced,M,1,110,0,110,Walk-in,QR/PromptPay,0,New,Extra Shot
+ORD2601111000772,2026-01-11,Sun,10,Morning Peak,Espresso,Coffee,Hot,M,2,60,0,120,Walk-in,QR/PromptPay,0,New,Extra Shot
+ORD2601181300773,2026-01-18,Sun,13,Midday,Cold Brew,Coffee,Iced,L,1,125,0,125,Walk-in,Cash,0,New,None
+ORD2601231000774,2026-01-23,Fri,10,Morning Peak,Chocolate,Non-Coffee,Hot,M,2,90,0,180,Grab/Delivery,QR/PromptPay,0,Returning,None
+ORD2601131000775,2026-01-13,Tue,10,Morning Peak,Hot Latte,Coffee,Hot,M,1,85,0,85,Line Man/Delivery,QR/PromptPay,0,New,None
+ORD2601140800776,2026-01-14,Wed,8,Morning Peak,Iced Americano,Coffee,Iced,L,2,90,0,180,Grab/Delivery,Card,0,Returning,None
+ORD2601151000777,2026-01-15,Thu,10,Morning Peak,Lemon Tea,Tea,Iced,L,1,90,0,90,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601221000778,2026-01-22,Thu,10,Morning Peak,Cappuccino,Coffee,Hot,M,1,85,0,85,Walk-in,QR/PromptPay,0,New,None
+ORD2601231400779,2026-01-23,Fri,14,Afternoon Peak,Butter Croissant,Bakery,-,-,2,55,0,110,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601161200780,2026-01-16,Fri,12,Midday,Lemon Tea,Tea,Iced,L,2,90,0,180,Line Man/Delivery,QR/PromptPay,0,Returning,Extra Shot
+ORD2601180900781,2026-01-18,Sun,9,Morning Peak,Lemon Tea,Tea,Iced,L,2,90,0,180,Walk-in,Cash,0,New,Whipped Cream
+ORD2601171400782,2026-01-17,Sat,14,Afternoon Peak,Thai Tea,Tea,Iced,M,2,80,20,140,Walk-in,Cash,1,New,None
+ORD2601220800783,2026-01-22,Thu,8,Morning Peak,Mocha,Coffee,Hot,S,1,85,0,85,Grab/Delivery,QR/PromptPay,0,New,None
+ORD2601180800784,2026-01-18,Sun,8,Morning Peak,Americano,Coffee,Hot,L,3,85,0,255,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601130800785,2026-01-13,Tue,8,Morning Peak,Chocolate,Non-Coffee,Hot,S,1,80,0,80,Walk-in,QR/PromptPay,0,New,None
+ORD2601181100786,2026-01-18,Sun,11,Midday,Orange Cold Brew,Coffee,Iced,M,1,130,0,130,Walk-in,Cash,0,New,Extra Shot
+ORD2601171300787,2026-01-17,Sat,13,Midday,Caramel Macchiato,Coffee,Iced,S,1,100,0,100,Walk-in,Cash,0,Returning,Whipped Cream
+ORD2601101000788,2026-01-10,Sat,10,Morning Peak,Iced Americano,Coffee,Iced,M,1,75,0,75,Walk-in,QR/PromptPay,0,New,None
+ORD2601241400789,2026-01-24,Sat,14,Afternoon Peak,Ginger Tea,Tea,Hot,S,3,60,0,180,Walk-in,QR/PromptPay,0,Returning,Oat Milk
+ORD2601101000790,2026-01-10,Sat,10,Morning Peak,Orange Cold Brew,Coffee,Iced,M,2,130,0,260,Walk-in,QR/PromptPay,0,Returning,Oat Milk
+ORD2601170900791,2026-01-17,Sat,9,Morning Peak,Decaf Latte,Coffee,Hot,M,2,95,0,190,Walk-in,QR/PromptPay,0,New,None
+ORD2601110900792,2026-01-11,Sun,9,Morning Peak,Caramel Macchiato,Coffee,Iced,S,3,100,0,300,Walk-in,QR/PromptPay,0,New,Oat Milk
+ORD2601171500793,2026-01-17,Sat,15,Afternoon Peak,Chocolate,Non-Coffee,Hot,M,2,90,20,160,Walk-in,QR/PromptPay,1,New,Extra Shot
+ORD2601181000794,2026-01-18,Sun,10,Morning Peak,Hot Latte,Coffee,Hot,M,1,85,0,85,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601221200795,2026-01-22,Thu,12,Midday,Mocha,Coffee,Hot,L,1,110,0,110,Walk-in,QR/PromptPay,0,New,Extra Shot
+ORD2601201600796,2026-01-20,Tue,16,Late,Matcha Latte,Tea,Iced,M,2,95,0,190,Grab/Delivery,QR/PromptPay,0,Returning,None
+ORD2601241500797,2026-01-24,Sat,15,Afternoon Peak,Hot Latte,Coffee,Hot,M,1,85,0,85,Walk-in,QR/PromptPay,0,New,None
+ORD2601170900798,2026-01-17,Sat,9,Morning Peak,Matcha Latte,Tea,Iced,L,2,110,0,220,Walk-in,QR/PromptPay,0,New,None
+ORD2601151600799,2026-01-15,Thu,16,Late,Espresso,Coffee,Hot,S,1,60,0,60,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601170800800,2026-01-17,Sat,8,Morning Peak,Espresso,Coffee,Hot,M,2,60,0,120,Walk-in,QR/PromptPay,0,Returning,Oat Milk
+ORD2601230900801,2026-01-23,Fri,9,Morning Peak,Matcha Latte,Tea,Iced,M,1,95,0,95,Walk-in,Card,0,Returning,Whipped Cream
+ORD2601210800802,2026-01-21,Wed,8,Morning Peak,Iced Americano,Coffee,Iced,S,2,65,0,130,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601140900803,2026-01-14,Wed,9,Morning Peak,Thai Tea,Tea,Iced,L,2,95,0,190,Walk-in,QR/PromptPay,0,New,None
+ORD2601111000804,2026-01-11,Sun,10,Morning Peak,Hot Latte,Coffee,Hot,M,2,85,0,170,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601241200805,2026-01-24,Sat,12,Midday,Mocha,Coffee,Hot,M,2,95,0,190,Line Man/Delivery,Cash,0,Returning,None
+ORD2601211500806,2026-01-21,Wed,15,Afternoon Peak,Iced Americano,Coffee,Iced,M,1,75,0,75,Line Man/Delivery,Card,0,Returning,None
+ORD2601131000807,2026-01-13,Tue,10,Morning Peak,Hot Latte,Coffee,Hot,S,1,75,0,75,Grab/Delivery,QR/PromptPay,0,Returning,Extra Shot
+ORD2601201500808,2026-01-20,Tue,15,Afternoon Peak,Chocolate,Non-Coffee,Hot,S,1,80,10,70,Walk-in,QR/PromptPay,1,Returning,Oat Milk
+ORD2601241200809,2026-01-24,Sat,12,Midday,Matcha Latte,Tea,Iced,M,2,95,0,190,Walk-in,QR/PromptPay,0,New,None
+ORD2601140900810,2026-01-14,Wed,9,Morning Peak,Iced Americano,Coffee,Iced,M,2,75,0,150,Line Man/Delivery,Card,0,New,None
+ORD2601200900811,2026-01-20,Tue,9,Morning Peak,Lemon Tea,Tea,Iced,L,3,90,0,270,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601230800812,2026-01-23,Fri,8,Morning Peak,Butter Croissant,Bakery,-,-,3,55,0,165,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601140900813,2026-01-14,Wed,9,Morning Peak,Lemon Tea,Tea,Iced,S,1,65,0,65,Walk-in,QR/PromptPay,0,Returning,Whipped Cream
+ORD2601241100814,2026-01-24,Sat,11,Midday,Lemon Tea,Tea,Iced,M,2,75,0,150,Walk-in,Card,0,New,None
+ORD2601231100815,2026-01-23,Fri,11,Midday,Caramel Macchiato,Coffee,Iced,L,1,125,0,125,Walk-in,QR/PromptPay,0,Returning,Extra Shot
+ORD2601240900816,2026-01-24,Sat,9,Morning Peak,Iced Latte,Coffee,Iced,M,1,90,0,90,Walk-in,Cash,0,Returning,None
+ORD2601151100817,2026-01-15,Thu,11,Midday,Lemon Tea,Tea,Iced,M,2,75,0,150,Walk-in,QR/PromptPay,0,New,None
+ORD2601150900818,2026-01-15,Thu,9,Morning Peak,Cappuccino,Coffee,Hot,M,2,85,0,170,Walk-in,Cash,0,New,None
+ORD2601221600819,2026-01-22,Thu,16,Late,Matcha Latte,Tea,Iced,M,2,95,0,190,Line Man/Delivery,QR/PromptPay,0,New,None
+ORD2601221000820,2026-01-22,Thu,10,Morning Peak,Matcha Latte,Tea,Iced,M,3,95,0,285,Walk-in,Card,0,New,None
+ORD2601241500821,2026-01-24,Sat,15,Afternoon Peak,Iced Latte,Coffee,Iced,M,1,90,0,90,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601171600822,2026-01-17,Sat,16,Late,Cold Brew,Coffee,Iced,M,1,110,0,110,Walk-in,Card,0,Returning,None
+ORD2601170800823,2026-01-17,Sat,8,Morning Peak,Hot Latte,Coffee,Hot,M,3,85,0,255,Walk-in,QR/PromptPay,0,New,None
+ORD2601221000824,2026-01-22,Thu,10,Morning Peak,Matcha Latte,Tea,Iced,L,1,110,0,110,Grab/Delivery,Cash,0,New,None
+ORD2601241100825,2026-01-24,Sat,11,Midday,Thai Tea,Tea,Iced,M,3,80,0,240,Grab/Delivery,Cash,0,Returning,None
+ORD2601200900826,2026-01-20,Tue,9,Morning Peak,Matcha Latte,Tea,Iced,S,1,85,0,85,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601141000827,2026-01-14,Wed,10,Morning Peak,Matcha Latte,Tea,Iced,M,2,95,0,190,Line Man/Delivery,QR/PromptPay,0,New,Extra Shot
+ORD2601161500828,2026-01-16,Fri,15,Afternoon Peak,Iced Americano,Coffee,Iced,S,1,65,0,65,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601230900829,2026-01-23,Fri,9,Morning Peak,Brownie,Bakery,-,-,2,65,0,130,Walk-in,Cash,0,New,None
+ORD2601200900830,2026-01-20,Tue,9,Morning Peak,Yuzu Soda,Soda,Iced,M,3,95,0,285,Walk-in,QR/PromptPay,0,New,None
+ORD2601231500831,2026-01-23,Fri,15,Afternoon Peak,Iced Latte,Coffee,Iced,M,2,90,0,180,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601231600832,2026-01-23,Fri,16,Late,Iced Americano,Coffee,Iced,L,1,90,0,90,Walk-in,Card,0,New,Extra Shot
+ORD2601231000833,2026-01-23,Fri,10,Morning Peak,Iced Latte,Coffee,Iced,M,2,90,0,180,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601111000834,2026-01-11,Sun,10,Morning Peak,Matcha Latte,Tea,Iced,M,1,95,0,95,Walk-in,Card,0,Returning,None
+ORD2601201300835,2026-01-20,Tue,13,Midday,Brownie,Bakery,-,-,2,65,0,130,Walk-in,Card,0,Returning,None
+ORD2601240900836,2026-01-24,Sat,9,Morning Peak,Honey Lime Soda,Soda,Iced,M,1,85,0,85,Grab/Delivery,QR/PromptPay,0,Returning,None
+ORD2601211100837,2026-01-21,Wed,11,Midday,Lemon Tea,Tea,Iced,M,2,75,0,150,Walk-in,QR/PromptPay,0,New,Oat Milk
+ORD2601131000838,2026-01-13,Tue,10,Morning Peak,Butter Croissant,Bakery,-,-,2,55,0,110,Walk-in,Cash,0,Returning,None
+ORD2601240900839,2026-01-24,Sat,9,Morning Peak,Lemon Tea,Tea,Iced,S,1,65,0,65,Walk-in,QR/PromptPay,0,New,None
+ORD2601211500840,2026-01-21,Wed,15,Afternoon Peak,Iced Latte,Coffee,Iced,M,1,90,0,90,Walk-in,Card,0,New,Oat Milk
+ORD2601100800841,2026-01-10,Sat,8,Morning Peak,Iced Americano,Coffee,Iced,M,2,75,0,150,Walk-in,Cash,0,Returning,None
+ORD2601161600842,2026-01-16,Fri,16,Late,Cold Brew,Coffee,Iced,M,1,110,0,110,Walk-in,Cash,0,New,Whipped Cream
+ORD2601220800843,2026-01-22,Thu,8,Morning Peak,Thai Tea,Tea,Iced,M,1,80,0,80,Walk-in,QR/PromptPay,0,New,None
+ORD2601181600844,2026-01-18,Sun,16,Late,Orange Cold Brew,Coffee,Iced,S,1,120,0,120,Walk-in,Cash,0,Returning,None
+ORD2601240900845,2026-01-24,Sat,9,Morning Peak,Lemon Tea,Tea,Iced,M,1,75,0,75,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601151100846,2026-01-15,Thu,11,Midday,Blueberry Muffin,Bakery,-,-,3,75,0,225,Walk-in,Card,0,New,None
+ORD2601221200847,2026-01-22,Thu,12,Midday,Matcha Latte,Tea,Iced,M,2,95,0,190,Walk-in,Cash,0,New,None
+ORD2601130900848,2026-01-13,Tue,9,Morning Peak,Chocolate,Non-Coffee,Hot,M,3,90,0,270,Line Man/Delivery,QR/PromptPay,0,Returning,Oat Milk
+ORD2601111500849,2026-01-11,Sun,15,Afternoon Peak,Americano,Coffee,Hot,M,1,70,0,70,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601141500850,2026-01-14,Wed,15,Afternoon Peak,Caramel Macchiato,Coffee,Iced,L,1,125,0,125,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601100800851,2026-01-10,Sat,8,Morning Peak,Cold Brew,Coffee,Iced,M,1,110,0,110,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601141500852,2026-01-14,Wed,15,Afternoon Peak,Cappuccino,Coffee,Hot,L,1,100,0,100,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601201600853,2026-01-20,Tue,16,Late,Blueberry Muffin,Bakery,-,-,3,75,0,225,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601141200854,2026-01-14,Wed,12,Midday,Blueberry Muffin,Bakery,-,-,2,75,0,150,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601151500855,2026-01-15,Thu,15,Afternoon Peak,Decaf Latte,Coffee,Hot,L,1,110,10,100,Walk-in,QR/PromptPay,1,Returning,None
+ORD2601241300856,2026-01-24,Sat,13,Midday,Mocha,Coffee,Hot,S,2,85,0,170,Walk-in,Card,0,New,None
+ORD2601171600857,2026-01-17,Sat,16,Late,Hot Latte,Coffee,Hot,M,2,85,0,170,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601141300858,2026-01-14,Wed,13,Midday,Banana Cake,Bakery,-,-,3,70,0,210,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601161400859,2026-01-16,Fri,14,Afternoon Peak,Cappuccino,Coffee,Hot,S,2,75,0,150,Walk-in,Card,0,Returning,None
+ORD2601211000860,2026-01-21,Wed,10,Morning Peak,Matcha Latte,Tea,Iced,M,1,95,0,95,Walk-in,Card,0,Returning,None
+ORD2601131300861,2026-01-13,Tue,13,Midday,Iced Latte,Coffee,Iced,M,2,90,0,180,Walk-in,QR/PromptPay,0,Returning,Oat Milk
+ORD2601221000862,2026-01-22,Thu,10,Morning Peak,Mocha,Coffee,Hot,L,1,110,0,110,Walk-in,Card,0,New,None
+ORD2601100900863,2026-01-10,Sat,9,Morning Peak,Espresso,Coffee,Hot,L,2,75,0,150,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601181600864,2026-01-18,Sun,16,Late,Iced Americano,Coffee,Iced,S,2,65,0,130,Walk-in,QR/PromptPay,0,New,None
+ORD2601171200865,2026-01-17,Sat,12,Midday,Blueberry Muffin,Bakery,-,-,1,75,0,75,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601151000866,2026-01-15,Thu,10,Morning Peak,Chocolate,Non-Coffee,Hot,S,2,80,0,160,Walk-in,QR/PromptPay,0,New,None
+ORD2601141400867,2026-01-14,Wed,14,Afternoon Peak,Cold Brew,Coffee,Iced,M,2,110,0,220,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601151500868,2026-01-15,Thu,15,Afternoon Peak,Thai Tea,Tea,Iced,M,1,80,0,80,Walk-in,QR/PromptPay,0,New,Oat Milk
+ORD2601210900869,2026-01-21,Wed,9,Morning Peak,Chocolate,Non-Coffee,Hot,M,2,90,0,180,Grab/Delivery,Card,0,New,None
+ORD2601131300870,2026-01-13,Tue,13,Midday,Orange Cold Brew,Coffee,Iced,M,2,130,0,260,Line Man/Delivery,QR/PromptPay,0,New,None
+ORD2601100800871,2026-01-10,Sat,8,Morning Peak,Decaf Latte,Coffee,Hot,M,2,95,0,190,Line Man/Delivery,QR/PromptPay,0,Returning,Extra Shot
+ORD2601220800872,2026-01-22,Thu,8,Morning Peak,Matcha Latte,Tea,Iced,S,1,85,0,85,Line Man/Delivery,Card,0,New,None
+ORD2601141400873,2026-01-14,Wed,14,Afternoon Peak,Iced Americano,Coffee,Iced,M,3,75,0,225,Line Man/Delivery,QR/PromptPay,0,New,Extra Shot
+ORD2601181400874,2026-01-18,Sun,14,Afternoon Peak,Matcha Latte,Tea,Iced,S,2,85,0,170,Grab/Delivery,QR/PromptPay,0,New,None
+ORD2601161100875,2026-01-16,Fri,11,Midday,Yuzu Soda,Soda,Iced,S,1,85,0,85,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601201000876,2026-01-20,Tue,10,Morning Peak,Butter Croissant,Bakery,-,-,2,55,0,110,Walk-in,QR/PromptPay,0,New,None
+ORD2601161000877,2026-01-16,Fri,10,Morning Peak,Mocha,Coffee,Hot,M,1,95,0,95,Grab/Delivery,QR/PromptPay,0,New,None
+ORD2601140800878,2026-01-14,Wed,8,Morning Peak,Lemon Tea,Tea,Iced,M,1,75,0,75,Walk-in,QR/PromptPay,0,Returning,Extra Shot
+ORD2601110800879,2026-01-11,Sun,8,Morning Peak,Banana Cake,Bakery,-,-,2,70,0,140,Walk-in,Card,0,New,None
+ORD2601181100880,2026-01-18,Sun,11,Midday,Cappuccino,Coffee,Hot,M,2,85,0,170,Walk-in,Cash,0,Returning,None
+ORD2601170900881,2026-01-17,Sat,9,Morning Peak,Banana Cake,Bakery,-,-,1,70,0,70,Walk-in,Card,0,Returning,None
+ORD2601231000882,2026-01-23,Fri,10,Morning Peak,Chocolate,Non-Coffee,Hot,M,3,90,0,270,Walk-in,Card,0,Returning,None
+ORD2601230900883,2026-01-23,Fri,9,Morning Peak,Lemon Tea,Tea,Iced,S,2,65,0,130,Walk-in,Cash,0,Returning,None
+ORD2601171600884,2026-01-17,Sat,16,Late,Cappuccino,Coffee,Hot,M,1,85,0,85,Walk-in,Cash,0,Returning,Oat Milk
+ORD2601100800885,2026-01-10,Sat,8,Morning Peak,Caramel Macchiato,Coffee,Iced,M,1,110,0,110,Walk-in,Cash,0,New,None
+ORD2601111500886,2026-01-11,Sun,15,Afternoon Peak,Matcha Latte,Tea,Iced,M,2,95,20,170,Walk-in,Card,1,Returning,None
+ORD2601151400887,2026-01-15,Thu,14,Afternoon Peak,Cold Brew,Coffee,Iced,S,2,100,0,200,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601161400888,2026-01-16,Fri,14,Afternoon Peak,Matcha Latte,Tea,Iced,L,1,110,0,110,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601101500889,2026-01-10,Sat,15,Afternoon Peak,Thai Tea,Tea,Iced,M,1,80,0,80,Walk-in,Cash,0,Returning,None
+ORD2601240900890,2026-01-24,Sat,9,Morning Peak,Espresso,Coffee,Hot,S,1,60,0,60,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601230800891,2026-01-23,Fri,8,Morning Peak,Thai Tea,Tea,Iced,M,1,80,0,80,Walk-in,Cash,0,Returning,None
+ORD2601201600892,2026-01-20,Tue,16,Late,Thai Tea,Tea,Iced,M,2,80,0,160,Walk-in,Cash,0,Returning,None
+ORD2601131100893,2026-01-13,Tue,11,Midday,Cappuccino,Coffee,Hot,S,1,75,0,75,Walk-in,QR/PromptPay,0,New,None
+ORD2601171400894,2026-01-17,Sat,14,Afternoon Peak,Hot Latte,Coffee,Hot,M,2,85,0,170,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601181600895,2026-01-18,Sun,16,Late,Lemon Tea,Tea,Iced,S,1,65,0,65,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601161400896,2026-01-16,Fri,14,Afternoon Peak,Vegan Muffin,Bakery,-,-,1,85,0,85,Walk-in,Cash,0,New,None
+ORD2601231200897,2026-01-23,Fri,12,Midday,Espresso,Coffee,Hot,L,3,75,0,225,Walk-in,QR/PromptPay,0,Returning,Oat Milk
+ORD2601141600898,2026-01-14,Wed,16,Late,Americano,Coffee,Hot,S,1,60,0,60,Walk-in,QR/PromptPay,0,New,None
+ORD2601160900899,2026-01-16,Fri,9,Morning Peak,Thai Tea,Tea,Iced,M,2,80,0,160,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601221500900,2026-01-22,Thu,15,Afternoon Peak,Honey Lime Soda,Soda,Iced,M,2,85,20,150,Walk-in,QR/PromptPay,1,Returning,None
+ORD2601141200901,2026-01-14,Wed,12,Midday,Banana Cake,Bakery,-,-,1,70,0,70,Walk-in,QR/PromptPay,0,New,None
+ORD2601181400902,2026-01-18,Sun,14,Afternoon Peak,Orange Cold Brew,Coffee,Iced,M,1,130,0,130,Line Man/Delivery,Cash,0,Returning,None
+ORD2601131400903,2026-01-13,Tue,14,Afternoon Peak,Cappuccino,Coffee,Hot,M,1,85,0,85,Walk-in,Card,0,Returning,None
+ORD2601140900904,2026-01-14,Wed,9,Morning Peak,Americano,Coffee,Hot,M,2,70,0,140,Grab/Delivery,Cash,0,Returning,None
+ORD2601151300905,2026-01-15,Thu,13,Midday,Iced Americano,Coffee,Iced,L,2,90,0,180,Walk-in,QR/PromptPay,0,New,None
+ORD2601130900906,2026-01-13,Tue,9,Morning Peak,Cappuccino,Coffee,Hot,M,1,85,0,85,Line Man/Delivery,QR/PromptPay,0,New,Whipped Cream
+ORD2601211500907,2026-01-21,Wed,15,Afternoon Peak,Lemon Tea,Tea,Iced,L,2,90,0,180,Walk-in,Card,0,New,None
+ORD2601201000908,2026-01-20,Tue,10,Morning Peak,Blueberry Muffin,Bakery,-,-,2,75,0,150,Walk-in,QR/PromptPay,0,New,None
+ORD2601210800909,2026-01-21,Wed,8,Morning Peak,Iced Americano,Coffee,Iced,M,2,75,0,150,Grab/Delivery,QR/PromptPay,0,Returning,None
+ORD2601241400910,2026-01-24,Sat,14,Afternoon Peak,Iced Latte,Coffee,Iced,M,3,90,30,240,Walk-in,QR/PromptPay,1,Returning,None
+ORD2601230900911,2026-01-23,Fri,9,Morning Peak,Cappuccino,Coffee,Hot,M,2,85,0,170,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601150800912,2026-01-15,Thu,8,Morning Peak,Thai Tea,Tea,Iced,S,1,70,0,70,Walk-in,QR/PromptPay,0,Returning,Oat Milk
+ORD2601110900913,2026-01-11,Sun,9,Morning Peak,Thai Tea,Tea,Iced,M,1,80,0,80,Walk-in,QR/PromptPay,0,New,None
+ORD2601231400914,2026-01-23,Fri,14,Afternoon Peak,Chocolate,Non-Coffee,Hot,M,1,90,0,90,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601221500915,2026-01-22,Thu,15,Afternoon Peak,Thai Tea,Tea,Iced,M,1,80,0,80,Walk-in,QR/PromptPay,0,New,None
+ORD2601181200916,2026-01-18,Sun,12,Midday,Matcha Latte,Tea,Iced,S,1,85,0,85,Walk-in,Cash,0,Returning,None
+ORD2601201400917,2026-01-20,Tue,14,Afternoon Peak,Cappuccino,Coffee,Hot,M,3,85,30,225,Walk-in,QR/PromptPay,1,Returning,None
+ORD2601241200918,2026-01-24,Sat,12,Midday,Matcha Latte,Tea,Iced,M,1,95,0,95,Walk-in,Cash,0,New,Oat Milk
+ORD2601221300919,2026-01-22,Thu,13,Midday,Thai Tea,Tea,Iced,S,1,70,0,70,Walk-in,QR/PromptPay,0,New,None
+ORD2601160900920,2026-01-16,Fri,9,Morning Peak,Hot Latte,Coffee,Hot,M,3,85,0,255,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601231600921,2026-01-23,Fri,16,Late,Espresso,Coffee,Hot,S,1,60,0,60,Walk-in,Cash,0,New,None
+ORD2601231500922,2026-01-23,Fri,15,Afternoon Peak,Mocha,Coffee,Hot,M,3,95,0,285,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601161500923,2026-01-16,Fri,15,Afternoon Peak,Americano,Coffee,Hot,S,1,60,0,60,Walk-in,QR/PromptPay,0,New,Oat Milk
+ORD2601180800924,2026-01-18,Sun,8,Morning Peak,Americano,Coffee,Hot,M,1,70,0,70,Walk-in,QR/PromptPay,0,New,None
+ORD2601150900925,2026-01-15,Thu,9,Morning Peak,Thai Tea,Tea,Iced,S,3,70,0,210,Grab/Delivery,QR/PromptPay,0,Returning,Whipped Cream
+ORD2601131500926,2026-01-13,Tue,15,Afternoon Peak,Caramel Macchiato,Coffee,Iced,M,1,110,10,100,Walk-in,Cash,1,Returning,None
+ORD2601171500927,2026-01-17,Sat,15,Afternoon Peak,Iced Latte,Coffee,Iced,M,2,90,0,180,Walk-in,QR/PromptPay,0,Returning,Oat Milk
+ORD2601221500928,2026-01-22,Thu,15,Afternoon Peak,Mocha,Coffee,Hot,M,1,95,0,95,Walk-in,Card,0,Returning,Extra Shot
+ORD2601201000929,2026-01-20,Tue,10,Morning Peak,Thai Tea,Tea,Iced,S,1,70,0,70,Walk-in,QR/PromptPay,0,New,None
+ORD2601241400930,2026-01-24,Sat,14,Afternoon Peak,Chocolate,Non-Coffee,Hot,M,1,90,0,90,Walk-in,QR/PromptPay,0,New,None
+ORD2601150900931,2026-01-15,Thu,9,Morning Peak,Thai Tea,Tea,Iced,M,1,80,0,80,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601140800932,2026-01-14,Wed,8,Morning Peak,Honey Lime Soda,Soda,Iced,M,2,85,0,170,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601140900933,2026-01-14,Wed,9,Morning Peak,Caramel Macchiato,Coffee,Iced,M,3,110,0,330,Walk-in,QR/PromptPay,0,Returning,Extra Shot
+ORD2601160900934,2026-01-16,Fri,9,Morning Peak,Mocha,Coffee,Hot,L,1,110,0,110,Grab/Delivery,QR/PromptPay,0,New,None
+ORD2601211000935,2026-01-21,Wed,10,Morning Peak,Iced Latte,Coffee,Iced,M,2,90,0,180,Line Man/Delivery,QR/PromptPay,0,Returning,None
+ORD2601161500936,2026-01-16,Fri,15,Afternoon Peak,Cappuccino,Coffee,Hot,M,1,85,0,85,Walk-in,QR/PromptPay,0,Returning,Extra Shot
+ORD2601170900937,2026-01-17,Sat,9,Morning Peak,Thai Tea,Tea,Iced,L,2,95,0,190,Walk-in,Cash,0,New,None
+ORD2601101500938,2026-01-10,Sat,15,Afternoon Peak,Mocha,Coffee,Hot,L,1,110,0,110,Walk-in,QR/PromptPay,0,New,Oat Milk
+ORD2601131500939,2026-01-13,Tue,15,Afternoon Peak,Thai Tea,Tea,Iced,L,1,95,10,85,Walk-in,QR/PromptPay,1,Returning,None
+ORD2601171000940,2026-01-17,Sat,10,Morning Peak,Matcha Latte,Tea,Iced,M,2,95,0,190,Walk-in,Cash,0,New,Extra Shot
+ORD2601181400941,2026-01-18,Sun,14,Afternoon Peak,Matcha Latte,Tea,Iced,S,1,85,0,85,Walk-in,Cash,0,Returning,Extra Shot
+ORD2601111000942,2026-01-11,Sun,10,Morning Peak,Iced Americano,Coffee,Iced,M,1,75,0,75,Walk-in,QR/PromptPay,0,New,Extra Shot
+ORD2601221500943,2026-01-22,Thu,15,Afternoon Peak,Butter Croissant,Bakery,-,-,2,55,0,110,Walk-in,Card,0,Returning,None
+ORD2601220900944,2026-01-22,Thu,9,Morning Peak,Matcha Latte,Tea,Iced,S,2,85,0,170,Walk-in,QR/PromptPay,0,Returning,Whipped Cream
+ORD2601161500945,2026-01-16,Fri,15,Afternoon Peak,Iced Americano,Coffee,Iced,L,1,90,0,90,Walk-in,Card,0,New,None
+ORD2601210900946,2026-01-21,Wed,9,Morning Peak,Hot Latte,Coffee,Hot,M,1,85,0,85,Walk-in,QR/PromptPay,0,Returning,Oat Milk
+ORD2601131200947,2026-01-13,Tue,12,Midday,Matcha Latte,Tea,Iced,M,3,95,0,285,Walk-in,QR/PromptPay,0,New,None
+ORD2601220800948,2026-01-22,Thu,8,Morning Peak,Blueberry Muffin,Bakery,-,-,1,75,0,75,Walk-in,Cash,0,New,None
+ORD2601210800949,2026-01-21,Wed,8,Morning Peak,Chocolate,Non-Coffee,Hot,M,2,90,0,180,Walk-in,QR/PromptPay,0,New,None
+ORD2601200900950,2026-01-20,Tue,9,Morning Peak,Iced Americano,Coffee,Iced,M,1,75,0,75,Walk-in,Card,0,Returning,None
+ORD2601161000951,2026-01-16,Fri,10,Morning Peak,Cappuccino,Coffee,Hot,M,2,85,0,170,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601141100952,2026-01-14,Wed,11,Midday,Cappuccino,Coffee,Hot,L,2,100,0,200,Walk-in,Card,0,Returning,Oat Milk
+ORD2601101200953,2026-01-10,Sat,12,Midday,Iced Latte,Coffee,Iced,M,1,90,0,90,Grab/Delivery,Cash,0,Returning,None
+ORD2601221400954,2026-01-22,Thu,14,Afternoon Peak,Brownie,Bakery,-,-,1,65,0,65,Grab/Delivery,QR/PromptPay,0,New,None
+ORD2601211600955,2026-01-21,Wed,16,Late,Brownie,Bakery,-,-,1,65,0,65,Walk-in,QR/PromptPay,0,New,None
+ORD2601111400956,2026-01-11,Sun,14,Afternoon Peak,Banana Cake,Bakery,-,-,1,70,5,65,Line Man/Delivery,QR/PromptPay,1,New,None
+ORD2601161600957,2026-01-16,Fri,16,Late,Lemon Tea,Tea,Iced,S,1,65,0,65,Walk-in,QR/PromptPay,0,New,None
+ORD2601220800958,2026-01-22,Thu,8,Morning Peak,Cappuccino,Coffee,Hot,S,1,75,0,75,Walk-in,Card,0,Returning,None
+ORD2601210900959,2026-01-21,Wed,9,Morning Peak,Mocha,Coffee,Hot,M,1,95,0,95,Grab/Delivery,QR/PromptPay,0,Returning,None
+ORD2601201400960,2026-01-20,Tue,14,Afternoon Peak,Americano,Coffee,Hot,S,1,60,0,60,Grab/Delivery,Cash,0,New,Oat Milk
+ORD2601241400961,2026-01-24,Sat,14,Afternoon Peak,Espresso,Coffee,Hot,M,2,60,20,100,Walk-in,QR/PromptPay,1,New,None
+ORD2601241500962,2026-01-24,Sat,15,Afternoon Peak,Americano,Coffee,Hot,M,1,70,10,60,Walk-in,Cash,1,New,Extra Shot
+ORD2601150900963,2026-01-15,Thu,9,Morning Peak,Americano,Coffee,Hot,M,1,70,0,70,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601131300964,2026-01-13,Tue,13,Midday,Butter Croissant,Bakery,-,-,1,55,0,55,Walk-in,QR/PromptPay,0,New,None
+ORD2601141200965,2026-01-14,Wed,12,Midday,Iced Latte,Coffee,Iced,M,1,90,0,90,Walk-in,QR/PromptPay,0,New,None
+ORD2601221000966,2026-01-22,Thu,10,Morning Peak,Americano,Coffee,Hot,M,3,70,0,210,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601241200967,2026-01-24,Sat,12,Midday,Mocha,Coffee,Hot,M,1,95,0,95,Grab/Delivery,QR/PromptPay,0,Returning,None
+ORD2601230800968,2026-01-23,Fri,8,Morning Peak,Matcha Latte,Tea,Iced,M,2,95,0,190,Walk-in,QR/PromptPay,0,New,None
+ORD2601211400969,2026-01-21,Wed,14,Afternoon Peak,Iced Americano,Coffee,Iced,M,1,75,0,75,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601101000970,2026-01-10,Sat,10,Morning Peak,Matcha Latte,Tea,Iced,M,1,95,0,95,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601180900971,2026-01-18,Sun,9,Morning Peak,Iced Latte,Coffee,Iced,S,2,80,0,160,Line Man/Delivery,Cash,0,Returning,Extra Shot
+ORD2601111500972,2026-01-11,Sun,15,Afternoon Peak,Iced Americano,Coffee,Iced,M,1,75,0,75,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601240900973,2026-01-24,Sat,9,Morning Peak,Yuzu Soda,Soda,Iced,M,2,95,0,190,Walk-in,QR/PromptPay,0,New,None
+ORD2601230800974,2026-01-23,Fri,8,Morning Peak,Chocolate,Non-Coffee,Hot,M,1,90,0,90,Walk-in,QR/PromptPay,0,Returning,Extra Shot
+ORD2601110900975,2026-01-11,Sun,9,Morning Peak,Thai Tea,Tea,Iced,M,3,80,0,240,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601201600976,2026-01-20,Tue,16,Late,Thai Tea,Tea,Iced,L,1,95,0,95,Walk-in,QR/PromptPay,0,New,Oat Milk
+ORD2601231400977,2026-01-23,Fri,14,Afternoon Peak,Thai Tea,Tea,Iced,S,3,70,30,180,Walk-in,QR/PromptPay,1,Returning,None
+ORD2601111500978,2026-01-11,Sun,15,Afternoon Peak,Cappuccino,Coffee,Hot,M,1,85,10,75,Walk-in,QR/PromptPay,1,New,None
+ORD2601151400979,2026-01-15,Thu,14,Afternoon Peak,Cappuccino,Coffee,Hot,S,1,75,0,75,Walk-in,QR/PromptPay,0,New,None
+ORD2601180900980,2026-01-18,Sun,9,Morning Peak,Thai Tea,Tea,Iced,L,2,95,0,190,Grab/Delivery,QR/PromptPay,0,Returning,None
+ORD2601200800981,2026-01-20,Tue,8,Morning Peak,Thai Tea,Tea,Iced,S,3,70,0,210,Walk-in,Cash,0,Returning,None
+ORD2601111300982,2026-01-11,Sun,13,Midday,Matcha Latte,Tea,Iced,M,3,95,0,285,Walk-in,Card,0,Returning,None
+ORD2601211100983,2026-01-21,Wed,11,Midday,Hot Latte,Coffee,Hot,S,1,75,0,75,Walk-in,Cash,0,Returning,None
+ORD2601111300984,2026-01-11,Sun,13,Midday,Iced Americano,Coffee,Iced,M,3,75,0,225,Walk-in,QR/PromptPay,0,Returning,Whipped Cream
+ORD2601151000985,2026-01-15,Thu,10,Morning Peak,Cappuccino,Coffee,Hot,L,3,100,0,300,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601171000986,2026-01-17,Sat,10,Morning Peak,Brownie,Bakery,-,-,1,65,0,65,Walk-in,QR/PromptPay,0,New,None
+ORD2601181200987,2026-01-18,Sun,12,Midday,Thai Tea,Tea,Iced,M,3,80,0,240,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601181000988,2026-01-18,Sun,10,Morning Peak,Honey Lime Soda,Soda,Iced,M,1,85,0,85,Walk-in,Cash,0,New,None
+ORD2601201300989,2026-01-20,Tue,13,Midday,Iced Americano,Coffee,Iced,S,2,65,0,130,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601230800990,2026-01-23,Fri,8,Morning Peak,Lemon Tea,Tea,Iced,M,2,75,0,150,Walk-in,Card,0,Returning,None
+ORD2601101200991,2026-01-10,Sat,12,Midday,Cappuccino,Coffee,Hot,L,1,100,0,100,Walk-in,QR/PromptPay,0,New,None
+ORD2601130900992,2026-01-13,Tue,9,Morning Peak,Thai Tea,Tea,Iced,M,2,80,0,160,Walk-in,Cash,0,Returning,None
+ORD2601161600993,2026-01-16,Fri,16,Late,Thai Tea,Tea,Iced,S,1,70,0,70,Walk-in,QR/PromptPay,0,New,None
+ORD2601180900994,2026-01-18,Sun,9,Morning Peak,Americano,Coffee,Hot,M,1,70,0,70,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601201200995,2026-01-20,Tue,12,Midday,Chocolate,Non-Coffee,Hot,M,2,90,0,180,Walk-in,QR/PromptPay,0,New,Oat Milk
+ORD2601161000996,2026-01-16,Fri,10,Morning Peak,Matcha Latte,Tea,Iced,M,1,95,0,95,Line Man/Delivery,Card,0,Returning,None
+ORD2601220800997,2026-01-22,Thu,8,Morning Peak,Iced Americano,Coffee,Iced,M,1,75,0,75,Walk-in,Card,0,Returning,None
+ORD2601170800998,2026-01-17,Sat,8,Morning Peak,Thai Tea,Tea,Iced,M,2,80,0,160,Walk-in,Card,0,Returning,None
+ORD2601241400999,2026-01-24,Sat,14,Afternoon Peak,Iced Americano,Coffee,Iced,S,2,65,0,130,Line Man/Delivery,QR/PromptPay,0,New,Extra Shot
+ORD2601161501000,2026-01-16,Fri,15,Afternoon Peak,Espresso,Coffee,Hot,M,1,60,0,60,Walk-in,Cash,0,New,Oat Milk
+ORD2601201001001,2026-01-20,Tue,10,Morning Peak,Americano,Coffee,Hot,M,1,70,0,70,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601161401002,2026-01-16,Fri,14,Afternoon Peak,Thai Tea,Tea,Iced,M,3,80,0,240,Walk-in,QR/PromptPay,0,Returning,Extra Shot
+ORD2601111501003,2026-01-11,Sun,15,Afternoon Peak,Cappuccino,Coffee,Hot,S,1,75,0,75,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601201401004,2026-01-20,Tue,14,Afternoon Peak,Matcha Latte,Tea,Iced,S,1,85,10,75,Walk-in,QR/PromptPay,1,New,Extra Shot
+ORD2601221501005,2026-01-22,Thu,15,Afternoon Peak,Honey Lime Soda,Soda,Iced,L,2,100,20,180,Walk-in,QR/PromptPay,1,New,None
+ORD2601241001006,2026-01-24,Sat,10,Morning Peak,Americano,Coffee,Hot,M,1,70,0,70,Grab/Delivery,QR/PromptPay,0,Returning,None
+ORD2601151501007,2026-01-15,Thu,15,Afternoon Peak,Cappuccino,Coffee,Hot,S,2,75,20,130,Walk-in,QR/PromptPay,1,Returning,None
+ORD2601181001008,2026-01-18,Sun,10,Morning Peak,Blueberry Muffin,Bakery,-,-,2,75,0,150,Grab/Delivery,QR/PromptPay,0,New,None
+ORD2601140901009,2026-01-14,Wed,9,Morning Peak,Americano,Coffee,Hot,L,2,85,0,170,Walk-in,Card,0,New,Oat Milk
+ORD2601130901010,2026-01-13,Tue,9,Morning Peak,Caramel Macchiato,Coffee,Iced,M,3,110,0,330,Grab/Delivery,QR/PromptPay,0,Returning,None
+ORD2601111501011,2026-01-11,Sun,15,Afternoon Peak,Cold Brew,Coffee,Iced,M,1,110,0,110,Walk-in,Cash,0,Returning,None
+ORD2601161401012,2026-01-16,Fri,14,Afternoon Peak,Americano,Coffee,Hot,M,2,70,20,120,Walk-in,QR/PromptPay,1,Returning,None
+ORD2601211401013,2026-01-21,Wed,14,Afternoon Peak,Iced Americano,Coffee,Iced,S,1,65,0,65,Walk-in,QR/PromptPay,0,New,None
+ORD2601151401014,2026-01-15,Thu,14,Afternoon Peak,Blueberry Muffin,Bakery,-,-,3,75,0,225,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601141201015,2026-01-14,Wed,12,Midday,Affogato,Coffee,-,S,1,110,0,110,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601221101016,2026-01-22,Thu,11,Midday,Honey Lime Soda,Soda,Iced,M,3,85,0,255,Grab/Delivery,QR/PromptPay,0,Returning,None
+ORD2601160801017,2026-01-16,Fri,8,Morning Peak,Iced Americano,Coffee,Iced,L,1,90,0,90,Grab/Delivery,Cash,0,Returning,None
+ORD2601161201018,2026-01-16,Fri,12,Midday,Matcha Latte,Tea,Iced,M,2,95,0,190,Line Man/Delivery,QR/PromptPay,0,Returning,None
+ORD2601160901019,2026-01-16,Fri,9,Morning Peak,Americano,Coffee,Hot,L,1,85,0,85,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601160901020,2026-01-16,Fri,9,Morning Peak,Iced Latte,Coffee,Iced,M,1,90,0,90,Walk-in,Cash,0,Returning,Oat Milk
+ORD2601221401021,2026-01-22,Thu,14,Afternoon Peak,Chocolate,Non-Coffee,Hot,M,3,90,0,270,Grab/Delivery,QR/PromptPay,0,Returning,None
+ORD2601140901022,2026-01-14,Wed,9,Morning Peak,Thai Tea,Tea,Iced,S,3,70,0,210,Walk-in,Cash,0,Returning,None
+ORD2601111001023,2026-01-11,Sun,10,Morning Peak,Americano,Coffee,Hot,M,1,70,0,70,Line Man/Delivery,QR/PromptPay,0,Returning,Whipped Cream
+ORD2601211401024,2026-01-21,Wed,14,Afternoon Peak,Cappuccino,Coffee,Hot,L,3,100,0,300,Grab/Delivery,Card,0,New,None
+ORD2601130801025,2026-01-13,Tue,8,Morning Peak,Thai Tea,Tea,Iced,M,1,80,0,80,Grab/Delivery,QR/PromptPay,0,Returning,None
+ORD2601111001026,2026-01-11,Sun,10,Morning Peak,Thai Tea,Tea,Iced,M,1,80,0,80,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601161301027,2026-01-16,Fri,13,Midday,Iced Americano,Coffee,Iced,M,2,75,0,150,Walk-in,QR/PromptPay,0,New,Whipped Cream
+ORD2601241101028,2026-01-24,Sat,11,Midday,Thai Tea,Tea,Iced,L,2,95,0,190,Walk-in,Card,0,New,None
+ORD2601110801029,2026-01-11,Sun,8,Morning Peak,Honey Lime Soda,Soda,Iced,M,3,85,0,255,Line Man/Delivery,QR/PromptPay,0,Returning,None
+ORD2601200901030,2026-01-20,Tue,9,Morning Peak,Iced Americano,Coffee,Iced,M,1,75,0,75,Walk-in,Cash,0,Returning,None
+ORD2601151501031,2026-01-15,Thu,15,Afternoon Peak,Blueberry Muffin,Bakery,-,-,2,75,0,150,Line Man/Delivery,Card,0,Returning,None
+ORD2601221101032,2026-01-22,Thu,11,Midday,Hot Latte,Coffee,Hot,M,3,85,0,255,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601241201033,2026-01-24,Sat,12,Midday,Banana Cake,Bakery,-,-,1,70,0,70,Walk-in,QR/PromptPay,0,New,None
+ORD2601130801034,2026-01-13,Tue,8,Morning Peak,Iced Latte,Coffee,Iced,M,2,90,0,180,Walk-in,QR/PromptPay,0,New,None
+ORD2601231201035,2026-01-23,Fri,12,Midday,Hot Latte,Coffee,Hot,M,2,85,0,170,Line Man/Delivery,Card,0,New,None
+ORD2601161001036,2026-01-16,Fri,10,Morning Peak,Americano,Coffee,Hot,L,1,85,0,85,Walk-in,QR/PromptPay,0,New,Oat Milk
+ORD2601241001037,2026-01-24,Sat,10,Morning Peak,Americano,Coffee,Hot,M,1,70,0,70,Walk-in,Card,0,New,None
+ORD2601101301038,2026-01-10,Sat,13,Midday,Thai Tea,Tea,Iced,M,2,80,0,160,Walk-in,QR/PromptPay,0,New,None
+ORD2601231301039,2026-01-23,Fri,13,Midday,Hot Latte,Coffee,Hot,M,3,85,0,255,Walk-in,QR/PromptPay,0,New,None
+ORD2601161401040,2026-01-16,Fri,14,Afternoon Peak,Chocolate,Non-Coffee,Hot,L,3,105,0,315,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601141101041,2026-01-14,Wed,11,Midday,Matcha Latte,Tea,Iced,M,1,95,0,95,Walk-in,QR/PromptPay,0,Returning,Whipped Cream
+ORD2601241501042,2026-01-24,Sat,15,Afternoon Peak,Americano,Coffee,Hot,M,3,70,0,210,Line Man/Delivery,QR/PromptPay,0,Returning,Extra Shot
+ORD2601131301043,2026-01-13,Tue,13,Midday,Butter Croissant,Bakery,-,-,3,55,0,165,Line Man/Delivery,Card,0,Returning,None
+ORD2601231301044,2026-01-23,Fri,13,Midday,Thai Tea,Tea,Iced,L,3,95,0,285,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601200801045,2026-01-20,Tue,8,Morning Peak,Thai Tea,Tea,Iced,M,2,80,0,160,Walk-in,Cash,0,Returning,Oat Milk
+ORD2601110901046,2026-01-11,Sun,9,Morning Peak,Blueberry Muffin,Bakery,-,-,3,75,0,225,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601171401047,2026-01-17,Sat,14,Afternoon Peak,Hot Latte,Coffee,Hot,M,1,85,0,85,Walk-in,QR/PromptPay,0,New,None
+ORD2601230801048,2026-01-23,Fri,8,Morning Peak,Blueberry Muffin,Bakery,-,-,1,75,0,75,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601240901049,2026-01-24,Sat,9,Morning Peak,Mocha,Coffee,Hot,M,3,95,0,285,Walk-in,QR/PromptPay,0,New,None
+ORD2601201201050,2026-01-20,Tue,12,Midday,Mocha,Coffee,Hot,M,2,95,0,190,Walk-in,QR/PromptPay,0,Returning,Whipped Cream
+ORD2601211501051,2026-01-21,Wed,15,Afternoon Peak,Chocolate,Non-Coffee,Hot,M,1,90,0,90,Walk-in,Card,0,Returning,None
+ORD2601230901052,2026-01-23,Fri,9,Morning Peak,Matcha Latte,Tea,Iced,M,2,95,0,190,Walk-in,Card,0,Returning,None
+ORD2601180901053,2026-01-18,Sun,9,Morning Peak,Hot Latte,Coffee,Hot,M,1,85,0,85,Walk-in,QR/PromptPay,0,New,None
+ORD2601241401054,2026-01-24,Sat,14,Afternoon Peak,Matcha Latte,Tea,Iced,M,3,95,0,285,Line Man/Delivery,QR/PromptPay,0,Returning,None
+ORD2601210901055,2026-01-21,Wed,9,Morning Peak,Iced Latte,Coffee,Iced,M,2,90,0,180,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601101501056,2026-01-10,Sat,15,Afternoon Peak,Cold Brew,Coffee,Iced,L,2,125,0,250,Walk-in,Card,0,Returning,None
+ORD2601201201057,2026-01-20,Tue,12,Midday,Thai Tea,Tea,Iced,M,2,80,0,160,Grab/Delivery,Cash,0,Returning,Extra Shot
+ORD2601111401058,2026-01-11,Sun,14,Afternoon Peak,Matcha Latte,Tea,Iced,M,1,95,10,85,Walk-in,QR/PromptPay,1,New,Oat Milk
+ORD2601150801059,2026-01-15,Thu,8,Morning Peak,Iced Americano,Coffee,Iced,S,1,65,0,65,Grab/Delivery,Cash,0,New,None
+ORD2601181101060,2026-01-18,Sun,11,Midday,Americano,Coffee,Hot,S,2,60,0,120,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601210801061,2026-01-21,Wed,8,Morning Peak,Blueberry Muffin,Bakery,-,-,1,75,0,75,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601131501062,2026-01-13,Tue,15,Afternoon Peak,Iced Latte,Coffee,Iced,M,2,90,0,180,Walk-in,Cash,0,New,Oat Milk
+ORD2601111101063,2026-01-11,Sun,11,Midday,Matcha Latte,Tea,Iced,M,1,95,0,95,Line Man/Delivery,Cash,0,New,None
+ORD2601150801064,2026-01-15,Thu,8,Morning Peak,Hot Latte,Coffee,Hot,M,3,85,0,255,Walk-in,QR/PromptPay,0,New,None
+ORD2601161301065,2026-01-16,Fri,13,Midday,Chocolate,Non-Coffee,Hot,M,1,90,0,90,Walk-in,QR/PromptPay,0,New,None
+ORD2601211301066,2026-01-21,Wed,13,Midday,Banana Cake,Bakery,-,-,1,70,0,70,Walk-in,Cash,0,New,None
+ORD2601141101067,2026-01-14,Wed,11,Midday,Lemon Tea,Tea,Iced,S,2,65,0,130,Walk-in,QR/PromptPay,0,New,None
+ORD2601231301068,2026-01-23,Fri,13,Midday,Americano,Coffee,Hot,M,1,70,0,70,Walk-in,Cash,0,New,Oat Milk
+ORD2601160901069,2026-01-16,Fri,9,Morning Peak,Cappuccino,Coffee,Hot,L,2,100,0,200,Grab/Delivery,QR/PromptPay,0,New,None
+ORD2601100801070,2026-01-10,Sat,8,Morning Peak,Banana Cake,Bakery,-,-,2,70,0,140,Walk-in,QR/PromptPay,0,New,None
+ORD2601161201071,2026-01-16,Fri,12,Midday,Espresso,Coffee,Hot,L,1,75,0,75,Line Man/Delivery,QR/PromptPay,0,Returning,None
+ORD2601140801072,2026-01-14,Wed,8,Morning Peak,Lemon Tea,Tea,Iced,S,1,65,0,65,Walk-in,QR/PromptPay,0,Returning,Oat Milk
+ORD2601230901073,2026-01-23,Fri,9,Morning Peak,Americano,Coffee,Hot,M,2,70,0,140,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601181001074,2026-01-18,Sun,10,Morning Peak,Lemon Tea,Tea,Iced,L,1,90,0,90,Grab/Delivery,QR/PromptPay,0,Returning,None
+ORD2601170801075,2026-01-17,Sat,8,Morning Peak,Matcha Latte,Tea,Iced,S,1,85,0,85,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601110901076,2026-01-11,Sun,9,Morning Peak,Cappuccino,Coffee,Hot,M,1,85,0,85,Walk-in,QR/PromptPay,0,New,None
+ORD2601221001077,2026-01-22,Thu,10,Morning Peak,Thai Tea,Tea,Iced,S,3,70,0,210,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601141501078,2026-01-14,Wed,15,Afternoon Peak,Iced Americano,Coffee,Iced,M,3,75,30,195,Walk-in,Card,1,New,None
+ORD2601221401079,2026-01-22,Thu,14,Afternoon Peak,Iced Latte,Coffee,Iced,M,1,90,0,90,Walk-in,Card,0,New,None
+ORD2601170901080,2026-01-17,Sat,9,Morning Peak,Iced Latte,Coffee,Iced,S,1,80,0,80,Grab/Delivery,QR/PromptPay,0,Returning,None
+ORD2601231101081,2026-01-23,Fri,11,Midday,Thai Tea,Tea,Iced,M,2,80,0,160,Grab/Delivery,Card,0,Returning,None
+ORD2601140901082,2026-01-14,Wed,9,Morning Peak,Honey Lime Soda,Soda,Iced,S,2,75,0,150,Line Man/Delivery,QR/PromptPay,0,New,None
+ORD2601171001083,2026-01-17,Sat,10,Morning Peak,Lemon Tea,Tea,Iced,M,1,75,0,75,Walk-in,QR/PromptPay,0,New,None
+ORD2601130901084,2026-01-13,Tue,9,Morning Peak,Americano,Coffee,Hot,M,3,70,0,210,Line Man/Delivery,QR/PromptPay,0,Returning,Whipped Cream
+ORD2601210801085,2026-01-21,Wed,8,Morning Peak,Blueberry Muffin,Bakery,-,-,1,75,0,75,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601211001086,2026-01-21,Wed,10,Morning Peak,Blueberry Muffin,Bakery,-,-,1,75,0,75,Walk-in,Card,0,New,None
+ORD2601141001087,2026-01-14,Wed,10,Morning Peak,Hot Latte,Coffee,Hot,L,3,100,0,300,Walk-in,QR/PromptPay,0,Returning,Oat Milk
+ORD2601201401088,2026-01-20,Tue,14,Afternoon Peak,Thai Tea,Tea,Iced,M,2,80,20,140,Walk-in,QR/PromptPay,1,Returning,None
+ORD2601141001089,2026-01-14,Wed,10,Morning Peak,Iced Latte,Coffee,Iced,M,2,90,0,180,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601100801090,2026-01-10,Sat,8,Morning Peak,Espresso,Coffee,Hot,L,2,75,0,150,Walk-in,QR/PromptPay,0,New,None
+ORD2601170801091,2026-01-17,Sat,8,Morning Peak,Thai Tea,Tea,Iced,M,2,80,0,160,Walk-in,QR/PromptPay,0,New,None
+ORD2601101501092,2026-01-10,Sat,15,Afternoon Peak,Thai Tea,Tea,Iced,S,3,70,0,210,Walk-in,Cash,0,New,Extra Shot
+ORD2601171101093,2026-01-17,Sat,11,Midday,Thai Tea,Tea,Iced,S,3,70,0,210,Walk-in,QR/PromptPay,0,New,None
+ORD2601181301094,2026-01-18,Sun,13,Midday,Decaf Latte,Coffee,Hot,M,3,95,0,285,Walk-in,QR/PromptPay,0,Returning,Extra Shot
+ORD2601211001095,2026-01-21,Wed,10,Morning Peak,Banana Cake,Bakery,-,-,2,70,0,140,Walk-in,Cash,0,Returning,None
+ORD2601240901096,2026-01-24,Sat,9,Morning Peak,Americano,Coffee,Hot,M,2,70,0,140,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601240801097,2026-01-24,Sat,8,Morning Peak,Mocha,Coffee,Hot,S,3,85,0,255,Walk-in,QR/PromptPay,0,New,None
+ORD2601101401098,2026-01-10,Sat,14,Afternoon Peak,Hot Latte,Coffee,Hot,M,1,85,0,85,Walk-in,QR/PromptPay,0,Returning,Oat Milk
+ORD2601210801099,2026-01-21,Wed,8,Morning Peak,Thai Tea,Tea,Iced,S,1,70,0,70,Walk-in,Card,0,New,None
+ORD2601131601100,2026-01-13,Tue,16,Late,Ginger Tea,Tea,Hot,L,3,85,0,255,Walk-in,Cash,0,Returning,None
+ORD2601101001101,2026-01-10,Sat,10,Morning Peak,Orange Cold Brew,Coffee,Iced,L,1,145,0,145,Walk-in,Card,0,Returning,None
+ORD2601220801102,2026-01-22,Thu,8,Morning Peak,Iced Latte,Coffee,Iced,M,2,90,0,180,Grab/Delivery,QR/PromptPay,0,Returning,Extra Shot
+ORD2601160801103,2026-01-16,Fri,8,Morning Peak,Chocolate,Non-Coffee,Hot,M,2,90,0,180,Walk-in,QR/PromptPay,0,New,None
+ORD2601221501104,2026-01-22,Thu,15,Afternoon Peak,Thai Tea,Tea,Iced,S,1,70,0,70,Grab/Delivery,Cash,0,New,None
+ORD2601211001105,2026-01-21,Wed,10,Morning Peak,Hot Latte,Coffee,Hot,M,2,85,0,170,Walk-in,Card,0,Returning,Extra Shot
+ORD2601231001106,2026-01-23,Fri,10,Morning Peak,Thai Tea,Tea,Iced,S,1,70,0,70,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601151401107,2026-01-15,Thu,14,Afternoon Peak,Caramel Macchiato,Coffee,Iced,M,1,110,10,100,Grab/Delivery,Cash,1,New,None
+ORD2601221101108,2026-01-22,Thu,11,Midday,Banana Cake,Bakery,-,-,3,70,0,210,Line Man/Delivery,QR/PromptPay,0,New,None
+ORD2601181201109,2026-01-18,Sun,12,Midday,Matcha Latte,Tea,Iced,M,3,95,0,285,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601221301110,2026-01-22,Thu,13,Midday,Cold Brew,Coffee,Iced,S,3,100,0,300,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601210901111,2026-01-21,Wed,9,Morning Peak,Cold Brew,Coffee,Iced,M,2,110,0,220,Line Man/Delivery,QR/PromptPay,0,Returning,Extra Shot
+ORD2601211001112,2026-01-21,Wed,10,Morning Peak,Hot Latte,Coffee,Hot,M,3,85,0,255,Walk-in,QR/PromptPay,0,New,Extra Shot
+ORD2601171101113,2026-01-17,Sat,11,Midday,Chocolate,Non-Coffee,Hot,M,1,90,0,90,Grab/Delivery,Card,0,New,Extra Shot
+ORD2601231101114,2026-01-23,Fri,11,Midday,Decaf Latte,Coffee,Hot,M,1,95,0,95,Grab/Delivery,QR/PromptPay,0,Returning,None
+ORD2601170901115,2026-01-17,Sat,9,Morning Peak,Chocolate,Non-Coffee,Hot,M,2,90,0,180,Walk-in,QR/PromptPay,0,Returning,Extra Shot
+ORD2601111301116,2026-01-11,Sun,13,Midday,Americano,Coffee,Hot,M,2,70,0,140,Walk-in,QR/PromptPay,0,Returning,Oat Milk
+ORD2601231201117,2026-01-23,Fri,12,Midday,Hot Latte,Coffee,Hot,S,1,75,0,75,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601140801118,2026-01-14,Wed,8,Morning Peak,Caramel Macchiato,Coffee,Iced,M,1,110,0,110,Walk-in,QR/PromptPay,0,New,Oat Milk
+ORD2601241301119,2026-01-24,Sat,13,Midday,Cappuccino,Coffee,Hot,M,1,85,0,85,Walk-in,Cash,0,Returning,None
+ORD2601170901120,2026-01-17,Sat,9,Morning Peak,Hot Latte,Coffee,Hot,L,1,100,0,100,Walk-in,Card,0,Returning,None
+ORD2601101201121,2026-01-10,Sat,12,Midday,Americano,Coffee,Hot,M,3,70,0,210,Walk-in,QR/PromptPay,0,Returning,Extra Shot
+ORD2601201001122,2026-01-20,Tue,10,Morning Peak,Butter Croissant,Bakery,-,-,2,55,0,110,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601240901123,2026-01-24,Sat,9,Morning Peak,Banana Cake,Bakery,-,-,2,70,0,140,Walk-in,QR/PromptPay,0,New,None
+ORD2601140801124,2026-01-14,Wed,8,Morning Peak,Matcha Latte,Tea,Iced,M,1,95,0,95,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601201301125,2026-01-20,Tue,13,Midday,Matcha Latte,Tea,Iced,S,1,85,0,85,Walk-in,QR/PromptPay,0,New,None
+ORD2601171001126,2026-01-17,Sat,10,Morning Peak,Iced Americano,Coffee,Iced,M,1,75,0,75,Walk-in,Card,0,Returning,None
+ORD2601200801127,2026-01-20,Tue,8,Morning Peak,Thai Tea,Tea,Iced,M,1,80,0,80,Walk-in,Card,0,New,Extra Shot
+ORD2601210801128,2026-01-21,Wed,8,Morning Peak,Mocha,Coffee,Hot,M,1,95,0,95,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601131001129,2026-01-13,Tue,10,Morning Peak,Thai Tea,Tea,Iced,M,3,80,0,240,Walk-in,QR/PromptPay,0,New,None
+ORD2601210901130,2026-01-21,Wed,9,Morning Peak,Cappuccino,Coffee,Hot,S,1,75,0,75,Line Man/Delivery,Cash,0,Returning,Whipped Cream
+ORD2601171601131,2026-01-17,Sat,16,Late,Iced Americano,Coffee,Iced,M,3,75,0,225,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601150901132,2026-01-15,Thu,9,Morning Peak,Brownie,Bakery,-,-,1,65,0,65,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601151401133,2026-01-15,Thu,14,Afternoon Peak,Iced Latte,Coffee,Iced,S,2,80,0,160,Grab/Delivery,QR/PromptPay,0,Returning,None
+ORD2601161001134,2026-01-16,Fri,10,Morning Peak,Lemon Tea,Tea,Iced,M,2,75,0,150,Line Man/Delivery,QR/PromptPay,0,New,None
+ORD2601151001135,2026-01-15,Thu,10,Morning Peak,Americano,Coffee,Hot,L,1,85,0,85,Line Man/Delivery,QR/PromptPay,0,Returning,None
+ORD2601160901136,2026-01-16,Fri,9,Morning Peak,Brownie,Bakery,-,-,1,65,0,65,Grab/Delivery,QR/PromptPay,0,New,None
+ORD2601231501137,2026-01-23,Fri,15,Afternoon Peak,Espresso,Coffee,Hot,L,1,75,0,75,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601181001138,2026-01-18,Sun,10,Morning Peak,Orange Cold Brew,Coffee,Iced,M,2,130,0,260,Grab/Delivery,QR/PromptPay,0,Returning,Extra Shot
+ORD2601160901139,2026-01-16,Fri,9,Morning Peak,Iced Americano,Coffee,Iced,S,1,65,0,65,Walk-in,QR/PromptPay,0,New,Whipped Cream
+ORD2601160801140,2026-01-16,Fri,8,Morning Peak,Thai Tea,Tea,Iced,L,2,95,0,190,Walk-in,QR/PromptPay,0,Returning,Extra Shot
+ORD2601210901141,2026-01-21,Wed,9,Morning Peak,Thai Tea,Tea,Iced,M,2,80,0,160,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601131101142,2026-01-13,Tue,11,Midday,Mocha,Coffee,Hot,L,1,110,0,110,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601221001143,2026-01-22,Thu,10,Morning Peak,Blueberry Muffin,Bakery,-,-,3,75,0,225,Walk-in,Cash,0,Returning,None
+ORD2601161001144,2026-01-16,Fri,10,Morning Peak,Butter Croissant,Bakery,-,-,3,55,0,165,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601101501145,2026-01-10,Sat,15,Afternoon Peak,Americano,Coffee,Hot,L,3,85,30,225,Grab/Delivery,Cash,1,Returning,Extra Shot
+ORD2601131001146,2026-01-13,Tue,10,Morning Peak,Butter Croissant,Bakery,-,-,2,55,0,110,Walk-in,Cash,0,Returning,None
+ORD2601211301147,2026-01-21,Wed,13,Midday,Chocolate,Non-Coffee,Hot,L,2,105,0,210,Grab/Delivery,QR/PromptPay,0,Returning,None
+ORD2601151301148,2026-01-15,Thu,13,Midday,Cold Brew,Coffee,Iced,L,2,125,0,250,Grab/Delivery,QR/PromptPay,0,Returning,None
+ORD2601221101149,2026-01-22,Thu,11,Midday,Iced Americano,Coffee,Iced,M,1,75,0,75,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601161501150,2026-01-16,Fri,15,Afternoon Peak,Lemon Tea,Tea,Iced,M,1,75,0,75,Grab/Delivery,QR/PromptPay,0,Returning,None
+ORD2601180901151,2026-01-18,Sun,9,Morning Peak,Iced Latte,Coffee,Iced,M,2,90,0,180,Walk-in,QR/PromptPay,0,Returning,Oat Milk
+ORD2601241401152,2026-01-24,Sat,14,Afternoon Peak,Mocha,Coffee,Hot,M,3,95,0,285,Walk-in,QR/PromptPay,0,Returning,Oat Milk
+ORD2601111601153,2026-01-11,Sun,16,Late,Iced Latte,Coffee,Iced,S,1,80,0,80,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601171601154,2026-01-17,Sat,16,Late,Vegan Muffin,Bakery,-,-,2,85,0,170,Walk-in,Cash,0,New,None
+ORD2601241501155,2026-01-24,Sat,15,Afternoon Peak,Thai Tea,Tea,Iced,S,1,70,0,70,Walk-in,QR/PromptPay,0,Returning,Whipped Cream
+ORD2601171301156,2026-01-17,Sat,13,Midday,Chocolate,Non-Coffee,Hot,M,1,90,0,90,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601101101157,2026-01-10,Sat,11,Midday,Iced Latte,Coffee,Iced,M,1,90,0,90,Walk-in,QR/PromptPay,0,Returning,Whipped Cream
+ORD2601231401158,2026-01-23,Fri,14,Afternoon Peak,Iced Latte,Coffee,Iced,M,1,90,10,80,Walk-in,Card,1,New,None
+ORD2601150901159,2026-01-15,Thu,9,Morning Peak,Butter Croissant,Bakery,-,-,1,55,0,55,Walk-in,QR/PromptPay,0,New,None
+ORD2601241601160,2026-01-24,Sat,16,Late,Chocolate,Non-Coffee,Hot,M,1,90,0,90,Walk-in,QR/PromptPay,0,New,None
+ORD2601111201161,2026-01-11,Sun,12,Midday,Thai Tea,Tea,Iced,S,2,70,0,140,Walk-in,QR/PromptPay,0,Returning,Oat Milk
+ORD2601220801162,2026-01-22,Thu,8,Morning Peak,Yuzu Soda,Soda,Iced,M,3,95,0,285,Line Man/Delivery,Card,0,Returning,None
+ORD2601220801163,2026-01-22,Thu,8,Morning Peak,Cold Brew,Coffee,Iced,M,2,110,0,220,Line Man/Delivery,QR/PromptPay,0,New,None
+ORD2601151301164,2026-01-15,Thu,13,Midday,Hot Latte,Coffee,Hot,M,2,85,0,170,Grab/Delivery,QR/PromptPay,0,Returning,None
+ORD2601140801165,2026-01-14,Wed,8,Morning Peak,Yuzu Soda,Soda,Iced,M,2,95,0,190,Walk-in,Card,0,Returning,Extra Shot
+ORD2601141501166,2026-01-14,Wed,15,Afternoon Peak,Iced Latte,Coffee,Iced,M,1,90,0,90,Grab/Delivery,QR/PromptPay,0,Returning,Oat Milk
+ORD2601241301167,2026-01-24,Sat,13,Midday,Americano,Coffee,Hot,M,1,70,0,70,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601101001168,2026-01-10,Sat,10,Morning Peak,Vegan Muffin,Bakery,-,-,1,85,0,85,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601101501169,2026-01-10,Sat,15,Afternoon Peak,Matcha Latte,Tea,Iced,S,1,85,10,75,Walk-in,QR/PromptPay,1,Returning,None
+ORD2601211201170,2026-01-21,Wed,12,Midday,Banana Cake,Bakery,-,-,2,70,0,140,Walk-in,Card,0,Returning,None
+ORD2601131201171,2026-01-13,Tue,12,Midday,Blueberry Muffin,Bakery,-,-,2,75,0,150,Grab/Delivery,Cash,0,Returning,None
+ORD2601151301172,2026-01-15,Thu,13,Midday,Lemon Tea,Tea,Iced,M,2,75,0,150,Grab/Delivery,QR/PromptPay,0,Returning,None
+ORD2601161401173,2026-01-16,Fri,14,Afternoon Peak,Chocolate,Non-Coffee,Hot,M,1,90,0,90,Walk-in,Card,0,New,None
+ORD2601130801174,2026-01-13,Tue,8,Morning Peak,Honey Lime Soda,Soda,Iced,M,2,85,0,170,Walk-in,Card,0,Returning,None
+ORD2601200801175,2026-01-20,Tue,8,Morning Peak,Chocolate,Non-Coffee,Hot,S,3,80,0,240,Walk-in,Card,0,New,None
+ORD2601221601176,2026-01-22,Thu,16,Late,Cappuccino,Coffee,Hot,M,1,85,0,85,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601201501177,2026-01-20,Tue,15,Afternoon Peak,Butter Croissant,Bakery,-,-,3,55,0,165,Walk-in,Cash,0,New,None
+ORD2601161301178,2026-01-16,Fri,13,Midday,Brownie,Bakery,-,-,2,65,0,130,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601111001179,2026-01-11,Sun,10,Morning Peak,Matcha Latte,Tea,Iced,L,1,110,0,110,Walk-in,Card,0,New,Extra Shot
+ORD2601161401180,2026-01-16,Fri,14,Afternoon Peak,Iced Americano,Coffee,Iced,S,1,65,0,65,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601241101181,2026-01-24,Sat,11,Midday,Matcha Latte,Tea,Iced,S,1,85,0,85,Grab/Delivery,Cash,0,Returning,Whipped Cream
+ORD2601130901182,2026-01-13,Tue,9,Morning Peak,Lemon Tea,Tea,Iced,S,2,65,0,130,Walk-in,Cash,0,New,None
+ORD2601140801183,2026-01-14,Wed,8,Morning Peak,Matcha Latte,Tea,Iced,M,1,95,0,95,Walk-in,QR/PromptPay,0,New,None
+ORD2601231001184,2026-01-23,Fri,10,Morning Peak,Iced Americano,Coffee,Iced,S,1,65,0,65,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601211101185,2026-01-21,Wed,11,Midday,Iced Americano,Coffee,Iced,M,1,75,0,75,Walk-in,Card,0,Returning,None
+ORD2601201301186,2026-01-20,Tue,13,Midday,Honey Lime Soda,Soda,Iced,S,2,75,0,150,Grab/Delivery,QR/PromptPay,0,Returning,None
+ORD2601101301187,2026-01-10,Sat,13,Midday,Matcha Latte,Tea,Iced,S,1,85,0,85,Grab/Delivery,Cash,0,Returning,None
+ORD2601111601188,2026-01-11,Sun,16,Late,Thai Tea,Tea,Iced,M,3,80,0,240,Grab/Delivery,QR/PromptPay,0,Returning,None
+ORD2601141301189,2026-01-14,Wed,13,Midday,Cappuccino,Coffee,Hot,S,2,75,0,150,Walk-in,Cash,0,New,None
+ORD2601150901190,2026-01-15,Thu,9,Morning Peak,Thai Tea,Tea,Iced,M,1,80,0,80,Walk-in,QR/PromptPay,0,Returning,Oat Milk
+ORD2601240801191,2026-01-24,Sat,8,Morning Peak,Hot Latte,Coffee,Hot,M,1,85,0,85,Grab/Delivery,QR/PromptPay,0,Returning,Oat Milk
+ORD2601241401192,2026-01-24,Sat,14,Afternoon Peak,Mocha,Coffee,Hot,M,3,95,0,285,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601201001193,2026-01-20,Tue,10,Morning Peak,Iced Latte,Coffee,Iced,S,2,80,0,160,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601131201194,2026-01-13,Tue,12,Midday,Thai Tea,Tea,Iced,M,2,80,0,160,Grab/Delivery,Card,0,New,Whipped Cream
+ORD2601180801195,2026-01-18,Sun,8,Morning Peak,Caramel Macchiato,Coffee,Iced,M,2,110,0,220,Line Man/Delivery,QR/PromptPay,0,New,None
+ORD2601220801196,2026-01-22,Thu,8,Morning Peak,Espresso,Coffee,Hot,M,3,60,0,180,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601221501197,2026-01-22,Thu,15,Afternoon Peak,Butter Croissant,Bakery,-,-,2,55,0,110,Walk-in,QR/PromptPay,0,New,None
+ORD2601100801198,2026-01-10,Sat,8,Morning Peak,Americano,Coffee,Hot,M,2,70,0,140,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601200801199,2026-01-20,Tue,8,Morning Peak,Americano,Coffee,Hot,S,2,60,0,120,Walk-in,QR/PromptPay,0,Returning,Oat Milk
+ORD2601221301200,2026-01-22,Thu,13,Midday,Iced Americano,Coffee,Iced,M,2,75,0,150,Line Man/Delivery,QR/PromptPay,0,Returning,None
+ORD2601161401201,2026-01-16,Fri,14,Afternoon Peak,Iced Latte,Coffee,Iced,M,2,90,0,180,Walk-in,Cash,0,Returning,None
+ORD2601151001202,2026-01-15,Thu,10,Morning Peak,Honey Lime Soda,Soda,Iced,M,1,85,0,85,Grab/Delivery,QR/PromptPay,0,Returning,None
+ORD2601131601203,2026-01-13,Tue,16,Late,Cappuccino,Coffee,Hot,S,1,75,0,75,Walk-in,Cash,0,Returning,None
+ORD2601201301204,2026-01-20,Tue,13,Midday,Chocolate,Non-Coffee,Hot,M,2,90,0,180,Walk-in,QR/PromptPay,0,New,Oat Milk
+ORD2601131501205,2026-01-13,Tue,15,Afternoon Peak,Iced Americano,Coffee,Iced,M,1,75,0,75,Walk-in,QR/PromptPay,0,New,None
+ORD2601131001206,2026-01-13,Tue,10,Morning Peak,Matcha Latte,Tea,Iced,L,1,110,0,110,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601221401207,2026-01-22,Thu,14,Afternoon Peak,Americano,Coffee,Hot,M,2,70,0,140,Walk-in,Card,0,New,None
+ORD2601240801208,2026-01-24,Sat,8,Morning Peak,Americano,Coffee,Hot,S,2,60,0,120,Walk-in,Cash,0,Returning,Whipped Cream
+ORD2601171201209,2026-01-17,Sat,12,Midday,Hot Latte,Coffee,Hot,M,1,85,0,85,Walk-in,Card,0,Returning,None
+ORD2601140801210,2026-01-14,Wed,8,Morning Peak,Iced Latte,Coffee,Iced,M,1,90,0,90,Grab/Delivery,QR/PromptPay,0,New,None
+ORD2601151301211,2026-01-15,Thu,13,Midday,Blueberry Muffin,Bakery,-,-,2,75,0,150,Walk-in,QR/PromptPay,0,New,None
+ORD2601220801212,2026-01-22,Thu,8,Morning Peak,Matcha Latte,Tea,Iced,M,2,95,0,190,Walk-in,QR/PromptPay,0,New,Whipped Cream
+ORD2601181501213,2026-01-18,Sun,15,Afternoon Peak,Butter Croissant,Bakery,-,-,1,55,5,50,Walk-in,Cash,1,Returning,None
+ORD2601160801214,2026-01-16,Fri,8,Morning Peak,Hot Latte,Coffee,Hot,L,1,100,0,100,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601180901215,2026-01-18,Sun,9,Morning Peak,Iced Latte,Coffee,Iced,M,2,90,0,180,Walk-in,Card,0,Returning,None
+ORD2601101501216,2026-01-10,Sat,15,Afternoon Peak,Iced Latte,Coffee,Iced,M,2,90,0,180,Walk-in,Card,0,Returning,Oat Milk
+ORD2601231501217,2026-01-23,Fri,15,Afternoon Peak,Banana Cake,Bakery,-,-,1,70,0,70,Line Man/Delivery,Cash,0,Returning,None
+ORD2601221601218,2026-01-22,Thu,16,Late,Thai Tea,Tea,Iced,M,2,80,0,160,Walk-in,QR/PromptPay,0,New,None
+ORD2601110901219,2026-01-11,Sun,9,Morning Peak,Espresso,Coffee,Hot,M,1,60,0,60,Line Man/Delivery,Cash,0,Returning,None
+ORD2601101001220,2026-01-10,Sat,10,Morning Peak,Matcha Latte,Tea,Iced,M,1,95,0,95,Walk-in,Card,0,Returning,None
+ORD2601130801221,2026-01-13,Tue,8,Morning Peak,Americano,Coffee,Hot,M,1,70,0,70,Walk-in,QR/PromptPay,0,Returning,Oat Milk
+ORD2601111501222,2026-01-11,Sun,15,Afternoon Peak,Vegan Muffin,Bakery,-,-,3,85,0,255,Line Man/Delivery,QR/PromptPay,0,Returning,None
+ORD2601141201223,2026-01-14,Wed,12,Midday,Americano,Coffee,Hot,M,2,70,0,140,Grab/Delivery,QR/PromptPay,0,Returning,Extra Shot
+ORD2601211001224,2026-01-21,Wed,10,Morning Peak,Americano,Coffee,Hot,M,2,70,0,140,Walk-in,Cash,0,Returning,None
+ORD2601151201225,2026-01-15,Thu,12,Midday,Cappuccino,Coffee,Hot,M,1,85,0,85,Walk-in,Cash,0,New,None
+ORD2601180801226,2026-01-18,Sun,8,Morning Peak,Butter Croissant,Bakery,-,-,2,55,0,110,Walk-in,Card,0,New,None
+ORD2601210901227,2026-01-21,Wed,9,Morning Peak,Iced Latte,Coffee,Iced,M,2,90,0,180,Walk-in,QR/PromptPay,0,New,None
+ORD2601151001228,2026-01-15,Thu,10,Morning Peak,Americano,Coffee,Hot,S,1,60,0,60,Walk-in,QR/PromptPay,0,New,Oat Milk
+ORD2601151001229,2026-01-15,Thu,10,Morning Peak,Brownie,Bakery,-,-,1,65,0,65,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601111001230,2026-01-11,Sun,10,Morning Peak,Chocolate,Non-Coffee,Hot,S,2,80,0,160,Walk-in,Cash,0,Returning,Oat Milk
+ORD2601201101231,2026-01-20,Tue,11,Midday,Cappuccino,Coffee,Hot,L,1,100,0,100,Walk-in,QR/PromptPay,0,Returning,Extra Shot
+ORD2601231101232,2026-01-23,Fri,11,Midday,Hot Latte,Coffee,Hot,M,1,85,0,85,Walk-in,QR/PromptPay,0,New,None
+ORD2601111301233,2026-01-11,Sun,13,Midday,Matcha Latte,Tea,Iced,M,3,95,0,285,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601161401234,2026-01-16,Fri,14,Afternoon Peak,Cold Brew,Coffee,Iced,M,2,110,0,220,Walk-in,QR/PromptPay,0,New,None
+ORD2601100901235,2026-01-10,Sat,9,Morning Peak,Espresso,Coffee,Hot,M,1,60,0,60,Walk-in,Cash,0,Returning,None
+ORD2601221001236,2026-01-22,Thu,10,Morning Peak,Thai Tea,Tea,Iced,M,3,80,0,240,Walk-in,QR/PromptPay,0,Returning,Extra Shot
+ORD2601241301237,2026-01-24,Sat,13,Midday,Chocolate,Non-Coffee,Hot,M,2,90,0,180,Grab/Delivery,QR/PromptPay,0,New,None
+ORD2601181501238,2026-01-18,Sun,15,Afternoon Peak,Hot Latte,Coffee,Hot,M,3,85,30,225,Walk-in,QR/PromptPay,1,Returning,None
+ORD2601181501239,2026-01-18,Sun,15,Afternoon Peak,Hot Latte,Coffee,Hot,M,1,85,10,75,Walk-in,QR/PromptPay,1,Returning,None
+ORD2601160801240,2026-01-16,Fri,8,Morning Peak,Chocolate,Non-Coffee,Hot,L,3,105,0,315,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601201501241,2026-01-20,Tue,15,Afternoon Peak,Chocolate,Non-Coffee,Hot,M,1,90,0,90,Walk-in,Cash,0,Returning,None
+ORD2601170901242,2026-01-17,Sat,9,Morning Peak,Hot Latte,Coffee,Hot,M,1,85,0,85,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601231401243,2026-01-23,Fri,14,Afternoon Peak,Thai Tea,Tea,Iced,M,2,80,0,160,Grab/Delivery,Card,0,Returning,None
+ORD2601211101244,2026-01-21,Wed,11,Midday,Iced Latte,Coffee,Iced,L,1,105,0,105,Line Man/Delivery,Cash,0,Returning,None
+ORD2601141301245,2026-01-14,Wed,13,Midday,Banana Cake,Bakery,-,-,2,70,0,140,Grab/Delivery,QR/PromptPay,0,Returning,None
+ORD2601101401246,2026-01-10,Sat,14,Afternoon Peak,Americano,Coffee,Hot,M,3,70,0,210,Walk-in,QR/PromptPay,0,New,None
+ORD2601220901247,2026-01-22,Thu,9,Morning Peak,Honey Lime Soda,Soda,Iced,S,2,75,0,150,Walk-in,QR/PromptPay,0,New,None
+ORD2601161001248,2026-01-16,Fri,10,Morning Peak,Iced Americano,Coffee,Iced,M,3,75,0,225,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601111001249,2026-01-11,Sun,10,Morning Peak,Brownie,Bakery,-,-,1,65,0,65,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601101601250,2026-01-10,Sat,16,Late,Thai Tea,Tea,Iced,M,3,80,0,240,Walk-in,QR/PromptPay,0,Returning,Oat Milk
+ORD2601180901251,2026-01-18,Sun,9,Morning Peak,Caramel Macchiato,Coffee,Iced,M,2,110,0,220,Grab/Delivery,Card,0,New,None
+ORD2601111501252,2026-01-11,Sun,15,Afternoon Peak,Lemon Tea,Tea,Iced,M,2,75,0,150,Walk-in,QR/PromptPay,0,New,None
+ORD2601100801253,2026-01-10,Sat,8,Morning Peak,Americano,Coffee,Hot,S,1,60,0,60,Walk-in,Cash,0,New,Oat Milk
+ORD2601111101254,2026-01-11,Sun,11,Midday,Cappuccino,Coffee,Hot,M,1,85,0,85,Walk-in,Card,0,New,None
+ORD2601141601255,2026-01-14,Wed,16,Late,Lemon Tea,Tea,Iced,M,1,75,0,75,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601221401256,2026-01-22,Thu,14,Afternoon Peak,Blueberry Muffin,Bakery,-,-,2,75,10,140,Walk-in,Card,1,New,None
+ORD2601231501257,2026-01-23,Fri,15,Afternoon Peak,Chocolate,Non-Coffee,Hot,M,1,90,0,90,Walk-in,Cash,0,New,None
+ORD2601241101258,2026-01-24,Sat,11,Midday,Espresso,Coffee,Hot,M,2,60,0,120,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601221301259,2026-01-22,Thu,13,Midday,Matcha Latte,Tea,Iced,M,2,95,0,190,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601161001260,2026-01-16,Fri,10,Morning Peak,Iced Americano,Coffee,Iced,M,1,75,0,75,Walk-in,QR/PromptPay,0,New,None
+ORD2601110901261,2026-01-11,Sun,9,Morning Peak,Honey Lime Soda,Soda,Iced,M,1,85,0,85,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601151101262,2026-01-15,Thu,11,Midday,Chocolate,Non-Coffee,Hot,M,1,90,0,90,Grab/Delivery,QR/PromptPay,0,New,None
+ORD2601160901263,2026-01-16,Fri,9,Morning Peak,Iced Americano,Coffee,Iced,M,2,75,0,150,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601161001264,2026-01-16,Fri,10,Morning Peak,Matcha Latte,Tea,Iced,M,1,95,0,95,Walk-in,QR/PromptPay,0,Returning,Whipped Cream
+ORD2601101301265,2026-01-10,Sat,13,Midday,Banana Cake,Bakery,-,-,1,70,0,70,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601170801266,2026-01-17,Sat,8,Morning Peak,Hot Latte,Coffee,Hot,M,3,85,0,255,Line Man/Delivery,QR/PromptPay,0,New,None
+ORD2601181001267,2026-01-18,Sun,10,Morning Peak,Iced Americano,Coffee,Iced,L,2,90,0,180,Grab/Delivery,QR/PromptPay,0,New,Extra Shot
+ORD2601151401268,2026-01-15,Thu,14,Afternoon Peak,Iced Americano,Coffee,Iced,M,1,75,10,65,Walk-in,QR/PromptPay,1,New,None
+ORD2601101501269,2026-01-10,Sat,15,Afternoon Peak,Americano,Coffee,Hot,M,1,70,0,70,Walk-in,QR/PromptPay,0,New,None
+ORD2601220801270,2026-01-22,Thu,8,Morning Peak,Chocolate,Non-Coffee,Hot,L,2,105,0,210,Walk-in,Card,0,Returning,Extra Shot
+ORD2601161201271,2026-01-16,Fri,12,Midday,Americano,Coffee,Hot,M,1,70,0,70,Walk-in,QR/PromptPay,0,New,None
+ORD2601231601272,2026-01-23,Fri,16,Late,Hot Latte,Coffee,Hot,M,3,85,0,255,Grab/Delivery,Cash,0,Returning,None
+ORD2601240901273,2026-01-24,Sat,9,Morning Peak,Lemon Tea,Tea,Iced,S,1,65,0,65,Walk-in,Card,0,Returning,Extra Shot
+ORD2601141101274,2026-01-14,Wed,11,Midday,Matcha Latte,Tea,Iced,M,2,95,0,190,Walk-in,Card,0,New,None
+ORD2601160801275,2026-01-16,Fri,8,Morning Peak,Brownie,Bakery,-,-,2,65,0,130,Walk-in,Cash,0,New,None
+ORD2601231501276,2026-01-23,Fri,15,Afternoon Peak,Decaf Latte,Coffee,Hot,M,1,95,10,85,Walk-in,QR/PromptPay,1,Returning,None
+ORD2601221001277,2026-01-22,Thu,10,Morning Peak,Espresso,Coffee,Hot,M,1,60,0,60,Walk-in,QR/PromptPay,0,Returning,Oat Milk
+ORD2601140901278,2026-01-14,Wed,9,Morning Peak,Matcha Latte,Tea,Iced,M,1,95,0,95,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601161001279,2026-01-16,Fri,10,Morning Peak,Cappuccino,Coffee,Hot,M,1,85,0,85,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601151001280,2026-01-15,Thu,10,Morning Peak,Matcha Latte,Tea,Iced,L,1,110,0,110,Walk-in,Cash,0,New,None
+ORD2601161501281,2026-01-16,Fri,15,Afternoon Peak,Cappuccino,Coffee,Hot,S,2,75,20,130,Walk-in,Cash,1,New,Oat Milk
+ORD2601181001282,2026-01-18,Sun,10,Morning Peak,Blueberry Muffin,Bakery,-,-,2,75,0,150,Walk-in,Card,0,Returning,None
+ORD2601161201283,2026-01-16,Fri,12,Midday,Thai Tea,Tea,Iced,S,3,70,0,210,Walk-in,QR/PromptPay,0,New,None
+ORD2601221601284,2026-01-22,Thu,16,Late,Blueberry Muffin,Bakery,-,-,2,75,0,150,Grab/Delivery,QR/PromptPay,0,New,None
+ORD2601151001285,2026-01-15,Thu,10,Morning Peak,Lemon Tea,Tea,Iced,S,2,65,0,130,Walk-in,QR/PromptPay,0,Returning,Extra Shot
+ORD2601210801286,2026-01-21,Wed,8,Morning Peak,Chocolate,Non-Coffee,Hot,M,2,90,0,180,Grab/Delivery,QR/PromptPay,0,Returning,None
+ORD2601161501287,2026-01-16,Fri,15,Afternoon Peak,Iced Americano,Coffee,Iced,M,3,75,0,225,Walk-in,QR/PromptPay,0,New,None
+ORD2601180901288,2026-01-18,Sun,9,Morning Peak,Caramel Macchiato,Coffee,Iced,M,1,110,0,110,Walk-in,Cash,0,New,None
+ORD2601141001289,2026-01-14,Wed,10,Morning Peak,Thai Tea,Tea,Iced,M,3,80,0,240,Walk-in,QR/PromptPay,0,New,None
+ORD2601200901290,2026-01-20,Tue,9,Morning Peak,Lemon Tea,Tea,Iced,M,3,75,0,225,Grab/Delivery,Cash,0,New,None
+ORD2601230901291,2026-01-23,Fri,9,Morning Peak,Brownie,Bakery,-,-,1,65,0,65,Walk-in,QR/PromptPay,0,New,None
+ORD2601131001292,2026-01-13,Tue,10,Morning Peak,Iced Latte,Coffee,Iced,S,1,80,0,80,Walk-in,QR/PromptPay,0,Returning,Extra Shot
+ORD2601171001293,2026-01-17,Sat,10,Morning Peak,Cappuccino,Coffee,Hot,L,1,100,0,100,Walk-in,Cash,0,New,None
+ORD2601201601294,2026-01-20,Tue,16,Late,Ginger Tea,Tea,Hot,L,2,85,0,170,Walk-in,QR/PromptPay,0,Returning,Extra Shot
+ORD2601110801295,2026-01-11,Sun,8,Morning Peak,Thai Tea,Tea,Iced,L,2,95,0,190,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601211101296,2026-01-21,Wed,11,Midday,Lemon Tea,Tea,Iced,M,2,75,0,150,Walk-in,Card,0,Returning,None
+ORD2601111401297,2026-01-11,Sun,14,Afternoon Peak,Blueberry Muffin,Bakery,-,-,1,75,0,75,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601221001298,2026-01-22,Thu,10,Morning Peak,Chocolate,Non-Coffee,Hot,S,1,80,0,80,Grab/Delivery,QR/PromptPay,0,Returning,None
+ORD2601150901299,2026-01-15,Thu,9,Morning Peak,Lemon Tea,Tea,Iced,M,3,75,0,225,Grab/Delivery,Cash,0,New,None
+ORD2601111501300,2026-01-11,Sun,15,Afternoon Peak,Thai Tea,Tea,Iced,M,3,80,0,240,Grab/Delivery,QR/PromptPay,0,Returning,None
+ORD2601161501301,2026-01-16,Fri,15,Afternoon Peak,Thai Tea,Tea,Iced,S,1,70,0,70,Walk-in,Cash,0,New,Oat Milk
+ORD2601171001302,2026-01-17,Sat,10,Morning Peak,Americano,Coffee,Hot,M,3,70,0,210,Walk-in,QR/PromptPay,0,Returning,Extra Shot
+ORD2601141301303,2026-01-14,Wed,13,Midday,Brownie,Bakery,-,-,2,65,0,130,Line Man/Delivery,QR/PromptPay,0,New,None
+ORD2601221501304,2026-01-22,Thu,15,Afternoon Peak,Mocha,Coffee,Hot,M,2,95,0,190,Grab/Delivery,Card,0,New,None
+ORD2601151001305,2026-01-15,Thu,10,Morning Peak,Iced Latte,Coffee,Iced,L,1,105,0,105,Line Man/Delivery,QR/PromptPay,0,Returning,Oat Milk
+ORD2601231001306,2026-01-23,Fri,10,Morning Peak,Americano,Coffee,Hot,M,2,70,0,140,Walk-in,QR/PromptPay,0,Returning,Whipped Cream
+ORD2601231301307,2026-01-23,Fri,13,Midday,Iced Latte,Coffee,Iced,M,3,90,0,270,Walk-in,QR/PromptPay,0,New,None
+ORD2601171501308,2026-01-17,Sat,15,Afternoon Peak,Thai Tea,Tea,Iced,L,1,95,0,95,Walk-in,Cash,0,Returning,None
+ORD2601181201309,2026-01-18,Sun,12,Midday,Mocha,Coffee,Hot,S,2,85,0,170,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601131001310,2026-01-13,Tue,10,Morning Peak,Honey Lime Soda,Soda,Iced,S,1,75,0,75,Grab/Delivery,Cash,0,Returning,None
+ORD2601150901311,2026-01-15,Thu,9,Morning Peak,Yuzu Soda,Soda,Iced,S,1,85,0,85,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601230801312,2026-01-23,Fri,8,Morning Peak,Blueberry Muffin,Bakery,-,-,2,75,0,150,Walk-in,QR/PromptPay,0,New,None
+ORD2601170901313,2026-01-17,Sat,9,Morning Peak,Banana Cake,Bakery,-,-,2,70,0,140,Walk-in,QR/PromptPay,0,New,None
+ORD2601130901314,2026-01-13,Tue,9,Morning Peak,Orange Cold Brew,Coffee,Iced,M,1,130,0,130,Grab/Delivery,QR/PromptPay,0,New,Whipped Cream
+ORD2601181301315,2026-01-18,Sun,13,Midday,Iced Americano,Coffee,Iced,M,2,75,0,150,Walk-in,QR/PromptPay,0,New,None
+ORD2601200901316,2026-01-20,Tue,9,Morning Peak,Chocolate,Non-Coffee,Hot,L,3,105,0,315,Grab/Delivery,QR/PromptPay,0,New,Whipped Cream
+ORD2601140801317,2026-01-14,Wed,8,Morning Peak,Matcha Latte,Tea,Iced,L,3,110,0,330,Walk-in,QR/PromptPay,0,Returning,Extra Shot
+ORD2601101101318,2026-01-10,Sat,11,Midday,Orange Cold Brew,Coffee,Iced,S,2,120,0,240,Grab/Delivery,QR/PromptPay,0,New,None
+ORD2601241401319,2026-01-24,Sat,14,Afternoon Peak,Lemon Tea,Tea,Iced,S,1,65,10,55,Walk-in,Card,1,Returning,Extra Shot
+ORD2601201101320,2026-01-20,Tue,11,Midday,Vegan Muffin,Bakery,-,-,2,85,0,170,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601171201321,2026-01-17,Sat,12,Midday,Hot Latte,Coffee,Hot,S,1,75,0,75,Walk-in,Card,0,Returning,None
+ORD2601171501322,2026-01-17,Sat,15,Afternoon Peak,Butter Croissant,Bakery,-,-,1,55,5,50,Walk-in,QR/PromptPay,1,New,None
+ORD2601220801323,2026-01-22,Thu,8,Morning Peak,Americano,Coffee,Hot,S,3,60,0,180,Walk-in,Card,0,Returning,None
+ORD2601221001324,2026-01-22,Thu,10,Morning Peak,Espresso,Coffee,Hot,L,1,75,0,75,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601141401325,2026-01-14,Wed,14,Afternoon Peak,Iced Latte,Coffee,Iced,M,1,90,0,90,Walk-in,Card,0,Returning,Oat Milk
+ORD2601161401326,2026-01-16,Fri,14,Afternoon Peak,Iced Latte,Coffee,Iced,M,3,90,30,240,Grab/Delivery,QR/PromptPay,1,Returning,None
+ORD2601201301327,2026-01-20,Tue,13,Midday,Ginger Tea,Tea,Hot,M,2,70,0,140,Walk-in,QR/PromptPay,0,Returning,Whipped Cream
+ORD2601150801328,2026-01-15,Thu,8,Morning Peak,Cappuccino,Coffee,Hot,S,3,75,0,225,Walk-in,Cash,0,New,Extra Shot
+ORD2601221301329,2026-01-22,Thu,13,Midday,Iced Latte,Coffee,Iced,M,2,90,0,180,Walk-in,QR/PromptPay,0,New,Extra Shot
+ORD2601111401330,2026-01-11,Sun,14,Afternoon Peak,Banana Cake,Bakery,-,-,3,70,0,210,Walk-in,QR/PromptPay,0,New,None
+ORD2601101101331,2026-01-10,Sat,11,Midday,Americano,Coffee,Hot,M,1,70,0,70,Walk-in,Cash,0,Returning,Oat Milk
+ORD2601171501332,2026-01-17,Sat,15,Afternoon Peak,Iced Americano,Coffee,Iced,M,2,75,0,150,Walk-in,QR/PromptPay,0,New,Oat Milk
+ORD2601240801333,2026-01-24,Sat,8,Morning Peak,Thai Tea,Tea,Iced,M,1,80,0,80,Walk-in,QR/PromptPay,0,Returning,Oat Milk
+ORD2601101401334,2026-01-10,Sat,14,Afternoon Peak,Thai Tea,Tea,Iced,M,3,80,0,240,Walk-in,QR/PromptPay,0,New,None
+ORD2601171501335,2026-01-17,Sat,15,Afternoon Peak,Americano,Coffee,Hot,M,2,70,0,140,Grab/Delivery,QR/PromptPay,0,New,Extra Shot
+ORD2601180801336,2026-01-18,Sun,8,Morning Peak,Caramel Macchiato,Coffee,Iced,M,1,110,0,110,Walk-in,Card,0,New,None
+ORD2601221401337,2026-01-22,Thu,14,Afternoon Peak,Hot Latte,Coffee,Hot,S,2,75,0,150,Walk-in,Card,0,Returning,None
+ORD2601180901338,2026-01-18,Sun,9,Morning Peak,Chocolate,Non-Coffee,Hot,L,2,105,0,210,Walk-in,Cash,0,Returning,None
+ORD2601140901339,2026-01-14,Wed,9,Morning Peak,Hot Latte,Coffee,Hot,M,1,85,0,85,Walk-in,Card,0,Returning,None
+ORD2601171001340,2026-01-17,Sat,10,Morning Peak,Mocha,Coffee,Hot,S,2,85,0,170,Grab/Delivery,QR/PromptPay,0,Returning,None
+ORD2601111601341,2026-01-11,Sun,16,Late,Chocolate,Non-Coffee,Hot,M,3,90,0,270,Walk-in,Cash,0,New,None
+ORD2601181501342,2026-01-18,Sun,15,Afternoon Peak,Thai Tea,Tea,Iced,M,1,80,0,80,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601181301343,2026-01-18,Sun,13,Midday,Thai Tea,Tea,Iced,M,1,80,0,80,Line Man/Delivery,QR/PromptPay,0,Returning,Whipped Cream
+ORD2601211001344,2026-01-21,Wed,10,Morning Peak,Hot Latte,Coffee,Hot,M,2,85,0,170,Walk-in,QR/PromptPay,0,New,None
+ORD2601131101345,2026-01-13,Tue,11,Midday,Thai Tea,Tea,Iced,S,2,70,0,140,Walk-in,Cash,0,New,None
+ORD2601220901346,2026-01-22,Thu,9,Morning Peak,Matcha Latte,Tea,Iced,M,1,95,0,95,Walk-in,Card,0,New,None
+ORD2601110801347,2026-01-11,Sun,8,Morning Peak,Iced Americano,Coffee,Iced,M,1,75,0,75,Walk-in,Cash,0,Returning,None
+ORD2601171101348,2026-01-17,Sat,11,Midday,Americano,Coffee,Hot,M,2,70,0,140,Grab/Delivery,Card,0,New,Whipped Cream
+ORD2601151101349,2026-01-15,Thu,11,Midday,Americano,Coffee,Hot,L,2,85,0,170,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601211401350,2026-01-21,Wed,14,Afternoon Peak,Cappuccino,Coffee,Hot,M,2,85,0,170,Walk-in,QR/PromptPay,0,Returning,Oat Milk
+ORD2601151601351,2026-01-15,Thu,16,Late,Blueberry Muffin,Bakery,-,-,3,75,0,225,Walk-in,QR/PromptPay,0,New,None
+ORD2601201501352,2026-01-20,Tue,15,Afternoon Peak,Lemon Tea,Tea,Iced,M,1,75,0,75,Walk-in,Card,0,Returning,Extra Shot
+ORD2601181101353,2026-01-18,Sun,11,Midday,Matcha Latte,Tea,Iced,M,1,95,0,95,Walk-in,Cash,0,Returning,None
+ORD2601221001354,2026-01-22,Thu,10,Morning Peak,Caramel Macchiato,Coffee,Iced,M,2,110,0,220,Walk-in,QR/PromptPay,0,New,None
+ORD2601181101355,2026-01-18,Sun,11,Midday,Honey Lime Soda,Soda,Iced,M,1,85,0,85,Walk-in,Cash,0,New,Oat Milk
+ORD2601211101356,2026-01-21,Wed,11,Midday,Hot Latte,Coffee,Hot,M,1,85,0,85,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601231501357,2026-01-23,Fri,15,Afternoon Peak,Thai Tea,Tea,Iced,M,1,80,0,80,Walk-in,QR/PromptPay,0,Returning,Whipped Cream
+ORD2601130801358,2026-01-13,Tue,8,Morning Peak,Thai Tea,Tea,Iced,M,2,80,0,160,Walk-in,QR/PromptPay,0,Returning,Extra Shot
+ORD2601100801359,2026-01-10,Sat,8,Morning Peak,Butter Croissant,Bakery,-,-,1,55,0,55,Grab/Delivery,QR/PromptPay,0,New,None
+ORD2601100901360,2026-01-10,Sat,9,Morning Peak,Cappuccino,Coffee,Hot,M,2,85,0,170,Walk-in,Cash,0,New,None
+ORD2601180801361,2026-01-18,Sun,8,Morning Peak,Thai Tea,Tea,Iced,M,2,80,0,160,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601131501362,2026-01-13,Tue,15,Afternoon Peak,Mocha,Coffee,Hot,M,3,95,0,285,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601131001363,2026-01-13,Tue,10,Morning Peak,Cappuccino,Coffee,Hot,M,1,85,0,85,Walk-in,Cash,0,Returning,Extra Shot
+ORD2601111501364,2026-01-11,Sun,15,Afternoon Peak,Hot Latte,Coffee,Hot,M,2,85,0,170,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601160901365,2026-01-16,Fri,9,Morning Peak,Americano,Coffee,Hot,M,1,70,0,70,Walk-in,Card,0,New,None
+ORD2601151401366,2026-01-15,Thu,14,Afternoon Peak,Americano,Coffee,Hot,M,3,70,0,210,Grab/Delivery,QR/PromptPay,0,Returning,None
+ORD2601231201367,2026-01-23,Fri,12,Midday,Honey Lime Soda,Soda,Iced,S,1,75,0,75,Walk-in,QR/PromptPay,0,New,None
+ORD2601151301368,2026-01-15,Thu,13,Midday,Orange Cold Brew,Coffee,Iced,S,3,120,0,360,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601161301369,2026-01-16,Fri,13,Midday,Hot Latte,Coffee,Hot,S,2,75,0,150,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601221301370,2026-01-22,Thu,13,Midday,Iced Latte,Coffee,Iced,M,1,90,0,90,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601131001371,2026-01-13,Tue,10,Morning Peak,Espresso,Coffee,Hot,M,1,60,0,60,Walk-in,QR/PromptPay,0,New,None
+ORD2601231201372,2026-01-23,Fri,12,Midday,Butter Croissant,Bakery,-,-,3,55,0,165,Walk-in,QR/PromptPay,0,New,None
+ORD2601111101373,2026-01-11,Sun,11,Midday,Iced Latte,Coffee,Iced,M,2,90,0,180,Walk-in,Cash,0,New,None
+ORD2601231401374,2026-01-23,Fri,14,Afternoon Peak,Thai Tea,Tea,Iced,M,1,80,10,70,Walk-in,QR/PromptPay,1,Returning,None
+ORD2601231301375,2026-01-23,Fri,13,Midday,Americano,Coffee,Hot,M,2,70,0,140,Walk-in,QR/PromptPay,0,Returning,Extra Shot
+ORD2601230901376,2026-01-23,Fri,9,Morning Peak,Thai Tea,Tea,Iced,M,1,80,0,80,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601241401377,2026-01-24,Sat,14,Afternoon Peak,Americano,Coffee,Hot,M,1,70,0,70,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601141301378,2026-01-14,Wed,13,Midday,Americano,Coffee,Hot,S,3,60,0,180,Walk-in,Card,0,New,None
+ORD2601100901379,2026-01-10,Sat,9,Morning Peak,Americano,Coffee,Hot,M,1,70,0,70,Line Man/Delivery,QR/PromptPay,0,New,None
+ORD2601210801380,2026-01-21,Wed,8,Morning Peak,Matcha Latte,Tea,Iced,M,3,95,0,285,Walk-in,Card,0,Returning,Oat Milk
+ORD2601161001381,2026-01-16,Fri,10,Morning Peak,Iced Americano,Coffee,Iced,S,3,65,0,195,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601100901382,2026-01-10,Sat,9,Morning Peak,Americano,Coffee,Hot,M,2,70,0,140,Walk-in,QR/PromptPay,0,Returning,Extra Shot
+ORD2601200901383,2026-01-20,Tue,9,Morning Peak,Vegan Muffin,Bakery,-,-,1,85,0,85,Grab/Delivery,Cash,0,Returning,None
+ORD2601111501384,2026-01-11,Sun,15,Afternoon Peak,Banana Cake,Bakery,-,-,2,70,0,140,Line Man/Delivery,Cash,0,New,None
+ORD2601141401385,2026-01-14,Wed,14,Afternoon Peak,Americano,Coffee,Hot,S,1,60,0,60,Grab/Delivery,QR/PromptPay,0,Returning,None
+ORD2601160901386,2026-01-16,Fri,9,Morning Peak,Iced Americano,Coffee,Iced,S,1,65,0,65,Walk-in,QR/PromptPay,0,New,None
+ORD2601200801387,2026-01-20,Tue,8,Morning Peak,Honey Lime Soda,Soda,Iced,M,1,85,0,85,Grab/Delivery,Cash,0,Returning,None
+ORD2601220901388,2026-01-22,Thu,9,Morning Peak,Caramel Macchiato,Coffee,Iced,M,2,110,0,220,Walk-in,Card,0,New,Oat Milk
+ORD2601221101389,2026-01-22,Thu,11,Midday,Hot Latte,Coffee,Hot,S,2,75,0,150,Walk-in,Card,0,Returning,None
+ORD2601160801390,2026-01-16,Fri,8,Morning Peak,Iced Latte,Coffee,Iced,L,2,105,0,210,Walk-in,Cash,0,Returning,None
+ORD2601110901391,2026-01-11,Sun,9,Morning Peak,Thai Tea,Tea,Iced,S,2,70,0,140,Walk-in,QR/PromptPay,0,Returning,Oat Milk
+ORD2601101501392,2026-01-10,Sat,15,Afternoon Peak,Honey Lime Soda,Soda,Iced,M,1,85,10,75,Walk-in,Cash,1,New,None
+ORD2601160801393,2026-01-16,Fri,8,Morning Peak,Caramel Macchiato,Coffee,Iced,S,2,100,0,200,Walk-in,Card,0,Returning,Oat Milk
+ORD2601201601394,2026-01-20,Tue,16,Late,Cappuccino,Coffee,Hot,M,3,85,0,255,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601241401395,2026-01-24,Sat,14,Afternoon Peak,Thai Tea,Tea,Iced,M,2,80,20,140,Grab/Delivery,QR/PromptPay,1,Returning,Extra Shot
+ORD2601161401396,2026-01-16,Fri,14,Afternoon Peak,Caramel Macchiato,Coffee,Iced,M,3,110,30,300,Walk-in,Cash,1,Returning,None
+ORD2601151401397,2026-01-15,Thu,14,Afternoon Peak,Iced Latte,Coffee,Iced,M,1,90,0,90,Line Man/Delivery,QR/PromptPay,0,Returning,None
+ORD2601201001398,2026-01-20,Tue,10,Morning Peak,Lemon Tea,Tea,Iced,M,1,75,0,75,Walk-in,QR/PromptPay,0,New,None
+ORD2601201301399,2026-01-20,Tue,13,Midday,Decaf Latte,Coffee,Hot,M,1,95,0,95,Walk-in,QR/PromptPay,0,New,Oat Milk
+ORD2601100901400,2026-01-10,Sat,9,Morning Peak,Lemon Tea,Tea,Iced,L,3,90,0,270,Grab/Delivery,Cash,0,Returning,Extra Shot
+ORD2601100801401,2026-01-10,Sat,8,Morning Peak,Hot Latte,Coffee,Hot,M,2,85,0,170,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601111501402,2026-01-11,Sun,15,Afternoon Peak,Cold Brew,Coffee,Iced,S,1,100,0,100,Walk-in,QR/PromptPay,0,Returning,Extra Shot
+ORD2601211101403,2026-01-21,Wed,11,Midday,Honey Lime Soda,Soda,Iced,M,1,85,0,85,Walk-in,QR/PromptPay,0,New,None
+ORD2601141001404,2026-01-14,Wed,10,Morning Peak,Chocolate,Non-Coffee,Hot,M,3,90,0,270,Grab/Delivery,Card,0,Returning,None
+ORD2601141101405,2026-01-14,Wed,11,Midday,Cold Brew,Coffee,Iced,M,1,110,0,110,Grab/Delivery,QR/PromptPay,0,Returning,None
+ORD2601151601406,2026-01-15,Thu,16,Late,Iced Americano,Coffee,Iced,M,1,75,0,75,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601161501407,2026-01-16,Fri,15,Afternoon Peak,Butter Croissant,Bakery,-,-,2,55,10,100,Walk-in,QR/PromptPay,1,New,None
+ORD2601181001408,2026-01-18,Sun,10,Morning Peak,Banana Cake,Bakery,-,-,1,70,0,70,Walk-in,QR/PromptPay,0,New,None
+ORD2601111301409,2026-01-11,Sun,13,Midday,Thai Tea,Tea,Iced,M,1,80,0,80,Grab/Delivery,QR/PromptPay,0,New,Extra Shot
+ORD2601131001410,2026-01-13,Tue,10,Morning Peak,Matcha Latte,Tea,Iced,M,2,95,0,190,Grab/Delivery,Cash,0,New,Oat Milk
+ORD2601181601411,2026-01-18,Sun,16,Late,Lemon Tea,Tea,Iced,M,1,75,0,75,Walk-in,QR/PromptPay,0,Returning,Extra Shot
+ORD2601141601412,2026-01-14,Wed,16,Late,Honey Lime Soda,Soda,Iced,M,2,85,0,170,Grab/Delivery,QR/PromptPay,0,Returning,Whipped Cream
+ORD2601170901413,2026-01-17,Sat,9,Morning Peak,Matcha Latte,Tea,Iced,M,1,95,0,95,Walk-in,QR/PromptPay,0,Returning,Whipped Cream
+ORD2601161101414,2026-01-16,Fri,11,Midday,Thai Tea,Tea,Iced,S,1,70,0,70,Walk-in,QR/PromptPay,0,Returning,Extra Shot
+ORD2601210801415,2026-01-21,Wed,8,Morning Peak,Matcha Latte,Tea,Iced,M,3,95,0,285,Line Man/Delivery,QR/PromptPay,0,Returning,Whipped Cream
+ORD2601231001416,2026-01-23,Fri,10,Morning Peak,Butter Croissant,Bakery,-,-,1,55,0,55,Grab/Delivery,QR/PromptPay,0,Returning,None
+ORD2601181201417,2026-01-18,Sun,12,Midday,Chocolate,Non-Coffee,Hot,M,1,90,0,90,Walk-in,Cash,0,Returning,None
+ORD2601130901418,2026-01-13,Tue,9,Morning Peak,Iced Americano,Coffee,Iced,S,2,65,0,130,Walk-in,QR/PromptPay,0,New,None
+ORD2601241501419,2026-01-24,Sat,15,Afternoon Peak,Yuzu Soda,Soda,Iced,M,1,95,0,95,Walk-in,QR/PromptPay,0,New,Extra Shot
+ORD2601221001420,2026-01-22,Thu,10,Morning Peak,Americano,Coffee,Hot,L,1,85,0,85,Walk-in,Card,0,Returning,None
+ORD2601241401421,2026-01-24,Sat,14,Afternoon Peak,Matcha Latte,Tea,Iced,M,1,95,0,95,Grab/Delivery,QR/PromptPay,0,New,Whipped Cream
+ORD2601210901422,2026-01-21,Wed,9,Morning Peak,Americano,Coffee,Hot,S,1,60,0,60,Walk-in,QR/PromptPay,0,Returning,Extra Shot
+ORD2601231501423,2026-01-23,Fri,15,Afternoon Peak,Blueberry Muffin,Bakery,-,-,1,75,0,75,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601141501424,2026-01-14,Wed,15,Afternoon Peak,Blueberry Muffin,Bakery,-,-,1,75,5,70,Walk-in,Cash,1,New,None
+ORD2601201101425,2026-01-20,Tue,11,Midday,Americano,Coffee,Hot,M,1,70,0,70,Line Man/Delivery,QR/PromptPay,0,Returning,None
+ORD2601211101426,2026-01-21,Wed,11,Midday,Butter Croissant,Bakery,-,-,1,55,0,55,Grab/Delivery,QR/PromptPay,0,Returning,None
+ORD2601241201427,2026-01-24,Sat,12,Midday,Hot Latte,Coffee,Hot,M,1,85,0,85,Walk-in,Cash,0,Returning,None
+ORD2601211201428,2026-01-21,Wed,12,Midday,Americano,Coffee,Hot,M,2,70,0,140,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601101201429,2026-01-10,Sat,12,Midday,Hot Latte,Coffee,Hot,M,2,85,0,170,Walk-in,QR/PromptPay,0,New,None
+ORD2601161201430,2026-01-16,Fri,12,Midday,Caramel Macchiato,Coffee,Iced,S,1,100,0,100,Walk-in,Cash,0,Returning,None
+ORD2601171401431,2026-01-17,Sat,14,Afternoon Peak,Americano,Coffee,Hot,M,1,70,0,70,Walk-in,Card,0,New,None
+ORD2601141401432,2026-01-14,Wed,14,Afternoon Peak,Iced Latte,Coffee,Iced,M,1,90,10,80,Walk-in,Cash,1,Returning,Extra Shot
+ORD2601151001433,2026-01-15,Thu,10,Morning Peak,Matcha Latte,Tea,Iced,L,3,110,0,330,Grab/Delivery,QR/PromptPay,0,New,None
+ORD2601171201434,2026-01-17,Sat,12,Midday,Thai Tea,Tea,Iced,M,1,80,0,80,Walk-in,Card,0,Returning,None
+ORD2601101601435,2026-01-10,Sat,16,Late,Lemon Tea,Tea,Iced,S,1,65,0,65,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601241301436,2026-01-24,Sat,13,Midday,Americano,Coffee,Hot,M,2,70,0,140,Walk-in,QR/PromptPay,0,New,None
+ORD2601171501437,2026-01-17,Sat,15,Afternoon Peak,Espresso,Coffee,Hot,S,1,60,0,60,Walk-in,QR/PromptPay,0,Returning,Oat Milk
+ORD2601130901438,2026-01-13,Tue,9,Morning Peak,Iced Americano,Coffee,Iced,M,2,75,0,150,Walk-in,QR/PromptPay,0,New,None
+ORD2601101601439,2026-01-10,Sat,16,Late,Chocolate,Non-Coffee,Hot,S,1,80,0,80,Walk-in,Card,0,Returning,None
+ORD2601211301440,2026-01-21,Wed,13,Midday,Iced Latte,Coffee,Iced,M,2,90,0,180,Walk-in,Cash,0,Returning,Extra Shot
+ORD2601161201441,2026-01-16,Fri,12,Midday,Ginger Tea,Tea,Hot,S,1,60,0,60,Line Man/Delivery,QR/PromptPay,0,Returning,Oat Milk
+ORD2601221301442,2026-01-22,Thu,13,Midday,Brownie,Bakery,-,-,1,65,0,65,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601141001443,2026-01-14,Wed,10,Morning Peak,Blueberry Muffin,Bakery,-,-,2,75,0,150,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601140901444,2026-01-14,Wed,9,Morning Peak,Lemon Tea,Tea,Iced,M,2,75,0,150,Walk-in,Cash,0,New,None
+ORD2601100801445,2026-01-10,Sat,8,Morning Peak,Thai Tea,Tea,Iced,L,2,95,0,190,Walk-in,QR/PromptPay,0,New,None
+ORD2601181401446,2026-01-18,Sun,14,Afternoon Peak,Thai Tea,Tea,Iced,M,1,80,0,80,Grab/Delivery,QR/PromptPay,0,Returning,None
+ORD2601201501447,2026-01-20,Tue,15,Afternoon Peak,Cold Brew,Coffee,Iced,M,1,110,0,110,Walk-in,Cash,0,New,None
+ORD2601221001448,2026-01-22,Thu,10,Morning Peak,Hot Latte,Coffee,Hot,M,2,85,0,170,Walk-in,QR/PromptPay,0,Returning,Extra Shot
+ORD2601211001449,2026-01-21,Wed,10,Morning Peak,Hot Latte,Coffee,Hot,M,1,85,0,85,Walk-in,QR/PromptPay,0,New,None
+ORD2601151201450,2026-01-15,Thu,12,Midday,Cappuccino,Coffee,Hot,M,1,85,0,85,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601131401451,2026-01-13,Tue,14,Afternoon Peak,Ginger Tea,Tea,Hot,L,2,85,0,170,Walk-in,QR/PromptPay,0,New,None
+ORD2601241001452,2026-01-24,Sat,10,Morning Peak,Espresso,Coffee,Hot,M,2,60,0,120,Walk-in,QR/PromptPay,0,New,None
+ORD2601171501453,2026-01-17,Sat,15,Afternoon Peak,Brownie,Bakery,-,-,2,65,0,130,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601110901454,2026-01-11,Sun,9,Morning Peak,Espresso,Coffee,Hot,M,1,60,0,60,Walk-in,Card,0,Returning,Oat Milk
+ORD2601170801455,2026-01-17,Sat,8,Morning Peak,Blueberry Muffin,Bakery,-,-,1,75,0,75,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601160801456,2026-01-16,Fri,8,Morning Peak,Matcha Latte,Tea,Iced,M,2,95,0,190,Walk-in,Cash,0,Returning,None
+ORD2601141201457,2026-01-14,Wed,12,Midday,Iced Latte,Coffee,Iced,M,2,90,0,180,Line Man/Delivery,QR/PromptPay,0,New,None
+ORD2601141401458,2026-01-14,Wed,14,Afternoon Peak,Iced Latte,Coffee,Iced,L,2,105,0,210,Walk-in,QR/PromptPay,0,New,None
+ORD2601231001459,2026-01-23,Fri,10,Morning Peak,Thai Tea,Tea,Iced,M,1,80,0,80,Grab/Delivery,QR/PromptPay,0,Returning,None
+ORD2601151501460,2026-01-15,Thu,15,Afternoon Peak,Iced Latte,Coffee,Iced,M,1,90,0,90,Walk-in,QR/PromptPay,0,Returning,Oat Milk
+ORD2601201101461,2026-01-20,Tue,11,Midday,Americano,Coffee,Hot,L,2,85,0,170,Walk-in,QR/PromptPay,0,New,Oat Milk
+ORD2601201401462,2026-01-20,Tue,14,Afternoon Peak,Matcha Latte,Tea,Iced,L,3,110,0,330,Walk-in,QR/PromptPay,0,Returning,Oat Milk
+ORD2601201501463,2026-01-20,Tue,15,Afternoon Peak,Chocolate,Non-Coffee,Hot,S,3,80,30,210,Walk-in,QR/PromptPay,1,Returning,None
+ORD2601131301464,2026-01-13,Tue,13,Midday,Butter Croissant,Bakery,-,-,2,55,0,110,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601241201465,2026-01-24,Sat,12,Midday,Cappuccino,Coffee,Hot,M,2,85,0,170,Line Man/Delivery,QR/PromptPay,0,Returning,None
+ORD2601181101466,2026-01-18,Sun,11,Midday,Mocha,Coffee,Hot,L,2,110,0,220,Grab/Delivery,Cash,0,Returning,None
+ORD2601130801467,2026-01-13,Tue,8,Morning Peak,Iced Latte,Coffee,Iced,S,2,80,0,160,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601101601468,2026-01-10,Sat,16,Late,Iced Latte,Coffee,Iced,M,3,90,0,270,Grab/Delivery,Cash,0,Returning,None
+ORD2601201501469,2026-01-20,Tue,15,Afternoon Peak,Lemon Tea,Tea,Iced,M,2,75,0,150,Walk-in,QR/PromptPay,0,New,Oat Milk
+ORD2601211001470,2026-01-21,Wed,10,Morning Peak,Espresso,Coffee,Hot,L,1,75,0,75,Walk-in,Cash,0,New,None
+ORD2601171001471,2026-01-17,Sat,10,Morning Peak,Lemon Tea,Tea,Iced,L,2,90,0,180,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601100801472,2026-01-10,Sat,8,Morning Peak,Lemon Tea,Tea,Iced,L,1,90,0,90,Walk-in,Card,0,Returning,None
+ORD2601101401473,2026-01-10,Sat,14,Afternoon Peak,Butter Croissant,Bakery,-,-,2,55,0,110,Grab/Delivery,QR/PromptPay,0,New,None
+ORD2601231101474,2026-01-23,Fri,11,Midday,Orange Cold Brew,Coffee,Iced,M,2,130,0,260,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601151001475,2026-01-15,Thu,10,Morning Peak,Iced Americano,Coffee,Iced,M,1,75,0,75,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601240801476,2026-01-24,Sat,8,Morning Peak,Cappuccino,Coffee,Hot,S,1,75,0,75,Walk-in,Cash,0,Returning,Whipped Cream
+ORD2601221501477,2026-01-22,Thu,15,Afternoon Peak,Banana Cake,Bakery,-,-,2,70,0,140,Walk-in,Card,0,New,None
+ORD2601111401478,2026-01-11,Sun,14,Afternoon Peak,Americano,Coffee,Hot,L,3,85,0,255,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601221201479,2026-01-22,Thu,12,Midday,Americano,Coffee,Hot,L,2,85,0,170,Walk-in,QR/PromptPay,0,New,None
+ORD2601101001480,2026-01-10,Sat,10,Morning Peak,Thai Tea,Tea,Iced,M,1,80,0,80,Walk-in,QR/PromptPay,0,New,Extra Shot
+ORD2601141001481,2026-01-14,Wed,10,Morning Peak,Lemon Tea,Tea,Iced,M,3,75,0,225,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601210801482,2026-01-21,Wed,8,Morning Peak,Thai Tea,Tea,Iced,L,2,95,0,190,Walk-in,Card,0,New,None
+ORD2601111401483,2026-01-11,Sun,14,Afternoon Peak,Mocha,Coffee,Hot,S,2,85,0,170,Walk-in,Cash,0,Returning,None
+ORD2601240901484,2026-01-24,Sat,9,Morning Peak,Iced Latte,Coffee,Iced,S,2,80,0,160,Walk-in,Card,0,Returning,None
+ORD2601200801485,2026-01-20,Tue,8,Morning Peak,Thai Tea,Tea,Iced,M,1,80,0,80,Walk-in,Card,0,New,None
+ORD2601180801486,2026-01-18,Sun,8,Morning Peak,Iced Americano,Coffee,Iced,M,1,75,0,75,Line Man/Delivery,QR/PromptPay,0,Returning,None
+ORD2601100901487,2026-01-10,Sat,9,Morning Peak,Matcha Latte,Tea,Iced,M,2,95,0,190,Walk-in,QR/PromptPay,0,New,None
+ORD2601141301488,2026-01-14,Wed,13,Midday,Thai Tea,Tea,Iced,S,2,70,0,140,Walk-in,QR/PromptPay,0,Returning,Oat Milk
+ORD2601110801489,2026-01-11,Sun,8,Morning Peak,Thai Tea,Tea,Iced,L,1,95,0,95,Walk-in,Card,0,Returning,None
+ORD2601240801490,2026-01-24,Sat,8,Morning Peak,Espresso,Coffee,Hot,S,1,60,0,60,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601201301491,2026-01-20,Tue,13,Midday,Cappuccino,Coffee,Hot,M,1,85,0,85,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601141001492,2026-01-14,Wed,10,Morning Peak,Iced Americano,Coffee,Iced,S,2,65,0,130,Walk-in,QR/PromptPay,0,Returning,Extra Shot
+ORD2601201101493,2026-01-20,Tue,11,Midday,Americano,Coffee,Hot,M,3,70,0,210,Walk-in,QR/PromptPay,0,Returning,Whipped Cream
+ORD2601180801494,2026-01-18,Sun,8,Morning Peak,Cold Brew,Coffee,Iced,M,2,110,0,220,Grab/Delivery,QR/PromptPay,0,Returning,None
+ORD2601110801495,2026-01-11,Sun,8,Morning Peak,Chocolate,Non-Coffee,Hot,M,3,90,0,270,Walk-in,QR/PromptPay,0,New,None
+ORD2601201201496,2026-01-20,Tue,12,Midday,Butter Croissant,Bakery,-,-,2,55,0,110,Walk-in,QR/PromptPay,0,Returning,None
+ORD2601170801497,2026-01-17,Sat,8,Morning Peak,Brownie,Bakery,-,-,2,65,0,130,Walk-in,QR/PromptPay,0,New,None
+ORD2601231301498,2026-01-23,Fri,13,Midday,Thai Tea,Tea,Iced,M,3,80,0,240,Line Man/Delivery,QR/PromptPay,0,New,None
+ORD2601220801499,2026-01-22,Thu,8,Morning Peak,Mocha,Coffee,Hot,L,1,110,0,110,Walk-in,Cash,0,New,Oat Milk

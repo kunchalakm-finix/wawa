@@ -1,0 +1,107 @@
+{
+  "project_metadata": {
+    "version": "1.1",
+    "codename": "Intelligence Bento",
+    "design_system": "Bento Box Architecture",
+    "standard_width": "1550px",
+    "viewport_strategy": "Responsive with Fixed-Max-Width"
+  },
+  "layout_architecture": {
+    "grid_system": {
+      "type": "12-Column Grid",
+      "gap": "1rem (16px)",
+      "container_max_width": "1550px"
+    },
+    "hierarchy_rules": {
+      "row_1_strategic": {
+        "description": "High-level summary KPIs",
+        "desktop_columns": "col-span-3",
+        "tablet_columns": "col-span-6",
+        "mobile_columns": "col-span-12"
+      },
+      "row_2_analytical": {
+        "description": "Trend and core segmentation",
+        "desktop_columns": ["col-span-8", "col-span-4"],
+        "min_height": "380px"
+      },
+      "row_3_operational": {
+        "description": "Functional and distribution metrics",
+        "desktop_columns": ["col-span-3", "col-span-3", "col-span-4", "col-span-2"],
+        "min_height": "320px"
+      },
+      "row_4_details": {
+        "description": "Deep-dive preference mix",
+        "desktop_columns": ["col-span-6", "col-span-6"],
+        "min_height": "260px"
+      }
+    }
+  },
+  "visual_identity": {
+    "colors": {
+      "primary_sales": "#4f46e5 (Indigo-600)",
+      "success_retention": "#10b981 (Emerald-500)",
+      "warning_aov": "#f59e0b (Amber-500)",
+      "danger_acquisition": "#f43f5e (Rose-500)",
+      "background_canvas": "#f8fafc (Slate-50)",
+      "card_background": "#ffffff",
+      "text_header": "#1e293b (Slate-900)",
+      "text_secondary": "#64748b (Slate-500)"
+    },
+    "typography": {
+      "font_family": "Inter, sans-serif",
+      "font_sizes": {
+        "kpi_value": "2.25rem (Extra Bold)",
+        "section_header": "0.75rem - 0.875rem (Bold, Uppercase)",
+        "body_text": "16px (1rem)",
+        "label_micro": "10px - 11px (Bold)"
+      }
+    },
+    "components": {
+      "bento_card": {
+        "border_radius": "1.25rem (20px)",
+        "border": "1px solid #e2e8f0",
+        "shadow": "0 1px 3px 0 rgba(0, 0, 0, 0.05)",
+        "hover_effect": "border-indigo-500, shadow-lg, transform-y(-2px)"
+      }
+    }
+  },
+  "data_intelligence_logic": {
+    "sync_strategy": "Live Google Sheets via CSV Export URL",
+    "last_sync_indicator": "Enabled (Timestamp format: DD MMM, HH:mm:ss)",
+    "kpi_definitions": {
+      "net_sales": "sum(net_sales_thb) after discounts",
+      "retention_rate": "(Returning_Customers / Total_Customers) * 100",
+      "aov": "Total_Sales / Total_Orders",
+      "acquisition_rate": "(New_Customers / Total_Customers) * 100",
+      "addon_rate": "(Orders_with_addons / Total_Orders) * 100"
+    }
+  },
+  "interaction_behavior": {
+    "dynamic_time_filtering": {
+      "hierarchy": "Year -> Month",
+      "logic": "Month list must dynamically filter based on available data for the selected year"
+    },
+    "cross_filtering_engine": {
+      "triggers": ["Category Chart", "Channel Chart", "Hour Chart", "Temperature Chart", "Size Chart"],
+      "action": "Global filter update across all widgets including KPI cards",
+      "visual_feedback": "Bar/Slice fading (opacity reduction) for inactive data points"
+    },
+    "active_filter_badges": {
+      "placement": "Header sub-section",
+      "functionality": "Show active dimensions with individual 'clear' buttons"
+    },
+    "intelligence_modal": {
+      "trigger": "KPI Card Click",
+      "ui": "Glassmorphism Backdrop Blur (16px)",
+      "content": ["Business Context", "Measurement Logic"]
+    }
+  },
+  "technical_requirements": {
+    "css_framework": "Tailwind CSS 3.x",
+    "chart_library": "Chart.js 4.x",
+    "icons": "Lucide Icons",
+    "data_parsing": "PapaParse (CSV)",
+    "date_handling": "Day.js",
+    "refresh_logic": "Manual trigger with cache-busting timestamp query parameter"
+  }
+}

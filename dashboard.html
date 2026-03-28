@@ -1,0 +1,1721 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>☕ Coffee Shop Dashboard</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #6366f1;
+            --primary-dark: #4f46e5;
+            --secondary: #8b5cf6;
+            --success: #10b981;
+            --warning: #f59e0b;
+            --danger: #ef4444;
+            --info: #06b6d4;
+            --dark: #0f172a;
+            --dark-card: #1e293b;
+            --dark-border: #334155;
+            --text-primary: #f8fafc;
+            --text-secondary: #94a3b8;
+            --gradient-1: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+            --gradient-2: linear-gradient(135deg, #10b981 0%, #059669 100%);
+            --gradient-3: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+            --gradient-4: linear-gradient(135deg, #06b6d4 0%, #0891b2 100%);
+            --coffee: #92400e;
+            --tea: #059669;
+            --bakery: #dc2626;
+            --soda: #0891b2;
+            --noncoffee: #7c3aed;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-size: 16px;
+            font-family: 'Prompt', sans-serif;
+            background: #0f172a;
+            min-height: 100vh;
+            color: var(--text-primary);
+        }
+        .container { max-width: 1550px; margin: 0 auto; padding: 20px; }
+        
+        .header {
+            background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+            border: 1px solid var(--dark-border);
+            padding: 25px 35px;
+            border-radius: 20px;
+            margin-bottom: 25px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .header-left { display: flex; align-items: center; gap: 15px; }
+        .logo {
+            width: 55px; height: 55px;
+            background: var(--gradient-1);
+            border-radius: 15px;
+            display: flex; align-items: center; justify-content: center;
+            font-size: 1.8rem;
+        }
+        .header h1 { font-size: 1.6rem; font-weight: 600; }
+        .header-sub { color: var(--text-secondary); font-size: 0.9rem; margin-top: 3px; }
+        .upload-btn {
+            background: var(--gradient-1);
+            color: white;
+            padding: 12px 28px;
+            border: none;
+            border-radius: 12px;
+            cursor: pointer;
+            font-size: 0.95rem;
+            font-weight: 500;
+            transition: all 0.3s;
+            display: flex; align-items: center; gap: 8px;
+        }
+        .upload-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 25px rgba(99,102,241,0.4); }
+        #fileInput { display: none; }
+
+        .filter-bar {
+            background: linear-gradient(145deg, #1e293b 0%, #1a2332 100%);
+            border: 1px solid var(--dark-border);
+            border-radius: 16px;
+            padding: 15px 20px;
+            margin-bottom: 20px;
+            display: none;
+            align-items: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+        .filter-bar.show { display: flex; }
+        .filter-bar-label { font-size: 0.9rem; color: var(--text-secondary); display: flex; align-items: center; gap: 8px; }
+        .filter-tag {
+            background: var(--gradient-1);
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            animation: slideIn 0.3s ease;
+        }
+        @keyframes slideIn { from { opacity: 0; transform: translateX(-10px); } to { opacity: 1; transform: translateX(0); } }
+        .filter-tag .remove { cursor: pointer; font-size: 1rem; line-height: 1; opacity: 0.8; }
+        .filter-tag .remove:hover { opacity: 1; }
+        .clear-all-btn {
+            background: transparent;
+            border: 1px solid var(--danger);
+            color: var(--danger);
+            padding: 8px 16px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 0.85rem;
+            transition: all 0.3s;
+        }
+        .clear-all-btn:hover { background: var(--danger); color: white; }
+
+        .summary-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            margin-bottom: 25px;
+        }
+        .summary-card {
+            background: linear-gradient(145deg, #1e293b 0%, #1a2332 100%);
+            border: 1px solid var(--dark-border);
+            padding: 25px;
+            border-radius: 20px;
+            transition: all 0.3s;
+            position: relative;
+            overflow: hidden;
+            cursor: pointer;
+        }
+        .summary-card::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0; height: 4px;
+            background: var(--gradient-1);
+        }
+        .summary-card:nth-child(2)::before { background: var(--gradient-4); }
+        .summary-card:nth-child(3)::before { background: var(--gradient-3); }
+        .summary-card:nth-child(4)::before { background: var(--gradient-2); }
+        .summary-card:hover { transform: translateY(-5px); box-shadow: 0 20px 40px rgba(0,0,0,0.3); }
+        .summary-card h3 { font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+        .summary-card .value { font-size: 2rem; font-weight: 700; }
+        .summary-card .change { font-size: 0.8rem; margin-top: 8px; color: var(--text-secondary); }
+        .kpi-info-btn {
+            background: rgba(99,102,241,0.2);
+            color: var(--primary);
+            border: none;
+            padding: 2px 8px;
+            border-radius: 10px;
+            font-size: 0.7rem;
+            cursor: pointer;
+            margin-left: auto;
+        }
+
+        .tab-menu {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+            background: #1e293b;
+            padding: 8px;
+            border-radius: 16px;
+        }
+        .tab-btn {
+            background: transparent;
+            color: var(--text-secondary);
+            border: none;
+            padding: 12px 20px;
+            border-radius: 12px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: all 0.3s;
+        }
+        .tab-btn:hover { color: var(--text-primary); background: rgba(99,102,241,0.1); }
+        .tab-btn.active { background: var(--gradient-1); color: white; }
+        
+        .tab-content { display: none; animation: fadeIn 0.3s; }
+        .tab-content.active { display: block; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+
+        .bento-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
+        .bento-item {
+            background: linear-gradient(145deg, #1e293b 0%, #1a2332 100%);
+            border: 1px solid var(--dark-border);
+            border-radius: 20px;
+            padding: 22px;
+            transition: all 0.3s;
+        }
+        .bento-item:hover { border-color: var(--primary); box-shadow: 0 10px 30px rgba(99,102,241,0.15); }
+        .bento-item h3 {
+            font-size: 0.95rem;
+            margin-bottom: 18px;
+            padding-bottom: 12px;
+            border-bottom: 1px solid var(--dark-border);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .bento-item h3 span { font-size: 0.75rem; color: var(--text-secondary); font-weight: 400; }
+        .bento-item h3 .info-btn {
+            margin-left: auto;
+            background: rgba(99,102,241,0.2);
+            color: var(--primary);
+            border: none;
+            padding: 4px 10px;
+            border-radius: 10px;
+            font-size: 0.7rem;
+            cursor: pointer;
+        }
+        .bento-1 { grid-column: span 1; }
+        .bento-2 { grid-column: span 2; }
+        .bento-3 { grid-column: span 3; }
+        .bento-4 { grid-column: span 4; }
+
+        /* Donut Chart Styles */
+        .donut-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            align-items: center;
+        }
+        .donut-single {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px;
+        }
+        .donut-chart {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            position: relative;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+        .donut-chart:hover { transform: scale(1.05); }
+        .donut-center {
+            position: absolute;
+            inset: 30px;
+            background: #1e293b;
+            border-radius: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .donut-center .num { font-size: 1.2rem; font-weight: 700; }
+        .donut-center .txt { font-size: 0.6rem; color: var(--text-secondary); }
+        .donut-label {
+            text-align: center;
+            margin-top: 10px;
+            font-size: 0.85rem;
+        }
+        .donut-label .val { font-weight: 600; color: var(--success); }
+        .donut-legend {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+        .donut-legend-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.8rem;
+            cursor: pointer;
+            padding: 6px 10px;
+            border-radius: 8px;
+            transition: background 0.2s;
+        }
+        .donut-legend-item:hover { background: rgba(99,102,241,0.1); }
+        .donut-legend-item .dot { width: 12px; height: 12px; border-radius: 50%; }
+        .donut-legend-item .pct { margin-left: auto; font-weight: 600; }
+
+        .mini-donut-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+        }
+        .mini-donut {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            cursor: pointer;
+        }
+        .mini-donut-chart {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            position: relative;
+        }
+        .mini-donut-center {
+            position: absolute;
+            inset: 15px;
+            background: #1e293b;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.7rem;
+            font-weight: 600;
+        }
+        .mini-donut-label {
+            font-size: 0.7rem;
+            color: var(--text-secondary);
+            margin-top: 5px;
+            text-align: center;
+        }
+
+        .chart-box { height: 220px; display: flex; flex-direction: column; gap: 10px; overflow-y: auto; }
+        .chart-box.tall { height: 300px; }
+        .bar-item { display: flex; align-items: center; gap: 12px; cursor: pointer; padding: 4px 8px; border-radius: 8px; transition: all 0.2s; }
+        .bar-item:hover { background: rgba(99,102,241,0.1); }
+        .bar-item.filtered { background: rgba(99,102,241,0.2); border: 1px solid var(--primary); }
+        .bar-label { width: 90px; font-size: 0.8rem; color: var(--text-secondary); text-align: right; flex-shrink: 0; }
+        .bar-track { flex: 1; height: 26px; background: #334155; border-radius: 8px; overflow: hidden; }
+        .bar-fill {
+            height: 100%;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            padding-left: 12px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            transition: width 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+            min-width: fit-content;
+        }
+        .bar-fill.g1 { background: linear-gradient(90deg, #6366f1 0%, #8b5cf6 100%); }
+        .bar-fill.g2 { background: linear-gradient(90deg, #10b981 0%, #34d399 100%); }
+        .bar-fill.g3 { background: linear-gradient(90deg, #f59e0b 0%, #fbbf24 100%); }
+        .bar-fill.g4 { background: linear-gradient(90deg, #06b6d4 0%, #22d3ee 100%); }
+        .bar-fill.red { background: linear-gradient(90deg, #ef4444 0%, #f87171 100%); }
+
+        .metric-row { display: flex; justify-content: space-between; align-items: center; padding: 12px 0; border-bottom: 1px solid var(--dark-border); cursor: pointer; border-radius: 8px; transition: all 0.2s; }
+        .metric-row:hover { background: rgba(99,102,241,0.1); padding-left: 8px; padding-right: 8px; }
+        .metric-row.filtered { background: rgba(99,102,241,0.2); padding-left: 8px; padding-right: 8px; }
+        .metric-row:last-child { border-bottom: none; }
+        .metric-label { color: var(--text-secondary); font-size: 0.85rem; }
+        .metric-value { font-weight: 600; font-size: 0.95rem; }
+        .metric-value.high { color: var(--success); }
+        .metric-value.low { color: var(--danger); }
+        .metric-value.blue { color: var(--info); }
+
+        .progress-wrap { margin: 10px 0; }
+        .progress-bar { width: 100%; height: 10px; background: #334155; border-radius: 10px; overflow: hidden; }
+        .progress-fill { height: 100%; border-radius: 10px; transition: width 0.8s cubic-bezier(0.4, 0, 0.2, 1); }
+
+        .heatmap { display: grid; grid-template-columns: repeat(7, 1fr); gap: 8px; }
+        .heatmap-cell { padding: 12px 8px; border-radius: 10px; text-align: center; background: #334155; transition: all 0.3s; cursor: pointer; }
+        .heatmap-cell:hover { transform: scale(1.05); background: rgba(99,102,241,0.3); }
+        .heatmap-cell.filtered { background: var(--primary); transform: scale(1.1); }
+        .heatmap-cell .day { font-size: 0.7rem; color: var(--text-secondary); margin-bottom: 4px; }
+        .heatmap-cell .val { font-size: 0.85rem; font-weight: 600; }
+
+        .time-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; }
+        .time-cell { background: #334155; padding: 12px; border-radius: 10px; text-align: center; transition: all 0.3s; cursor: pointer; }
+        .time-cell:hover { background: #475569; transform: translateY(-2px); }
+        .time-cell.filtered { background: var(--primary); transform: translateY(-2px); }
+        .time-cell .hour { font-weight: 600; color: var(--info); font-size: 0.9rem; }
+        .time-cell .sales { font-size: 0.8rem; margin-top: 4px; color: var(--text-secondary); }
+
+        /* KPI Popup - Enhanced */
+        .kpi-popup {
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(0,0,0,0.8);
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+            animation: fadeIn 0.3s;
+        }
+        .kpi-popup.show { display: flex; }
+        .kpi-popup-content {
+            background: linear-gradient(145deg, #1e293b 0%, #0f172a 100%);
+            border: 1px solid var(--dark-border);
+            border-radius: 24px;
+            padding: 35px;
+            max-width: 700px;
+            width: 95%;
+            max-height: 85vh;
+            overflow-y: auto;
+            animation: slideUp 0.3s;
+        }
+        @keyframes slideUp { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
+        .kpi-popup-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid var(--dark-border);
+        }
+        .kpi-popup-header h3 {
+            font-size: 1.5rem;
+            background: var(--gradient-1);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .kpi-popup-close {
+            background: none;
+            border: none;
+            color: var(--text-secondary);
+            font-size: 2rem;
+            cursor: pointer;
+            padding: 5px;
+            line-height: 1;
+        }
+        .kpi-popup-close:hover { color: var(--text-primary); }
+        
+        .kpi-section {
+            margin-bottom: 20px;
+            padding: 15px;
+            background: rgba(0,0,0,0.2);
+            border-radius: 12px;
+        }
+        .kpi-section-title {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .kpi-section-title::before {
+            content: '';
+            width: 4px;
+            height: 16px;
+            background: var(--gradient-1);
+            border-radius: 2px;
+        }
+        .kpi-section-content {
+            font-size: 1rem;
+            line-height: 1.6;
+            padding-left: 12px;
+        }
+        .kpi-tag {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 15px;
+            font-size: 0.75rem;
+            margin: 2px;
+        }
+        .kpi-tag.good { background: rgba(16,185,129,0.2); color: var(--success); }
+        .kpi-tag.warning { background: rgba(245,158,11,0.2); color: var(--warning); }
+        .kpi-tag.bad { background: rgba(239,68,68,0.2); color: var(--danger); }
+        
+        .kpi-formula {
+            background: #0f172a;
+            padding: 12px 15px;
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.85rem;
+            color: var(--info);
+            margin-top: 8px;
+        }
+
+        ::-webkit-scrollbar { width: 6px; height: 6px; }
+        ::-webkit-scrollbar-track { background: #1e293b; border-radius: 10px; }
+        ::-webkit-scrollbar-thumb { background: #475569; border-radius: 10px; }
+        ::-webkit-scrollbar-thumb:hover { background: #64748b; }
+
+        @media (max-width: 1200px) {
+            .summary-grid { grid-template-columns: repeat(2, 1fr); }
+            .bento-grid { grid-template-columns: repeat(2, 1fr); }
+            .bento-2, .bento-3, .bento-4 { grid-column: span 2; }
+        }
+        @media (max-width: 768px) {
+            .summary-grid { grid-template-columns: 1fr; }
+            .bento-grid { grid-template-columns: 1fr; }
+            .bento-2, .bento-3, .bento-4 { grid-column: span 1; }
+            .tab-menu { overflow-x: auto; }
+            .donut-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header-left">
+                <div class="logo">☕</div>
+                <div>
+                    <h1>Coffee Shop Dashboard</h1>
+                    <div class="header-sub">Business Intelligence & Analytics</div>
+                </div>
+            </div>
+            <button class="upload-btn" onclick="document.getElementById('fileInput').click()">
+                📂 Import Excel File
+            </button>
+            <input type="file" id="fileInput" accept=".csv,.xlsx,.xls">
+        </div>
+
+        <div class="filter-bar" id="filterBar">
+            <div class="filter-bar-label">🎯 Active Filters:</div>
+            <div id="filterTags"></div>
+            <button class="clear-all-btn" onclick="clearAllFilters()">Clear All</button>
+        </div>
+
+        <div class="summary-grid">
+            <div class="summary-card">
+                <h3>💰 Total Revenue <button class="kpi-info-btn" onclick="showKPIInfo('totalRevenue', event)">ℹ️</button></h3>
+                <div class="value" id="totalRevenue">-</div>
+                <div class="change" id="revChange">Loading...</div>
+            </div>
+            <div class="summary-card">
+                <h3>📊 Average Order Value <button class="kpi-info-btn" onclick="showKPIInfo('aov', event)">ℹ️</button></h3>
+                <div class="value" style="color: var(--info)" id="avgOrderValue">-</div>
+                <div class="change" id="aovChange">Loading...</div>
+            </div>
+            <div class="summary-card">
+                <h3>🛒 Total Orders <button class="kpi-info-btn" onclick="showKPIInfo('orders', event)">ℹ️</button></h3>
+                <div class="value" style="color: var(--warning)" id="totalOrders">-</div>
+                <div class="change" id="orderChange">Loading...</div>
+            </div>
+            <div class="summary-card">
+                <h3>⭐ Customer Retention <button class="kpi-info-btn" onclick="showKPIInfo('retention', event)">ℹ️</button></h3>
+                <div class="value" style="color: var(--success)" id="retentionRate">-</div>
+                <div class="change" id="retChange">Loading...</div>
+            </div>
+        </div>
+
+        <div class="tab-menu">
+            <button class="tab-btn active" onclick="showTab('sales', this)">💵 ยอดขาย</button>
+            <button class="tab-btn" onclick="showTab('product', this)">🧋 ผลิตภัณฑ์</button>
+            <button class="tab-btn" onclick="showTab('customer', this)">👥 ลูกค้า</button>
+            <button class="tab-btn" onclick="showTab('channel', this)">📡 ช่องทาง</button>
+            <button class="tab-btn" onclick="showTab('time', this)">⏰ เวลา</button>
+            <button class="tab-btn" onclick="showTab('promo', this)">🏷️ โปรโมชัน</button>
+            <button class="tab-btn" onclick="showTab('payment', this)">💳 การชำระเงิน</button>
+            <button class="tab-btn" onclick="showTab('productivity', this)">⚡ Productivity</button>
+        </div>
+
+        <!-- Sales Tab -->
+        <div id="sales" class="tab-content active">
+            <div class="bento-grid">
+                <div class="bento-item bento-2">
+                    <h3>📈 Revenue by Category <button class="info-btn" onclick="showKPIInfo('salesByCategory', event)">ℹ️</button></h3>
+                    <div id="revenueByCategoryDonut"></div>
+                </div>
+                <div class="bento-item bento-2">
+                    <h3>🏆 Top 10 Products <button class="info-btn" onclick="showKPIInfo('topProducts', event)">ℹ️</button></h3>
+                    <div class="chart-box" id="topProducts"></div>
+                </div>
+                <div class="bento-item bento-1">
+                    <h3>📊 Sales Metrics <button class="info-btn" onclick="showKPIInfo('salesMetrics', event)">ℹ️</button></h3>
+                    <div id="salesMetrics"></div>
+                </div>
+                <div class="bento-item bento-1">
+                    <h3>🥤 Hot vs Iced <button class="info-btn" onclick="showKPIInfo('hotIced', event)">ℹ️</button></h3>
+                    <div id="hotIcedDonut"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product Tab -->
+        <div id="product" class="tab-content">
+            <div class="bento-grid">
+                <div class="bento-item bento-2">
+                    <h3>📊 Sales by Category <button class="info-btn" onclick="showKPIInfo('productCategory', event)">ℹ️</button></h3>
+                    <div id="productCategoryDonut"></div>
+                </div>
+                <div class="bento-item bento-2">
+                    <h3>📏 Size Preference <button class="info-btn" onclick="showKPIInfo('sizePreference', event)">ℹ️</button></h3>
+                    <div id="sizePreferenceDonut"></div>
+                </div>
+                <div class="bento-item bento-2">
+                    <h3>➕ Add-on Analysis <button class="info-btn" onclick="showKPIInfo('addonAnalysis', event)">ℹ️</button></h3>
+                    <div id="addonDonut"></div>
+                </div>
+                <div class="bento-item bento-2">
+                    <h3>🍵 Top Items by Category <button class="info-btn" onclick="showKPIInfo('topByCategory', event)">ℹ️</button></h3>
+                    <div id="topByCategory"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Customer Tab -->
+        <div id="customer" class="tab-content">
+            <div class="bento-grid">
+                <div class="bento-item bento-2">
+                    <h3>👥 Customer Types <button class="info-btn" onclick="showKPIInfo('customerTypes', event)">ℹ️</button></h3>
+                    <div id="customerTypeDonut"></div>
+                </div>
+                <div class="bento-item bento-2">
+                    <h3>📊 Customer Metrics <button class="info-btn" onclick="showKPIInfo('customerMetrics', event)">ℹ️</button></h3>
+                    <div id="customerMetrics"></div>
+                </div>
+                <div class="bento-item bento-2">
+                    <h3>🛒 Average Items per Order <button class="info-btn" onclick="showKPIInfo('avgItems', event)">ℹ️</button></h3>
+                    <div id="avgItemsDonut"></div>
+                </div>
+                <div class="bento-item bento-2">
+                    <h3>📈 Customer Acquisition <button class="info-btn" onclick="showKPIInfo('customerAcquisition', event)">ℹ️</button></h3>
+                    <div id="customerTrend"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Channel Tab -->
+        <div id="channel" class="tab-content">
+            <div class="bento-grid">
+                <div class="bento-item bento-2">
+                    <h3>📡 Sales by Channel <button class="info-btn" onclick="showKPIInfo('channelSales', event)">ℹ️</button></h3>
+                    <div id="channelSalesDonut"></div>
+                </div>
+                <div class="bento-item bento-2">
+                    <h3>📊 Channel Contribution <button class="info-btn" onclick="showKPIInfo('channelContribution', event)">ℹ️</button></h3>
+                    <div id="channelContribution"></div>
+                </div>
+                <div class="bento-item bento-2">
+                    <h3>📦 Orders by Channel <button class="info-btn" onclick="showKPIInfo('channelOrders', event)">ℹ️</button></h3>
+                    <div class="chart-box" id="channelOrders"></div>
+                </div>
+                <div class="bento-item bento-2">
+                    <h3>💰 AOV by Channel <button class="info-btn" onclick="showKPIInfo('channelAOV', event)">ℹ️</button></h3>
+                    <div id="channelAOV"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Time Tab -->
+        <div id="time" class="tab-content">
+            <div class="bento-grid">
+                <div class="bento-item bento-2">
+                    <h3>⏰ Sales by Time Slot <button class="info-btn" onclick="showKPIInfo('timeSlotSales', event)">ℹ️</button></h3>
+                    <div id="timeSlotDonut"></div>
+                </div>
+                <div class="bento-item bento-2">
+                    <h3>🕐 Sales by Hour <button class="info-btn" onclick="showKPIInfo('hourlySales', event)">ℹ️</button></h3>
+                    <div class="time-grid" id="hourlySales"></div>
+                </div>
+                <div class="bento-item bento-2">
+                    <h3>📅 Sales by Day <button class="info-btn" onclick="showKPIInfo('dailySales', event)">ℹ️</button></h3>
+                    <div class="heatmap" id="dailySales"></div>
+                </div>
+                <div class="bento-item bento-2">
+                    <h3>🗓️ Weekend vs Weekday <button class="info-btn" onclick="showKPIInfo('weekendWeekday', event)">ℹ️</button></h3>
+                    <div id="weekendWeekdayDonut"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Promo Tab -->
+        <div id="promo" class="tab-content">
+            <div class="bento-grid">
+                <div class="bento-item bento-2">
+                    <h3>🏷️ Promo Usage <button class="info-btn" onclick="showKPIInfo('promoUsage', event)">ℹ️</button></h3>
+                    <div id="promoUsageDonut"></div>
+                </div>
+                <div class="bento-item bento-2">
+                    <h3>💵 Promo Impact <button class="info-btn" onclick="showKPIInfo('promoImpact', event)">ℹ️</button></h3>
+                    <div id="promoImpact"></div>
+                </div>
+                <div class="bento-item bento-2">
+                    <h3>📊 Discount by Category <button class="info-btn" onclick="showKPIInfo('discountByCategory', event)">ℹ️</button></h3>
+                    <div class="chart-box" id="discountByCategory"></div>
+                </div>
+                <div class="bento-item bento-2">
+                    <h3>🎯 Promo Effectiveness <button class="info-btn" onclick="showKPIInfo('promoEffectiveness', event)">ℹ️</button></h3>
+                    <div id="promoEffectiveness"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Payment Tab -->
+        <div id="payment" class="tab-content">
+            <div class="bento-grid">
+                <div class="bento-item bento-2">
+                    <h3>💳 Payment Methods <button class="info-btn" onclick="showKPIInfo('paymentMethods', event)">ℹ️</button></h3>
+                    <div id="paymentMixDonut"></div>
+                </div>
+                <div class="bento-item bento-2">
+                    <h3>💵 Cash vs Digital <button class="info-btn" onclick="showKPIInfo('cashDigital', event)">ℹ️</button></h3>
+                    <div id="cashDigitalDonut"></div>
+                </div>
+                <div class="bento-item bento-2">
+                    <h3>📊 Payment by Channel <button class="info-btn" onclick="showKPIInfo('paymentByChannel', event)">ℹ️</button></h3>
+                    <div id="paymentByChannel"></div>
+                </div>
+                <div class="bento-item bento-2">
+                    <h3>💰 AOV by Payment <button class="info-btn" onclick="showKPIInfo('paymentAOV', event)">ℹ️</button></h3>
+                    <div id="paymentAOV"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Productivity Tab -->
+        <div id="productivity" class="tab-content">
+            <div class="bento-grid">
+                <div class="bento-item bento-1">
+                    <h3>⚡ Orders/Hour <button class="info-btn" onclick="showKPIInfo('ordersPerHour', event)">ℹ️</button></h3>
+                    <div id="ordersPerHour"></div>
+                </div>
+                <div class="bento-item bento-1">
+                    <h3>💰 Revenue/Hour <button class="info-btn" onclick="showKPIInfo('revenuePerHour', event)">ℹ️</button></h3>
+                    <div id="revenuePerHour"></div>
+                </div>
+                <div class="bento-item bento-1">
+                    <h3>📈 Peak Utilization <button class="info-btn" onclick="showKPIInfo('peakUtilization', event)">ℹ️</button></h3>
+                    <div id="peakUtilizationDonut"></div>
+                </div>
+                <div class="bento-item bento-1">
+                    <h3>⏱️ Prep Time Proxy <button class="info-btn" onclick="showKPIInfo('prepTime', event)">ℹ️</button></h3>
+                    <div id="prepTime"></div>
+                </div>
+                <div class="bento-item bento-2">
+                    <h3>📊 Hourly Performance <button class="info-btn" onclick="showKPIInfo('hourlyPerformance', event)">ℹ️</button></h3>
+                    <div class="chart-box" id="hourlyPerformance"></div>
+                </div>
+                <div class="bento-item bento-2">
+                    <h3>🎯 Basket Size <button class="info-btn" onclick="showKPIInfo('basketOptimization', event)">ℹ️</button></h3>
+                    <div id="basketDonut"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Enhanced KPI Popup -->
+    <div class="kpi-popup" id="kpiPopup" onclick="closeKPIPopup(event)">
+        <div class="kpi-popup-content" onclick="event.stopPropagation()">
+            <div class="kpi-popup-header">
+                <h3 id="kpiPopupTitle">KPI Info</h3>
+                <button class="kpi-popup-close" onclick="closeKPIPopup()">&times;</button>
+            </div>
+            <div id="kpiPopupBody"></div>
+        </div>
+    </div>
+
+    <script>
+        // Enhanced KPI Information Database with detailed info for development
+        const kpiInfo = {
+            totalRevenue: {
+                title: "Total Revenue",
+                desc: "รายได้รวมทั้งหมดจากการขาย",
+                interpretation: "ควรเพิ่มขึ้นทุกเดือน หากต่ำกว่าเป้าต้องหาสาเหตุ",
+                formula: "SUM(net_sales_thb)",
+                dataSource: "net_sales_thb column",
+                target: "เป้าหมาย: เพิ่มขึ้น 10% ต่อเดือน",
+                benchmark: "ค่าเฉลี่ยอุตสาหกรรม: 150,000-200,000 บาท/วัน",
+                action: "หากต่ำกว่าเป้า: ทบทวนกลยุทธ์โปรโมชัน, วิเคราะห์สินค้าขายดี",
+                history: "เก็บข้อมูลย้อนหลัง 12 เดือนเพื่อวิเคราะห์แนวโน้ม"
+            },
+            aov: {
+                title: "Average Order Value (AOV)",
+                desc: "มูลค่าเฉลี่ยต่อออร์เดอร์",
+                interpretation: "ยิ่งสูง = ลูกค้าซื้อมากขึ้นต่อครั้ง",
+                formula: "SUM(net_sales_thb) / COUNT(DISTINCT order_id)",
+                dataSource: "net_sales_thb, order_id columns",
+                target: "เป้าหมาย: >100 บาท",
+                benchmark: "ค่าเฉลี่ยอุตสาหกรรม: 80-120 บาท",
+                action: "เพิ่ม AOV: Bundle deals, Cross-sell, Add-on recommendations",
+                history: "ติดตามรายสัปดาห์"
+            },
+            orders: {
+                title: "Total Orders",
+                desc: "จำนวนออร์เดอร์ทั้งหมด",
+                interpretation: "แสดงปริมาณการขายรวม",
+                formula: "COUNT(DISTINCT order_id)",
+                dataSource: "order_id column",
+                target: "ขึ้นอยู่กับช่วงเวลาและวัน",
+                benchmark: "100-200 ออร์เดอร์/วัน",
+                action: "เพิ่มออร์เดอร์: โปรโมชัน, การตลาด",
+                history: "เก็บรายวัน"
+            },
+            retention: {
+                title: "Customer Retention Rate",
+                desc: "อัตราการรักษาลูกค้า",
+                interpretation: ">70% = ดี ความภักดีสูง",
+                formula: "COUNT(Returning) / COUNT(*) * 100",
+                dataSource: "customer_type column",
+                target: "เป้าหมาย: >70%",
+                benchmark: "อุตสาหกรรม: 60-80%",
+                action: "เพิ่ม Retention: Loyalty program, Member benefits",
+                history: "ติดตามรายเดือน"
+            },
+            salesByCategory: {
+                title: "Sales by Category",
+                desc: "ยอดขายแต่ละหมวดสินค้า (Coffee, Tea, Bakery, Soda, Non-Coffee)",
+                interpretation: "วิเคราะห์หมวดไหนขายดี/ไม่ดี",
+                formula: "GROUP BY category, SUM(net_sales_thb)",
+                dataSource: "category, net_sales_thb columns",
+                target: "Coffee ควร >40% ของยอดขาย",
+                benchmark: "Coffee: 45%, Tea: 25%, Bakery: 15%, Others: 15%",
+                action: "ปรับสต็อกตามหมวดที่ขายดี",
+                history: "เปรียบเทียบรายเดือน"
+            },
+            topProducts: {
+                title: "Top Selling Items",
+                desc: "เมนูยอดนิยม 10 อันดับ",
+                interpretation: "มุ่งเน้นโปรโมตสินค้าขายดี",
+                formula: "GROUP BY menu_item, COUNT(*) ORDER BY DESC",
+                dataSource: "menu_item, order_id columns",
+                target: "Top 3 ควรคิดเป็น 40% ของยอดขาย",
+                benchmark: "Americano, Latte, Matcha Latte อยู่ใน Top เสมอ",
+                action: "โปรโมตสินค้า flagship, พัฒนาเมนูใหม่ตามเทรนด์",
+                history: "อัปเดตรายสัปดาห์"
+            },
+            salesMetrics: {
+                title: "Sales Metrics",
+                desc: "ตัวชี้วัดยอดขายหลัก",
+                interpretation: "AOV เป้าหมาย >100 บาท",
+                formula: "Multiple: Revenue, Orders, AOV, Avg Items",
+                dataSource: "net_sales_thb, qty, order_id columns",
+                target: "ดูจาก KPIs ย่อย",
+                benchmark: "ดูแต่ละ KPI",
+                action: "ดูรายละเอียดแต่ละ KPI",
+                history: "ติดตามรายวัน"
+            },
+            hotIced: {
+                title: "Hot vs Iced Ratio",
+                desc: "สัดส่วนเครื่องดื่มร้อน/เย็น",
+                interpretation: "ปรับสต็อกตามความชอบลูกค้า",
+                formula: "COUNT WHERE hot_iced='Hot' vs 'Iced'",
+                dataSource: "hot_iced column",
+                target: "Seasonal adjustment: หน้าร้อน Iced >60%, หน้าหนาว Hot >60%",
+                benchmark: "ปกติ: Hot 40%, Iced 60%",
+                action: "ปรับสูตรและสต็อกตามฤดูกาล",
+                history: "ติดตามรายเดือน"
+            },
+            productCategory: {
+                title: "Product Category Sales",
+                desc: "ยอดขายตามหมวดสินค้า",
+                interpretation: "หมวดไหนทำรายได้สูงสุด",
+                formula: "GROUP BY category, SUM(net_sales_thb)",
+                dataSource: "category, net_sales_thb columns",
+                target: "Coffee เป็นหลัก",
+                benchmark: "Coffee 45%, Tea 25%, Bakery 15%, Soda 10%, Non-Coffee 5%",
+                action: "พัฒนาสินค้าในหมวดที่มีศักยภาพ",
+                history: "เปรียบเทียบรายเดือน"
+            },
+            sizePreference: {
+                title: "Size Preference",
+                desc: "ความนิยมของขนาด (S/M/L)",
+                interpretation: "S/M/L อันไหนขายดีสุด",
+                formula: "GROUP BY size, COUNT(*)",
+                dataSource: "size column",
+                target: "Size M เป็น bestseller",
+                benchmark: "M: 50%, L: 30%, S: 20%",
+                action: "โปรโมต Size ใหญ่เพิ่ม AOV",
+                history: "ติดตามรายสัปดาห์"
+            },
+            addonAnalysis: {
+                title: "Add-on Attachment Rate",
+                desc: "อัตราการซื้อส่วนเพิ่ม (Whipped Cream, Oat Milk, Extra Shot)",
+                interpretation: "สูง = เพิ่มรายได้ต่อออร์เดอร์",
+                formula: "COUNT WHERE add_on != 'None' / COUNT(*) *100",
+                dataSource: "add_on column",
+                target: "เป้าหมาย: >15%",
+                benchmark: "ค่าเฉลี่ย: 10-15%",
+                action: "ฝึกพนักงาน upsell, สร้าง combo deals",
+                history: "ติดตามรายสัปดาห์"
+            },
+            topByCategory: {
+                title: "Top Items by Category",
+                desc: "สินค้าขายดีที่สุดในแต่ละหมวด",
+                interpretation: "วิเคราะห์สินค้า flagship",
+                formula: "GROUP BY category, menu_item, COUNT(*)",
+                dataSource: "category, menu_item columns",
+                target: "แต่ละหมวดมี flagship product",
+                benchmark: "Coffee: Latte, Tea: Matcha Latte, Bakery: Brownie",
+                action: "โปรโมต flagship เป็นพิเศษ",
+                history: "อัปเดตรายสัปดาห์"
+            },
+            customerTypes: {
+                title: "New vs Returning Customers",
+                desc: "สัดส่วนลูกค้าใหม่และลูกค้าประจำ",
+                interpretation: "แสดงการเติบโตของฐานลูกค้า",
+                formula: "GROUP BY customer_type, COUNT(*)",
+                dataSource: "customer_type column",
+                target: "New: 30%, Returning: 70%",
+                benchmark: "New: 25-35%, Returning: 65-75%",
+                action: "เพิ่มลูกค้าใหม่: การตลาด, โปรโมชัน",
+                history: "ติดตามรายเดือน"
+            },
+            customerMetrics: {
+                title: "Customer Metrics",
+                desc: "ตัวชี้วัดด้านลูกค้า",
+                interpretation: "Retention >70% = ดี",
+                formula: "Multiple metrics",
+                dataSource: "customer_type, order_id columns",
+                target: "ดูแต่ละ KPI",
+                benchmark: "ดูแต่ละ KPI",
+                action: "ดูรายละเอียดแต่ละ KPI",
+                history: "ติดตามรายวัน"
+            },
+            avgItems: {
+                title: "Average Items per Order",
+                desc: "จำนวนรายการเฉลี่ยต่อออร์เดอร์",
+                interpretation: "สูง = แนะนำสินค้าได้ดี",
+                formula: "SUM(qty) / COUNT(DISTINCT order_id)",
+                dataSource: "qty, order_id columns",
+                target: "เป้าหมาย: >1.5 items/order",
+                benchmark: "ค่าเฉลี่ย: 1.3-1.8 items",
+                action: "Cross-selling, Combo deals",
+                history: "ติดตามรายสัปดาห์"
+            },
+            customerAcquisition: {
+                title: "Customer Acquisition",
+                desc: "จำนวนลูกค้าใหม่",
+                interpretation: "เป้าหมายเพิ่มขึ้นทุกเดือน",
+                formula: "COUNT WHERE customer_type='New'",
+                dataSource: "customer_type column",
+                target: "เพิ่มขึ้น 10% ต่อเดือน",
+                benchmark: "20-40 ลูกค้าใหม่/วัน",
+                action: "Marketing campaigns, Referrals",
+                history: "ติดตามรายวัน"
+            },
+            channelSales: {
+                title: "Sales by Channel",
+                desc: "ยอดขายแต่ละช่องทาง (Walk-in, Grab, Line Man)",
+                interpretation: "ช่องทางไหนทำรายได้สูงสุด",
+                formula: "GROUP BY channel, SUM(net_sales_thb)",
+                dataSource: "channel, net_sales_thb columns",
+                target: "Walk-in >50% ของรายได้",
+                benchmark: "Walk-in: 55%, Grab: 25%, Line Man: 15%, Others: 5%",
+                action: "พัฒนาช่องทางที่มีศักยภาพ",
+                history: "เปรียบเทียบรายเดือน"
+            },
+            channelContribution: {
+                title: "Channel Contribution %",
+                desc: "สัดส่วนยอดขายแต่ละช่องทาง",
+                interpretation: "Walk-in ควร >50% ของรายได้",
+                formula: "(Channel Sales / Total Sales) *100",
+                dataSource: "channel, net_sales_thb columns",
+                target: "Walk-in >50%",
+                benchmark: "ดู channelSales",
+                action: "ดู channelSales",
+                history: "ติดตามรายเดือน"
+            },
+            channelOrders: {
+                title: "Orders by Channel",
+                desc: "จำนวนออร์เดอร์แต่ละช่องทาง",
+                interpretation: "วิเคราะห์ประสิทธิภาพช่องทาง",
+                formula: "GROUP BY channel, COUNT(DISTINCT order_id)",
+                dataSource: "channel, order_id columns",
+                target: "ดู channelSales",
+                benchmark: "ดู channelSales",
+                action: "ปรับปรุงประสิทธิภาพช่องทาง",
+                history: "ติดตามรายวัน"
+            },
+            channelAOV: {
+                title: "AOV by Channel",
+                desc: "มูลค่าเฉลี่ยต่อออร์เดอร์แต่ละช่องทาง",
+                interpretation: "ช่องทางไหนมี AOV สูงสุด",
+                formula: "SUM(net_sales_thb) / COUNT(DISTINCT order_id) BY channel",
+                dataSource: "net_sales_thb, order_id, channel columns",
+                target: "ทุกช่องทาง >80 บาท",
+                benchmark: "Walk-in มักสูงสุด",
+                action: "เพิ่ม AOV ช่องทางที่ต่ำ",
+                history: "ติดตามรายสัปดาห์"
+            },
+            timeSlotSales: {
+                title: "Sales by Time Slot",
+                desc: "ยอดขายแต่ละช่วงเวลา (Morning Peak, Afternoon Peak, Midday, Late)",
+                interpretation: "Peak hours = Morning/Afternoon",
+                formula: "GROUP BY time_slot, SUM(net_sales_thb)",
+                dataSource: "time_slot, net_sales_thb columns",
+                target: "Peak hours ควร >60% ของยอดขาย",
+                benchmark: "Morning Peak: 35%, Afternoon Peak: 30%, Midday: 25%, Late: 10%",
+                action: "จัด staffing ตามช่วงเวลา",
+                history: "ติดตามรายวัน"
+            },
+            hourlySales: {
+                title: "Sales by Hour",
+                desc: "ยอดขายแต่ละชั่วโมง",
+                interpretation: "หาชั่วโมงขายดีสุด",
+                formula: "GROUP BY hour, SUM(net_sales_thb)",
+                dataSource: "hour, net_sales_thb columns",
+                target: "8-10 และ 14-16 เป็นช่วงพีค",
+                benchmark: "ชั่วโมงพีค: 9-10 และ 14-15",
+                action: "จัด staffing ตามชั่วโมง",
+                history: "ติดตามรายวัน"
+            },
+            dailySales: {
+                title: "Sales by Day of Week",
+                desc: "ยอดขายแต่ละวันในสัปดาห์",
+                interpretation: "วันไหนขายดี/ไม่ดี",
+                formula: "GROUP BY day_of_week, SUM(net_sales_thb)",
+                dataSource: "day_of_week, net_sales_thb columns",
+                target: "วันธรรมดาขายดีกว่าวันหยุด",
+                benchmark: "ศุกร์-อาทิตย์ขายดี",
+                action: "วางแผน workforce",
+                history: "เปรียบเทียบรายสัปดาห์"
+            },
+            weekendWeekday: {
+                title: "Weekend vs Weekday",
+                desc: "เปรียบเทียบยอดขายวันธรรมดาและวันหยุด",
+                interpretation: "วางแผน workforce",
+                formula: "SUM(net_sales_thb) WHERE day IN ['Sat','Sun'] vs others",
+                dataSource: "day_of_week, net_sales_thb columns",
+                target: "Weekday 60%, Weekend 40%",
+                benchmark: "ปกติ Weekday มากกว่า",
+                action: "ปรับ staffing ตามวัน",
+                history: "เปรียบเทียบรายสัปดาห์"
+            },
+            promoUsage: {
+                title: "Promo Usage Rate",
+                desc: "อัตราการใช้โปรโมชัน",
+                interpretation: "ควร <20% สูงเกินไปเสียรายได้",
+                formula: "SUM(promo_flag) / COUNT(*) *100",
+                dataSource: "promo_flag column",
+                target: "เป้าหมาย: 10-15%",
+                benchmark: "ค่าเฉลี่ย: 10-20%",
+                action: "ทบทวนโปรโมชัน หากสูงเกินไป",
+                history: "ติดตามรายเดือน"
+            },
+            promoImpact: {
+                title: "Promo Impact on AOV",
+                desc: "ผลโปรโมชันต่อ AOV",
+                interpretation: "โปรเพิ่ม AOV หรือไม่",
+                formula: "AOV with promo vs without promo",
+                dataSource: "promo_flag, net_sales_thb, order_id columns",
+                target: "Promo AOV >= Non-promo AOV",
+                benchmark: "ควรไม่ต่างกันมาก",
+                action: "ปรับโปรโมชันให้เหมาะสม",
+                history: "เปรียบเทียบรายเดือน"
+            },
+            discountByCategory: {
+                title: "Discount by Category",
+                desc: "ส่วนลดแต่ละหมวดสินค้า",
+                interpretation: "หมวดไหนให้ส่วนลดมาก",
+                formula: "GROUP BY category, SUM(discount_thb)",
+                dataSource: "category, discount_thb columns",
+                target: "ส่วนลด <5% ของยอดขาย",
+                benchmark: "ควรน้อยที่สุด",
+                action: "ทบทวนการให้ส่วนลด",
+                history: "ติดตามรายเดือน"
+            },
+            promoEffectiveness: {
+                title: "Promo Effectiveness",
+                desc: "ประสิทธิภาพโปรโมชัน",
+                interpretation: "โปรควรเพิ่ม AOV",
+                formula: "Compare AOV with/without promo",
+                dataSource: "promo_flag, net_sales_thb columns",
+                target: "Promo ควรไม่ลด AOV",
+                benchmark: "AOV ควรใกล้เคียงกัน",
+                action: "ปรับโปรโมชัน",
+                history: "เปรียบเทียบรายเดือน"
+            },
+            paymentMethods: {
+                title: "Payment Method Mix",
+                desc: "สัดส่วนวิธีการชำระเงิน",
+                interpretation: "QR ควรเป็น main method",
+                formula: "GROUP BY payment_method, COUNT(*)",
+                dataSource: "payment_method column",
+                target: "QR/PromptPay >70%",
+                benchmark: "QR: 70%, Card: 15%, Cash: 15%",
+                action: "ส่งเสริม QR payment",
+                history: "ติดตามรายสัปดาห์"
+            },
+            cashDigital: {
+                title: "Cash vs Digital Ratio",
+                desc: "สัดส่วนเงินสด vs ดิจิทัล",
+                interpretation: "ลดการใช้เงินสดเพื่อลดต้นทุน",
+                formula: "Cash vs Digital COUNT",
+                dataSource: "payment_method column",
+                target: "Digital >80%",
+                benchmark: "Digital 80-90%",
+                action: "ส่งเสริม Digital payment",
+                history: "ติดตามรายสัปดาห์"
+            },
+            paymentByChannel: {
+                title: "Payment by Channel",
+                desc: "วิธีการชำระเงินตามช่องทาง",
+                interpretation: "ช่องทางไหนใช้ payment อะไร",
+                formula: "GROUP BY channel, payment_method",
+                dataSource: "channel, payment_method columns",
+                target: "ทุกช่องทางมี QR เป็นหลัก",
+                benchmark: "ดู paymentMethods",
+                action: "ปรับ payment options ตามช่องทาง",
+                history: "ติดตามรายเดือน"
+            },
+            paymentAOV: {
+                title: "AOV by Payment Method",
+                desc: "มูลค่าเฉลี่ยตามวิธีการชำระเงิน",
+                interpretation: "วิธีไหนมี AOV สูงสุด",
+                formula: "SUM(net_sales_thb) / COUNT(DISTINCT order_id) BY payment",
+                dataSource: "payment_method, net_sales_thb, order_id columns",
+                target: "ทุกวิธี >80 บาท",
+                benchmark: "Card มักสูงสุด",
+                action: "ส่งเสริมวิธีที่มี AOV สูง",
+                history: "ติดตามรายสัปดาห์"
+            },
+            ordersPerHour: {
+                title: "Orders per Hour",
+                desc: "จำนวนออร์เดอร์ต่อชั่วโมง",
+                interpretation: "ประสิทธิภาพการทำงาน",
+                formula: "COUNT(order_id) / hours_operated",
+                dataSource: "order_id, hour columns",
+                target: "10-15 orders/hour",
+                benchmark: "10-20 orders/hour",
+                action: "ปรับปรุงกระบวนการทำงาน",
+                history: "ติดตามรายวัน"
+            },
+            revenuePerHour: {
+                title: "Revenue per Hour",
+                desc: "รายได้ต่อชั่วโมง",
+                interpretation: "Productivity ของร้าน",
+                formula: "SUM(net_sales_thb) / hours_operated",
+                dataSource: "net_sales_thb, hour columns",
+                target: "1,000-2,000 บาท/ชั่วโมง",
+                benchmark: "800-1,500 บาท/ชั่วโมง",
+                action: "เพิ่ม productivity",
+                history: "ติดตามรายวัน"
+            },
+            peakUtilization: {
+                title: "Peak Hour Utilization",
+                desc: "% การใช้งานชั่วโมงเร่งด่วน",
+                interpretation: "ใช้เวลาพีคได้ดีแค่ไหน",
+                formula: "Peak hours sales / Total Sales *100",
+                dataSource: "time_slot, net_sales_thb columns",
+                target: "60-70% ของยอดขาย",
+                benchmark: "60-70%",
+                action: "เพิ่ม capacity ในช่วงพีค",
+                history: "ติดตามรายวัน"
+            },
+            prepTime: {
+                title: "Average Prep Time Proxy",
+                desc: "เวลาเตรียมเฉลี่ย (จาก qty/hour)",
+                interpretation: "ประสิทธิภาพทำรายการ",
+                formula: "SUM(qty) / peak_hours",
+                dataSource: "qty, time_slot columns",
+                target: "2-3 items/order ในช่วงพีค",
+                benchmark: "2-4 items",
+                action: "ปรับปรุงกระบวนการ",
+                history: "ติดตามรายวัน"
+            },
+            hourlyPerformance: {
+                title: "Hourly Performance",
+                desc: "ประสิทธิภาพรายชั่วโมง",
+                interpretation: "ติดตามชั่วโมงทำงาน",
+                formula: "GROUP BY hour, SUM(net_sales_thb)",
+                dataSource: "hour, net_sales_thb columns",
+                target: "ดู hourlySales",
+                benchmark: "ดู hourlySales",
+                action: "ปรับ staffing",
+                history: "ติดตามรายวัน"
+            },
+            basketOptimization: {
+                title: "Basket Size Optimization",
+                desc: "การเพิ่มขนาดออร์เดอร์เฉลี่ย",
+                interpretation: "เป้า AOV >100 บาท",
+                formula: "Monitor AOV trend",
+                dataSource: "net_sales_thb, order_id columns",
+                target: "AOV >100 บาท",
+                benchmark: "80-120 บาท",
+                action: "Cross-selling, Upselling",
+                history: "ติดตามรายสัปดาห์"
+            }
+        };
+
+        let salesData = [];
+        let filteredData = [];
+        let activeFilters = {};
+
+        document.getElementById('fileInput').addEventListener('change', handleFileUpload);
+
+        function handleFileUpload(e) {
+            const file = e.target.files[0];
+            if (!file) return;
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                const data = new Uint8Array(e.target.result);
+                const workbook = XLSX.read(data, { type: 'array' });
+                const firstSheet = workbook.Sheets[workbook.SheetNames[0]];
+                salesData = XLSX.utils.sheet_to_json(firstSheet);
+                filteredData = [...salesData];
+                processData();
+            };
+            reader.readAsArrayBuffer(file);
+        }
+
+        function applyFilter(type, value) {
+            if (activeFilters[type] === value) {
+                delete activeFilters[type];
+            } else {
+                activeFilters[type] = value;
+            }
+            applyFilters();
+        }
+
+        function applyFilters() {
+            filteredData = salesData.filter(row => {
+                for (const [type, value] of Object.entries(activeFilters)) {
+                    if (type === 'category' && row.category !== value) return false;
+                    if (type === 'channel' && row.channel !== value) return false;
+                    if (type === 'customer_type' && row.customer_type !== value) return false;
+                    if (type === 'time_slot' && row.time_slot !== value) return false;
+                    if (type === 'day_of_week' && row.day_of_week !== value) return false;
+                    if (type === 'hour' && row.hour.toString() !== value) return false;
+                    if (type === 'payment_method' && row.payment_method !== value) return false;
+                    if (type === 'hot_iced' && row.hot_iced !== value) return false;
+                    if (type === 'size' && row.size !== value) return false;
+                    if (type === 'promo' && row.promo_flag.toString() !== value) return false;
+                }
+                return true;
+            });
+            updateFilterBar();
+            processData();
+        }
+
+        function updateFilterBar() {
+            const filterBar = document.getElementById('filterBar');
+            const filterTags = document.getElementById('filterTags');
+            if (Object.keys(activeFilters).length === 0) {
+                filterBar.classList.remove('show');
+                return;
+            }
+            filterBar.classList.add('show');
+            let html = '';
+            for (const [type, value] of Object.entries(activeFilters)) {
+                html += `<div class="filter-tag">${type}: ${value} <span class="remove" onclick="removeFilter('${type}')">&times;</span></div>`;
+            }
+            filterTags.innerHTML = html;
+        }
+
+        function removeFilter(type) {
+            delete activeFilters[type];
+            applyFilters();
+        }
+
+        function clearAllFilters() {
+            activeFilters = {};
+            applyFilters();
+        }
+
+        function showKPIInfo(kpiId, event) {
+            event.stopPropagation();
+            const info = kpiInfo[kpiId];
+            if (!info) return;
+            
+            document.getElementById('kpiPopupTitle').textContent = info.title;
+            
+            let bodyHtml = `
+                <div class="kpi-section">
+                    <div class="kpi-section-title">คำอธิบาย (สำหรับ CEO)</div>
+                    <div class="kpi-section-content">${info.desc}</div>
+                </div>
+                <div class="kpi-section">
+                    <div class="kpi-section-title">การแปลผล</div>
+                    <div class="kpi-section-content">${info.interpretation}</div>
+                </div>
+                <div class="kpi-section">
+                    <div class="kpi-section-title">วิธีการคำนวน (Formula)</div>
+                    <div class="kpi-formula">${info.formula}</div>
+                </div>
+                <div class="kpi-section">
+                    <div class="kpi-section-title">แหล่งข้อมูล</div>
+                    <div class="kpi-section-content">${info.dataSource}</div>
+                </div>
+                <div class="kpi-section">
+                    <div class="kpi-section-title">เป้าหมาย</div>
+                    <div class="kpi-section-content">${info.target}</div>
+                </div>
+                <div class="kpi-section">
+                    <div class="kpi-section-title">Benchmark (ค่าเปรียบเทียบ)</div>
+                    <div class="kpi-section-content">${info.benchmark}</div>
+                </div>
+                <div class="kpi-section">
+                    <div class="kpi-section-title">แนวทางปฏิบัติ (สำหรับพัฒนา)</div>
+                    <div class="kpi-section-content">${info.action}</div>
+                </div>
+                <div class="kpi-section">
+                    <div class="kpi-section-title">การเก็บข้อมูลย้อนหลัง</div>
+                    <div class="kpi-section-content">${info.history}</div>
+                </div>
+            `;
+            
+            document.getElementById('kpiPopupBody').innerHTML = bodyHtml;
+            document.getElementById('kpiPopup').classList.add('show');
+        }
+
+        function closeKPIPopup(event) {
+            if (!event || event.target === document.getElementById('kpiPopup')) {
+                document.getElementById('kpiPopup').classList.remove('show');
+            }
+        }
+
+        function processData() {
+            if (filteredData.length === 0) {
+                filteredData = salesData;
+            }
+
+            filteredData.forEach(r => {
+                r.qty = parseInt(r.qty) || 0;
+                r.net_sales_thb = parseFloat(r.net_sales_thb) || 0;
+                r.unit_price_thb = parseFloat(r.unit_price_thb) || 0;
+                r.discount_thb = parseFloat(r.discount_thb) || 0;
+                r.promo_flag = parseInt(r.promo_flag) || 0;
+                r.hour = parseInt(r.hour) || 0;
+            });
+
+            const totalRevenue = filteredData.reduce((s, r) => s + r.net_sales_thb, 0);
+            const uniqueOrders = [...new Set(filteredData.map(r => r.order_id))].length;
+            const avgOrderValue = uniqueOrders > 0 ? totalRevenue / uniqueOrders : 0;
+            const returning = filteredData.filter(r => r.customer_type === 'Returning').length;
+            const newCustomers = filteredData.filter(r => r.customer_type === 'New').length;
+            const totalCustomers = filteredData.length;
+            const retentionRate = totalCustomers > 0 ? (returning / totalCustomers * 100).toFixed(1) : 0;
+            const uniqueDates = [...new Set(filteredData.map(r => r.order_date))].length;
+
+            document.getElementById('totalRevenue').textContent = totalRevenue.toLocaleString() + ' ฿';
+            document.getElementById('avgOrderValue').textContent = avgOrderValue.toFixed(0) + ' ฿';
+            document.getElementById('totalOrders').textContent = uniqueOrders.toLocaleString();
+            document.getElementById('retentionRate').textContent = retentionRate + '%';
+            document.getElementById('aovChange').textContent = `${uniqueOrders.toLocaleString()} orders`;
+            document.getElementById('orderChange').textContent = `${uniqueDates} days`;
+            document.getElementById('retChange').textContent = `${newCustomers} new customers`;
+            document.getElementById('revChange').textContent = `${filteredData.length} transactions`;
+
+            renderSalesTab();
+            renderProductTab();
+            renderCustomerTab();
+            renderChannelTab();
+            renderTimeTab();
+            renderPromoTab();
+            renderPaymentTab();
+            renderProductivityTab();
+        }
+
+        // Donut Chart Renderer
+        function renderDonutChart(containerId, data, filterType = null, colors = null) {
+            const total = Object.values(data).reduce((a, b) => a + b, 0);
+            const sortedData = Object.entries(data).sort((a, b) => b[1] - a[1]);
+            
+            const defaultColors = ['#6366f1', '#10b981', '#f59e0b', '#06b6d4', '#ef4444', '#8b5cf6', '#ec4899', '#14b8a6'];
+            const colorList = colors || defaultColors;
+            
+            let currentAngle = 0;
+            let gradientStops = '';
+            const legendItems = sortedData.map(([key, value], i) => {
+                const pct = total > 0 ? (value / total * 100) : 0;
+                const angle = (value / total * 360);
+                const startAngle = currentAngle;
+                currentAngle += angle;
+                const isFiltered = activeFilters[filterType] === key;
+                
+                gradientStops += `${colorList[i % colorList.length]} ${startAngle}deg ${currentAngle}deg,`;
+                
+                return `
+                    <div class="donut-legend-item ${isFiltered ? 'filtered' : ''}" onclick="${filterType ? `applyFilter('${filterType}', '${key}')` : ''}">
+                        <div class="dot" style="background: ${colorList[i % colorList.length]}"></div>
+                        <span>${key}</span>
+                        <span class="pct">${pct.toFixed(1)}%</span>
+                    </div>
+                `;
+            }).join('');
+
+            const container = document.getElementById(containerId);
+            container.innerHTML = `
+                <div class="donut-grid">
+                    <div class="donut-single">
+                        <div class="donut-chart" style="background: conic-gradient(${gradientStops.slice(0, -1)}, #334155 0deg)">
+                            <div class="donut-center">
+                                <div class="num">${total.toLocaleString()}</div>
+                                <div class="txt">Total</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="donut-legend">
+                        ${legendItems}
+                    </div>
+                </div>
+            `;
+        }
+
+        // Mini Donut for single metric
+        function renderMiniDonut(containerId, value, total, label, filterType = null, filterValue = null, color = '#6366f1') {
+            const pct = total > 0 ? (value / total * 100) : 0;
+            const isFiltered = activeFilters[filterType] === filterValue;
+            document.getElementById(containerId).innerHTML = `
+                <div class="mini-donut" onclick="${filterType ? `applyFilter('${filterType}', '${filterValue}')` : ''}">
+                    <div class="mini-donut-chart" style="background: conic-gradient(${color} ${pct * 3.6}deg, #334155 0deg)">
+                        <div class="mini-donut-center">${pct.toFixed(0)}%</div>
+                    </div>
+                    <div class="mini-donut-label">${label}</div>
+                </div>
+            `;
+        }
+
+        function renderBarChart(containerId, data, maxValue = null, filterType = null) {
+            const max = maxValue || Math.max(...Object.values(data));
+            const colors = ['g1', 'g2', 'g3', 'g4'];
+            const html = Object.entries(data)
+                .sort((a, b) => b[1] - a[1])
+                .slice(0, 10)
+                .map(([k, v], i) => {
+                    const isFiltered = activeFilters[filterType] === k;
+                    return `
+                    <div class="bar-item ${isFiltered ? 'filtered' : ''}" onclick="${filterType ? `applyFilter('${filterType}', '${k}')` : ''}">
+                        <div class="bar-label">${k}</div>
+                        <div class="bar-track">
+                            <div class="bar-fill ${colors[i % 4]}" style="width: ${(v / max * 100)}%">${v.toLocaleString()}</div>
+                        </div>
+                    </div>
+                `}).join('');
+            document.getElementById(containerId).innerHTML = html;
+        }
+
+        function renderSalesTab() {
+            const categoryData = {};
+            filteredData.forEach(r => {
+                const cat = r.category || 'Unknown';
+                categoryData[cat] = (categoryData[cat] || 0) + r.net_sales_thb;
+            });
+            renderDonutChart('revenueByCategoryDonut', categoryData, 'category', ['#92400e', '#059669', '#dc2626', '#0891b2', '#7c3aed']);
+
+            const productData = {};
+            filteredData.forEach(r => {
+                const item = r.menu_item || 'Unknown';
+                productData[item] = (productData[item] || 0) + r.net_sales_thb;
+            });
+            const topProd = {};
+            Object.entries(productData).sort((a, b) => b[1] - a[1]).slice(0, 10).forEach(([k, v]) => topProd[k] = v);
+            renderBarChart('topProducts', topProd);
+
+            const totalRevenue = filteredData.reduce((s, r) => s + r.net_sales_thb, 0);
+            const totalDiscount = filteredData.reduce((s, r) => s + r.discount_thb, 0);
+            const discountRate = totalRevenue > 0 ? (totalDiscount / (totalRevenue + totalDiscount) * 100).toFixed(1) : 0;
+            const uniqueOrders = [...new Set(filteredData.map(r => r.order_id))].length;
+            const aov = uniqueOrders > 0 ? totalRevenue / uniqueOrders : 0;
+            const avgQty = uniqueOrders > 0 ? filteredData.reduce((s, r) => s + r.qty, 0) / uniqueOrders : 0;
+            
+            document.getElementById('salesMetrics').innerHTML = `
+                <div class="metric-row"><span class="metric-label">Revenue</span><span class="metric-value high">${totalRevenue.toLocaleString()} ฿</span></div>
+                <div class="metric-row"><span class="metric-label">Orders</span><span class="metric-value">${uniqueOrders}</span></div>
+                <div class="metric-row"><span class="metric-label">AOV</span><span class="metric-value">${aov.toFixed(0)} ฿</span></div>
+                <div class="metric-row"><span class="metric-label">Avg Items</span><span class="metric-value">${avgQty.toFixed(1)}</span></div>
+                <div class="metric-row"><span class="metric-label">Discount</span><span class="metric-value low">${totalDiscount.toLocaleString()} ฿</span></div>
+            `;
+
+            const hotData = filteredData.filter(r => r.hot_iced === 'Hot').length;
+            const icedData = filteredData.filter(r => r.hot_iced === 'Iced').length;
+            const totalTemp = hotData + icedData;
+            
+            renderDonutChart('hotIcedDonut', {'Hot': hotData, 'Iced': icedData}, 'hot_iced', ['#f97316', '#06b6d4']);
+        }
+
+        function renderProductTab() {
+            const categoryData = {};
+            filteredData.forEach(r => {
+                const cat = r.category || 'Unknown';
+                categoryData[cat] = (categoryData[cat] || 0) + r.net_sales_thb;
+            });
+            renderDonutChart('productCategoryDonut', categoryData, 'category', ['#92400e', '#059669', '#dc2626', '#0891b2', '#7c3aed']);
+
+            const sizeData = {};
+            filteredData.forEach(r => {
+                const size = r.size || '-';
+                if (size !== '-') sizeData['Size ' + size] = (sizeData['Size ' + size] || 0) + 1;
+            });
+            renderDonutChart('sizePreferenceDonut', sizeData, 'size', ['#6366f1', '#10b981', '#f59e0b']);
+
+            const addonOrders = filteredData.filter(r => r.add_on && r.add_on !== 'None').length;
+            const noAddon = filteredData.length - addonOrders;
+            renderDonutChart('addonDonut', {'With Add-on': addonOrders, 'No Add-on': noAddon}, null, ['#10b981', '#334155']);
+
+            const catItems = {};
+            filteredData.forEach(r => {
+                const cat = r.category || 'Unknown';
+                const item = r.menu_item || 'Unknown';
+                if (!catItems[cat]) catItems[cat] = {};
+                catItems[cat][item] = (catItems[cat][item] || 0) + 1;
+            });
+            document.getElementById('topByCategory').innerHTML = Object.entries(catItems).slice(0, 4).map(([cat, items]) => {
+                const topItem = Object.entries(items).sort((a, b) => b[1] - a[1])[0];
+                return `<div class="metric-row" onclick="applyFilter('category', '${cat}')"><span class="metric-label">${cat}</span><span class="metric-value high">${topItem[0]} (${topItem[1]})</span></div>`;
+            }).join('');
+        }
+
+        function renderCustomerTab() {
+            const newCust = filteredData.filter(r => r.customer_type === 'New').length;
+            const retCust = filteredData.filter(r => r.customer_type === 'Returning').length;
+            renderDonutChart('customerTypeDonut', {'New': newCust, 'Returning': retCust}, 'customer_type', ['#10b981', '#6366f1']);
+
+            document.getElementById('customerMetrics').innerHTML = `
+                <div class="metric-row"><span class="metric-label">New</span><span class="metric-value high">${newCust}</span></div>
+                <div class="metric-row"><span class="metric-label">Returning</span><span class="metric-value">${retCust}</span></div>
+                <div class="metric-row"><span class="metric-label">Retention</span><span class="metric-value ${retCust/(newCust+retCust) > 0.5 ? 'high' : 'low'}">${((retCust/(newCust+retCust))*100).toFixed(1)}%</span></div>
+            `;
+
+            const uniqueOrders = [...new Set(filteredData.map(r => r.order_id))].length;
+            const avgItems = uniqueOrders > 0 ? filteredData.reduce((s, r) => s + r.qty, 0) / uniqueOrders : 0;
+            const targetAOV = 100;
+            renderDonutChart('avgItemsDonut', {'Current': avgItems, 'Target': targetAOV - avgItems}, null, ['#10b981', '#334155']);
+
+            document.getElementById('customerTrend').innerHTML = `
+                <div class="metric-row"><span class="metric-label">New</span><span class="metric-value high">${newCust}</span></div>
+                <div class="metric-row"><span class="metric-label">Returning</span><span class="metric-value">${retCust}</span></div>
+                <div class="progress-wrap"><div class="progress-bar"><div class="progress-fill" style="width: ${newCust/(newCust+retCust)*100 || 0}%; background: var(--success)"></div></div></div>
+            `;
+        }
+
+        function renderChannelTab() {
+            const channelData = {};
+            filteredData.forEach(r => {
+                const ch = r.channel || 'Unknown';
+                channelData[ch] = (channelData[ch] || 0) + r.net_sales_thb;
+            });
+            renderDonutChart('channelSalesDonut', channelData, 'channel', ['#6366f1', '#10b981', '#f59e0b', '#06b6d4']);
+
+            const totalSales = Object.values(channelData).reduce((a, b) => a + b, 0);
+            document.getElementById('channelContribution').innerHTML = Object.entries(channelData)
+                .sort((a, b) => b[1] - a[1])
+                .map(([k, v]) => {
+                    const isFiltered = activeFilters['channel'] === k;
+                    return `<div class="metric-row ${isFiltered ? 'filtered' : ''}" onclick="applyFilter('channel', '${k}')"><span class="metric-label">${k}</span><span class="metric-value">${(v/totalSales*100).toFixed(1)}%</span></div>`;
+                }).join('');
+
+            const channelOrders = {};
+            filteredData.forEach(r => {
+                const ch = r.channel || 'Unknown';
+                if (!channelOrders[ch]) channelOrders[ch] = new Set();
+                channelOrders[ch].add(r.order_id);
+            });
+            const orderData = {};
+            Object.entries(channelOrders).forEach(([k, v]) => orderData[k] = v.size);
+            renderBarChart('channelOrders', orderData, null, 'channel');
+
+            document.getElementById('channelAOV').innerHTML = Object.entries(channelData)
+                .sort((a, b) => b[1]/channelOrders[b[0]].size - a[1]/channelOrders[a[0]].size)
+                .map(([k, v]) => `<div class="metric-row" onclick="applyFilter('channel', '${k}')"><span class="metric-label">${k}</span><span class="metric-value high">${(v/channelOrders[k].size).toFixed(0)} ฿</span></div>`)
+                .join('');
+        }
+
+        function renderTimeTab() {
+            const timeSlotData = {};
+            filteredData.forEach(r => {
+                const ts = r.time_slot || 'Unknown';
+                timeSlotData[ts] = (timeSlotData[ts] || 0) + r.net_sales_thb;
+            });
+            renderDonutChart('timeSlotDonut', timeSlotData, 'time_slot', ['#f59e0b', '#06b6d4', '#6366f1', '#10b981']);
+
+            const hourData = {};
+            filteredData.forEach(r => {
+                const h = r.hour || 0;
+                hourData[h] = (hourData[h] || 0) + r.net_sales_thb;
+            });
+            const maxHour = Math.max(...Object.values(hourData), 1);
+            document.getElementById('hourlySales').innerHTML = Array.from({ length: 13 }, (_, i) => i + 8).map(h => {
+                const val = hourData[h] || 0;
+                const intensity = maxHour > 0 ? Math.ceil((val / maxHour) * 5) : 1;
+                const isFiltered = activeFilters['hour'] === h.toString();
+                return `<div class="time-cell ${isFiltered ? 'filtered' : ''}" style="background: rgba(99,102,241,${0.2 + intensity * 0.15})" onclick="applyFilter('hour', '${h}')"><div class="hour">${h}:00</div><div class="sales">${val > 0 ? val.toLocaleString() : '-'}</div></div>`;
+            }).join('');
+
+            const dayOrder = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
+            const dayData = {};
+            filteredData.forEach(r => {
+                const d = r.day_of_week || 'Unknown';
+                dayData[d] = (dayData[d] || 0) + r.net_sales_thb;
+            });
+            const maxDay = Math.max(...Object.values(dayData), 1);
+            document.getElementById('dailySales').innerHTML = dayOrder.map(d => {
+                const val = dayData[d] || 0;
+                const intensity = maxDay > 0 ? Math.ceil((val / maxDay) * 5) : 1;
+                const isFiltered = activeFilters['day_of_week'] === d;
+                return `<div class="heatmap-cell ${isFiltered ? 'filtered' : ''}" style="background: rgba(99,102,241,${0.2 + intensity * 0.15})" onclick="applyFilter('day_of_week', '${d}')"><div class="day">${d}</div><div class="val">${val > 0 ? (val / 1000).toFixed(1) + 'k' : '-'}</div></div>`;
+            }).join('');
+
+            const weekend = ['Sat', 'Sun'];
+            const wkndSales = filteredData.filter(r => weekend.includes(r.day_of_week)).reduce((s, r) => s + r.net_sales_thb, 0);
+            const wkdaySales = filteredData.filter(r => !weekend.includes(r.day_of_week)).reduce((s, r) => s + r.net_sales_thb, 0);
+            renderDonutChart('weekendWeekdayDonut', {'Weekday': wkdaySales, 'Weekend': wkndSales}, null, ['#10b981', '#f59e0b']);
+        }
+
+        function renderPromoTab() {
+            const promoOrders = filteredData.filter(r => r.promo_flag === 1).length;
+            const nonPromoOrders = filteredData.length - promoOrders;
+            renderDonutChart('promoUsageDonut', {'With Promo': promoOrders, 'Without Promo': nonPromoOrders}, 'promo', ['#f59e0b', '#334155']);
+
+            const promoData = filteredData.filter(r => r.promo_flag === 1);
+            const nonPromoData = filteredData.filter(r => r.promo_flag !== 1);
+            const promoOrdersSet = new Set(promoData.map(r => r.order_id));
+            const nonPromoOrdersSet = new Set(nonPromoData.map(r => r.order_id));
+            const promoAOV = promoOrdersSet.size > 0 ? promoData.reduce((s, r) => s + r.net_sales_thb, 0) / promoOrdersSet.size : 0;
+            const nonPromoAOV = nonPromoOrdersSet.size > 0 ? nonPromoData.reduce((s, r) => s + r.net_sales_thb, 0) / nonPromoOrdersSet.size : 0;
+            
+            document.getElementById('promoImpact').innerHTML = `
+                <div class="metric-row"><span class="metric-label">AOV w/ Promo</span><span class="metric-value">${promoAOV.toFixed(0)} ฿</span></div>
+                <div class="metric-row"><span class="metric-label">AOV w/o Promo</span><span class="metric-value">${nonPromoAOV.toFixed(0)} ฿</span></div>
+                <div class="metric-row"><span class="metric-label">Impact</span><span class="metric-value ${promoAOV >= nonPromoAOV ? 'high' : 'low'}">${nonPromoAOV > 0 ? ((promoAOV/nonPromoAOV-1)*100).toFixed(1) : 0}%</span></div>
+            `;
+
+            const discByCat = {};
+            filteredData.forEach(r => {
+                const cat = r.category || 'Unknown';
+                discByCat[cat] = (discByCat[cat] || 0) + r.discount_thb;
+            });
+            const filteredDisc = Object.fromEntries(Object.entries(discByCat).filter(([k, v]) => v > 0));
+            if (Object.keys(filteredDisc).length > 0) {
+                renderBarChart('discountByCategory', filteredDisc, null, 'category');
+            } else {
+                document.getElementById('discountByCategory').innerHTML = '<p style="text-align:center;padding:40px;color:var(--text-secondary)">ไม่มีส่วนลด</p>';
+            }
+
+            const totalDiscount = filteredData.reduce((s, r) => s + r.discount_thb, 0);
+            document.getElementById('promoEffectiveness').innerHTML = `
+                <div class="metric-row"><span class="metric-label">Total Discount</span><span class="metric-value low">${totalDiscount.toLocaleString()} ฿</span></div>
+                <div class="metric-row"><span class="metric-label">Effectiveness</span><span class="metric-value ${promoAOV >= nonPromoAOV ? 'high' : 'low'}">${promoAOV >= nonPromoAOV ? '✅ ดี' : '⚠️ ปรับปรุง'}</span></div>
+            `;
+        }
+
+        function renderPaymentTab() {
+            const payData = {};
+            filteredData.forEach(r => {
+                const pm = r.payment_method || 'Unknown';
+                payData[pm] = (payData[pm] || 0) + 1;
+            });
+            renderDonutChart('paymentMixDonut', payData, 'payment_method', ['#10b981', '#6366f1', '#f59e0b']);
+
+            const digital = filteredData.filter(r => !['Cash', 'เงินสด'].includes(r.payment_method)).length;
+            const cash = filteredData.filter(r => ['Cash', 'เงินสด'].includes(r.payment_method)).length;
+            renderDonutChart('cashDigitalDonut', {'Digital': digital, 'Cash': cash}, null, ['#10b981', '#f59e0b']);
+
+            const payByChannel = {};
+            filteredData.forEach(r => {
+                const ch = r.channel || 'Unknown';
+                if (!payByChannel[ch]) payByChannel[ch] = {};
+                const pm = r.payment_method || 'Unknown';
+                payByChannel[ch][pm] = (payByChannel[ch][pm] || 0) + 1;
+            });
+            document.getElementById('paymentByChannel').innerHTML = Object.entries(payByChannel).slice(0, 4).map(([ch, pms]) => {
+                const topPay = Object.entries(pms).sort((a, b) => b[1] - a[1])[0];
+                return `<div class="metric-row" onclick="applyFilter('channel', '${ch}')"><span class="metric-label">${ch}</span><span class="metric-value">${topPay[0]}</span></div>`;
+            }).join('');
+
+            const payAOV = {};
+            filteredData.forEach(r => {
+                const pm = r.payment_method || 'Unknown';
+                if (!payAOV[pm]) payAOV[pm] = { sales: 0, orders: new Set() };
+                payAOV[pm].sales += r.net_sales_thb;
+                payAOV[pm].orders.add(r.order_id);
+            });
+            document.getElementById('paymentAOV').innerHTML = Object.entries(payAOV)
+                .map(([k, v]) => `<div class="metric-row" onclick="applyFilter('payment_method', '${k}')"><span class="metric-label">${k}</span><span class="metric-value high">${(v.sales/v.orders.size).toFixed(0)} ฿</span></div>`)
+                .join('');
+        }
+
+        function renderProductivityTab() {
+            const hours = [...new Set(filteredData.map(r => r.hour))].filter(h => h >= 8 && h <= 20);
+            const totalOrders = [...new Set(filteredData.map(r => r.order_id))].length;
+            const totalRevenue = filteredData.reduce((s, r) => s + r.net_sales_thb, 0);
+            const hoursOpen = hours.length || 10;
+            
+            document.getElementById('ordersPerHour').innerHTML = `
+                <div style="text-align:center;padding:20px">
+                    <div style="font-size:2.5rem;font-weight:bold;background:linear-gradient(135deg,#6366f1,#8b5cf6);-webkit-background-clip:text;-webkit-text-fill-color:transparent">${(totalOrders / hoursOpen).toFixed(1)}</div>
+                    <div style="color:var(--text-secondary)">orders/hour</div>
+                </div>
+            `;
+
+            document.getElementById('revenuePerHour').innerHTML = `
+                <div style="text-align:center;padding:20px">
+                    <div style="font-size:2.5rem;font-weight:bold;background:linear-gradient(135deg,#10b981,#34d399);-webkit-background-clip:text;-webkit-text-fill-color:transparent">${(totalRevenue / hoursOpen).toFixed(0)}</div>
+                    <div style="color:var(--text-secondary)">฿/hour</div>
+                </div>
+            `;
+
+            const peakHours = ['Morning Peak', 'Afternoon Peak'];
+            const peakSales = filteredData.filter(r => peakHours.includes(r.time_slot)).reduce((s, r) => s + r.net_sales_thb, 0);
+            const peakPct = totalRevenue > 0 ? (peakSales / totalRevenue * 100) : 0;
+            const nonPeakPct = 100 - peakPct;
+            renderDonutChart('peakUtilizationDonut', {'Peak': peakPct, 'Non-Peak': nonPeakPct}, null, ['#f59e0b', '#334155']);
+
+            const totalQty = filteredData.reduce((s, r) => s + r.qty, 0);
+            const peakOrderCount = filteredData.filter(r => peakHours.includes(r.time_slot)).length;
+            document.getElementById('prepTime').innerHTML = `
+                <div style="text-align:center;padding:20px">
+                    <div style="font-size:2.5rem;font-weight:bold;background:linear-gradient(135deg,#06b6d4,#22d3ee);-webkit-background-clip:text;-webkit-text-fill-color:transparent">${(totalQty / (peakOrderCount || 1)).toFixed(1)}</div>
+                    <div style="color:var(--text-secondary)">items/peak order</div>
+                </div>
+            `;
+
+            const hourPerf = {};
+            filteredData.forEach(r => {
+                const h = r.hour || 0;
+                hourPerf[h] = (hourPerf[h] || 0) + r.net_sales_thb;
+            });
+            renderBarChart('hourlyPerformance', hourPerf, null, 'hour');
+
+            const aov = totalRevenue / (totalOrders || 1);
+            const targetGap = Math.max(0, 100 - aov);
+            renderDonutChart('basketDonut', {'Current AOV': aov, 'Gap to Target': targetGap}, null, ['#10b981', '#334155']);
+        }
+
+        function showTab(tabId, btn) {
+            document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
+            document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+            document.getElementById(tabId).classList.add('active');
+            btn.classList.add('active');
+        }
+
+        window.addEventListener('DOMContentLoaded', () => {
+            fetch('coffee_sales_group1_realistic_1500rows.csv')
+                .then(res => res.text())
+                .then(csv => {
+                    const lines = csv.split('\n').filter(l => l.trim());
+                    const headers = lines[0].split(',');
+                    salesData = lines.slice(1).map(line => {
+                        const values = line.split(',');
+                        const obj = {};
+                        headers.forEach((h, i) => obj[h] = values[i]);
+                        return obj;
+                    });
+                    filteredData = [...salesData];
+                    processData();
+                })
+                .catch(() => console.log('Please import Excel file manually'));
+        });
+    </script>
+</body>
+</html>
